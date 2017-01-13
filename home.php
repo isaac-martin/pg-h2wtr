@@ -16,11 +16,6 @@ $container   = get_theme_mod( 'understrap_container_type' );
 $sidebar_pos = get_theme_mod( 'understrap_sidebar_position' );
 $posts_style = get_theme_mod( 'understrap_posts_index_style' );
 
-if ( is_front_page() && is_home() ) {
-	get_sidebar( 'hero' );
-
-	get_sidebar( 'statichero' );
-}
 ?>
 
 <div class="wrapper" id="wrapper-home">
@@ -35,7 +30,7 @@ if ( is_front_page() && is_home() ) {
 			<?php if ( 'masonry' === $posts_style ) : ?>
 
 			<div class="card-columns"><?php endif; ?>
-			
+
 				<main class="site-main" id="main">
 
 					<?php if ( have_posts() ) : ?>

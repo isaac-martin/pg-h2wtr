@@ -41,7 +41,7 @@ if ( class_exists( 'WooCommerce' ) ) {
 		<div class="row">
 
 			<!-- Do the left sidebar check -->
-			<?php get_template_part( 'global-templates/left-sidebar-check', 'none' ); ?>
+			<!-- <?php get_template_part( 'global-templates/left-sidebar-check', 'none' ); ?> -->
 
 			<main class="site-main" id="main">
 

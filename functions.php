@@ -10,12 +10,6 @@
  */
 require get_template_directory() . '/inc/setup.php';
 
-/**
- * Register widget area.
- *
- * @link http://codex.wordpress.org/Function_Reference/register_sidebar
- */
-require get_template_directory() . '/inc/widgets.php';
 
 /**
  * Load functions to secure your WP install.
@@ -45,17 +39,14 @@ require get_template_directory() . '/inc/extras.php';
 /**
  * Customizer additions.
  */
-require get_template_directory() . '/inc/customizer.php';
+// require get_template_directory() . '/inc/customizer.php';
 
 /**
  * Customizer additions.
  */
 require get_template_directory() . '/inc/custom-comments.php';
 
-/**
- * Load Jetpack compatibility file.
- */
-require get_template_directory() . '/inc/jetpack.php';
+
 
 /**
  * Load custom WordPress nav walker.
