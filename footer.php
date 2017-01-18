@@ -7,31 +7,42 @@
  * @package understrap
  */
 
-$the_theme = wp_get_theme();
-$container = get_theme_mod( 'understrap_container_type' );
 ?>
 
-<?php get_sidebar( 'footerfull' ); ?>
 
-<div class="wrapper" id="wrapper-footer">
+<footer class="site-footer" id="colophon">
+	<div class="footer-inner">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-6">
+					<?php wp_nav_menu(
+						array(
+							'theme_location'  => 'footer',
+							'menu_class'      => 'footer-nav',
+							'fallback_cb'     => '',
+							'menu_id'         => 'footer-menu',
+							'walker'          => new WP_Bootstrap_Navwalker(),
+						)
+					); ?>
+				</div>
 
-	<div class="<?php echo esc_html( $container ); ?>">
+				<div class="col-md-4">
+					<a href="<?php echo get_site_url(); ?>"><img class="footer-logo" src="<?php bloginfo('stylesheet_directory'); ?>/assetts/img/logo-white.svg"/></a>
+				</div>
 
-		<div class="row">
+				<div class="col-md-3">
+					Newsletter Signup
+				</div>
+				<div class="col-md-3">
+					Soical icons
+				</div>
 
-			<div class="col-md-12">
+			</div><!-- row end -->
 
-				<footer class="site-footer" id="colophon">
+		</div><!-- container end -->
+	</div>
+	</footer><!-- #colophon -->
 
-				</footer><!-- #colophon -->
-
-			</div><!--col end -->
-
-		</div><!-- row end -->
-
-	</div><!-- container end -->
-
-</div><!-- wrapper end -->
 
 </div><!-- #page -->
 

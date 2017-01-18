@@ -28,43 +28,75 @@ $container = get_theme_mod( 'understrap_container_type' );
 <div class="hfeed site" id="page">
 
 	<!-- ******************* The Navbar Area ******************* -->
+	<div class="wrapper-info-bar full-w pink-bg-drk">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-8 offset-md-8">
+					<div class="info-bar-inner right">
+						<p><?php the_field('general_text','options')?></p>
+						<?php if(get_field('button_link','options') == 'page'):
+						        $linkURL = get_field('page','options');
+						    else:
+						        $linkURL = get_field('link','options');
+						    endif; ?>
+								<button type="button" class="btn btn-secondary"><a href="<?php echo $linkURL; ?>"><?php the_field('button_text','options');?></a></button>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
 	<div class="wrapper-fluid wrapper-navbar" id="wrapper-navbar">
 
 		<a class="skip-link screen-reader-text sr-only" href="#content"><?php _e( 'Skip to content',
 		'understrap' ); ?></a>
 
-		<nav class="navbar navbar-toggleable-md navbar-light">
+		<nav class="navbar navbar-toggleable-md">
 
 			<div class="<?php echo esc_html( $container ); ?>">
+				<div class="row align-items-center">
+					<div class="col-md-6">
+						<?php wp_nav_menu(
+							array(
+								'theme_location'  => 'primary',
+								'container_class' => 'collapse navbar-collapse',
+								'container_id'    => 'navbarNavDropdown',
+								'menu_class'      => 'navbar-nav',
+								'fallback_cb'     => '',
+								'menu_id'         => 'main-menu',
+								'walker'          => new WP_Bootstrap_Navwalker(),
+							)
+						); ?>
+					</div>
 
-				<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
-    				<span class="navbar-toggler-icon"></span>
- 				 </button>
+					<div class="col-md-4">
+						<a href="<?php echo get_site_url(); ?>"><img class="main-logo" src="<?php bloginfo('stylesheet_directory'); ?>/assetts/img/logo-full-col.svg"/></a>
+					</div>
 
-					<!-- Your site title as branding in the menu -->
-					<?php if ( ! has_custom_logo() ) { ?>
-					<a class="navbar-brand" rel="home" href="<?php echo esc_url( home_url( '/' ) ); ?>"
-					   title="<?php echo esc_attr( get_bloginfo( 'name', 'display' ) ); ?>">
-						<?php bloginfo( 'name' ); ?>
-					</a>
-					
-					<?php } else {
-						the_custom_logo();
-					} ?><!-- end custom logo -->
+					<div class="col-md-4">
+						<p class="tagline">
+							Straight from the melon to your mouth
+						</p>
+					</div>
 
-				<!-- The WordPress Menu goes here -->
-				<?php wp_nav_menu(
-					array(
-						'theme_location'  => 'primary',
-						'container_class' => 'collapse navbar-collapse',
-						'container_id'    => 'navbarNavDropdown',
-						'menu_class'      => 'navbar-nav',
-						'fallback_cb'     => '',
-						'menu_id'         => 'main-menu',
-						'walker'          => new WP_Bootstrap_Navwalker(),
-					)
-				); ?>
+					<div class="col-md-2">
+						<?php wp_nav_menu(
+							array(
+								'theme_location'  => 'shopping-header',
+								'menu_id'         => 'shopping-menu',
+								'menu_class'      => 'shop-nav align-items-end'
+								// 'walker'          => new WP_Bootstrap_Navwalker(),
+							)
+						); ?>
+					</div>
 
+					<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+	    				<span class="navbar-toggler-icon"></span>
+	 				 </button>
+
+
+
+
+				 </div><!-- .row -->
 			</div><!-- .container -->
 
 		</nav><!-- .site-navigation -->

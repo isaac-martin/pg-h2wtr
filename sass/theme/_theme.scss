@@ -1,1 +1,195 @@
 // This is an empty scss file for your custom styles - Please add your super duper awesome mega design styles here
+
+
+//Home Page
+
+//BG's
+
+.blue-bg {
+  background-color: $brand-blue;
+}
+
+.pink-bg-light {
+  background-color: $brand-light-pink;
+}
+
+.pink-bg-drk {
+  background-color: $brand-drk-pink;
+}
+
+.full-w {
+  width: 100vw;
+}
+
+.img-bg {
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+}
+
+.home-one {
+  padding-top: 200px;
+}
+
+.melon-container {
+    img {
+      max-width: initial;
+      height: 100%;
+      object-fit: fill;
+      width: 75%;
+      float: right;
+    }
+
+    .text-wrap {
+      position: absolute;
+      top: 50%;
+      transform: translateY(-50%);
+      left: 15%;
+    }
+}
+
+
+.home-two {
+  margin-top: -390px;
+}
+
+.home-three {
+  height: 200px;
+  margin-top: -100px;
+  z-index: 10;
+}
+
+.home-four {
+   background-image: url(../assetts/img/bottom-hero.png);
+}
+
+
+//navbar
+
+.wrapper-navbar {
+  background-color: $brand-blue;
+  position: fixed;
+  border-bottom: 2px solid $white;
+  width: 100vw;
+  z-index: 100;
+  top: 40px;
+}
+
+.main-logo {
+  margin: 0 auto;
+  display: block;
+  width: 35%;
+  padding: 10px 0;
+}
+
+.tagline {
+  color: $white;
+  text-transform: uppercase;
+}
+
+.navbar {
+  padding: 0;
+}
+
+.navbar-nav {
+  li {
+    a {
+      color: $white;
+      text-transform: uppercase;
+    }
+  }
+}
+
+.wrapper-info-bar {
+  position: fixed;
+  height: 40px;
+  z-index: 100;
+}
+
+  .info-bar-inner {
+    float: right;
+    p {
+      display: inline-block;
+      color: $white;
+      margin: 0;
+      line-height: 40px;
+    }
+  }
+
+
+.navbar {
+  height: 110px;
+}
+.shop-nav {
+  position: relative;
+  display: inline-block;
+  margin: 0;
+}
+
+  //Custom Icons for shop-nav
+
+
+  .cart-buy {
+      margin-left: -35px;
+      position: absolute;
+     top: 50%;
+     transform: translateY(-50%);
+    a{
+    background-image: url(../assetts/img/cart.svg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 35px;
+    width: 35px;
+    position: relative;
+    display: inline-block;
+    vertical-align: text-bottom;
+  }
+}
+
+  .buy-icon {
+    margin-left: 20px;
+    padding-left: 10px;
+    height: 115px;
+    border-left: 2px solid white;
+      a{
+      background-image: url(../assetts/img/buy-btn.svg);
+      background-size: cover;
+      background-repeat: no-repeat;
+      height: 90px;
+      width: 90px;
+      position: relative;
+      display: inline-block;
+      vertical-align: text-bottom;
+      padding: 20px 0;
+      margin-top: 10px;
+    }
+}
+
+
+// Footer
+
+.footer-inner {
+  background-image: url(../assetts/img/footer-bg.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  width: 100vw;
+  position: relative;
+  display: inline-block;
+}
+
+.footer-nav {
+  margin:  0;
+  padding: 0;
+  .nav-link{
+      color: white;
+      text-transform: uppercase;
+    }
+}
+
+.footer-logo {
+  margin: 0 auto;
+  display: block;
+  width: 35%;
+  padding: 10px 0;
+}

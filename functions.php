@@ -62,3 +62,10 @@ require get_template_directory() . '/inc/woocommerce.php';
  * Load a utilities library.
  */
 require get_template_directory() . '/inc/utilities.php';
+
+
+
+/**
+ * ACF Additions
+ */
+require get_template_directory() . '/inc/acf.php';
