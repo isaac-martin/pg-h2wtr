@@ -1,0 +1,117 @@
+//Structure
+
+
+.home-one {
+  padding-top: 200px;
+}
+
+.melon-container {
+    img {
+      max-width: initial;
+      height: 100%;
+      object-fit: fill;
+      width: 75%;
+      float: right;
+    }
+
+    .text-wrap {
+      position: absolute;
+      top: 50%;
+      transform: translateY(-50%);
+      left: 15%;
+    }
+}
+
+
+.home-two {
+padding: 0;
+  .btn {
+    float: right;
+    margin: 20px 0 0 0;
+  }
+}
+
+.home-three {
+  z-index: 10;
+
+  .melon-type-cont {
+    position: relative;
+    display: inline-block;
+    width: 100%;
+    height: 500px;
+    margin-top: -80px;
+    margin-bottom: -66px;
+
+      .melon-slice {
+        position: absolute;
+        top:0;
+        width: 100%;
+      }
+
+      .type-fresh {
+        position: absolute;
+        right: 0;
+        width: 28%;
+        top: 28%;
+      }
+
+      .type-healthy {
+        position: absolute;
+        width: 25%;
+        top: 10%;
+        right: 10%;
+      }
+
+      .type-juicy {
+        position: absolute;
+        right: 14%;
+        width: 28%;
+        bottom: 20%;
+      }
+
+      .type-heart {
+        position: absolute;
+        width: 45%;
+        top: 25%;
+        left: 10%;
+      }
+  }
+}
+
+.home-four {
+  padding: 40px 0 200px 0;
+   background-image: url(../assetts/img/bottom-hero.png);
+}
+
+
+
+//Parralax Elements
+
+.disco-cont {
+  position: relative;
+  display: inline-block;
+  width: 100%;
+  height: 500px;
+    .straw {
+      position: absolute;
+      width: 60%;
+      top: 12%;
+      right: -15%;
+      z-index: 20;
+    }
+
+    .disco-ball {
+      position: absolute;
+      bottom: 0;
+      z-index: 10;
+      width: 100%;
+      height: auto;
+    }
+}
+
+
+.home-txt-cont {
+  margin-top: 20px;
+  padding: 10px;
+  border: 3px dashed $brand-green;
+}

@@ -3,7 +3,7 @@
 //Structure
 
 .content-wrapper {
-  padding: 200px 0 30px 0;
+  padding: 200px 0 0 0;
 }
 
 //Home Page
@@ -36,42 +36,6 @@ body {
   background-repeat: no-repeat;
 }
 
-.home-one {
-  padding-top: 200px;
-}
-
-.melon-container {
-    img {
-      max-width: initial;
-      height: 100%;
-      object-fit: fill;
-      width: 75%;
-      float: right;
-    }
-
-    .text-wrap {
-      position: absolute;
-      top: 50%;
-      transform: translateY(-50%);
-      left: 15%;
-    }
-}
-
-
-.home-two {
-  margin-top: -390px;
-}
-
-.home-three {
-  height: 200px;
-  margin-top: -100px;
-  z-index: 10;
-}
-
-.home-four {
-   background-image: url(../assetts/img/bottom-hero.png);
-}
-
 
 //navbar
 
@@ -81,7 +45,7 @@ body {
   border-bottom: 2px solid $white;
   width: 100vw;
   z-index: 100;
-  top: 40px;
+  top: 43px;
 }
 
 .main-logo {
@@ -111,7 +75,7 @@ body {
 
 .wrapper-info-bar {
   position: fixed;
-  height: 40px;
+  height: 43px;
   z-index: 100;
 }
 
@@ -187,8 +151,39 @@ body {
 .text-tpl-wrap {
   padding: 20px;
   border: 3px dashed $brand-green;
-  background: rgba(255,255,255,0.7);
+  background: $bg-white;
   margin-bottom: 40px;
+}
+
+//Accordion
+.faq-accordion {
+  .card {
+    background: $bg-white;
+    border: none;
+
+    &:first-child .card-header{
+      border-top: 2px dashed $brand-light-pink;
+    }
+
+    .card-header {
+      background-color: $brand-green;
+     border: 2px dashed $brand-light-pink;
+     border-top: none;
+
+     span {
+       color: $white;
+       cursor: pointer;
+     }
+    }
+
+    .content {
+      background-color: $bg-white;
+      padding: 15px;
+      border-left: 2px dashed $brand-green;
+      border-right: 2px dashed $brand-green;
+      border-bottom: 2px dashed $brand-light-pink;
+    }
+}
 }
 
 // Footer
@@ -217,4 +212,35 @@ body {
   display: block;
   width: 35%;
   padding: 10px 0;
+}
+
+
+//Buttons
+.btn-primary {
+  padding: 10px 60px;
+  a {
+  color: $white;
+  &:hover {
+    text-decoration: none;
+  }
+}
+}
+
+.btn-secondary {
+  background-color: #CC6666;
+  border-radius: 0;
+  border: 1px solid $white;
+  padding: 5px 15px;
+  margin-bottom: 3px;
+  a {
+    color: $white;
+    &:hover {
+      text-decoration: none;
+    }
+  }
+
+  &:hover {
+    background-color: darken( #cc6666, 10% );
+    border-color: $white;
+  }
 }

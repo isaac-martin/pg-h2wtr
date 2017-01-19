@@ -10,6 +10,7 @@ var basePaths = {
 // automatically reloads the page when files changed
 var browserSyncWatchFiles = [
     './css/*.min.css',
+    './sass/*.scss',
     './js/*.min.js',
     './**/*.php'
 ];
