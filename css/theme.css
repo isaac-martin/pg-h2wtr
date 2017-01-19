@@ -8653,6 +8653,12 @@ body {
 .t-black {
   color: #000; }
 
+.content-wrapper {
+  padding: 200px 0 30px 0; }
+
+body {
+  background-color: #A9E0EA; }
+
 .blue-bg {
   background-color: #A9E0EA; }
 
@@ -8774,6 +8780,18 @@ body {
     vertical-align: text-bottom;
     padding: 20px 0;
     margin-top: 10px; }
+
+.text-tpl-header {
+  width: 80%;
+  text-align: center;
+  margin: 0 auto 20px auto;
+  display: block; }
+
+.text-tpl-wrap {
+  padding: 20px;
+  border: 3px dashed #76BE43;
+  background: rgba(255, 255, 255, 0.7);
+  margin-bottom: 40px; }
 
 .footer-inner {
   background-image: url(../assetts/img/footer-bg.png);

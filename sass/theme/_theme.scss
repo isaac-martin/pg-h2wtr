@@ -1,9 +1,18 @@
 // This is an empty scss file for your custom styles - Please add your super duper awesome mega design styles here
 
+//Structure
+
+.content-wrapper {
+  padding: 200px 0 30px 0;
+}
 
 //Home Page
 
 //BG's
+
+body {
+  background-color: $brand-blue;
+}
 
 .blue-bg {
   background-color: $brand-blue;
@@ -165,6 +174,22 @@
     }
 }
 
+
+//Text Template
+
+.text-tpl-header {
+  width: 80%;
+  text-align: center;
+  margin: 0 auto 20px auto;
+  display: block;
+}
+
+.text-tpl-wrap {
+  padding: 20px;
+  border: 3px dashed $brand-green;
+  background: rgba(255,255,255,0.7);
+  margin-bottom: 40px;
+}
 
 // Footer
 
