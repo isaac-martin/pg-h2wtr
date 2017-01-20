@@ -12,8 +12,7 @@
 
 get_header();?>
 <section class="content-wrapper">
-  <!-- <section class="blue-bg home-one"> -->
-  <section class="blue-bg">
+  <section class="blue-bg home-one inc-svg">
     <div class="melon-container container">
       <div class="row">
         <div class="col-md-16">
@@ -26,20 +25,31 @@ get_header();?>
         </div>
       </div>
     </div>
+    <svg class="home-svg"width="100%" height="100%" viewBox="0 0 1600 100" preserveAspectRatio="xMidYMid slice">
+                <polygon class="svg-pink" points="0,0 0,100 1600,100 1600,100"></polygon>
+            </svg>
   </section>
 
 
-  <section class="pink-bg-light home-two">
+  <section class="pink-bg-light home-two inc-svg">
   <div class="container">
     <div class="row">
       <div class="col-md-6">
         <div class="disco-cont">
-          <img class="straw" src="<?php bloginfo('stylesheet_directory'); ?>/assetts/img/straw.png" />
+          <img class="straw animate-bounce" src="<?php bloginfo('stylesheet_directory'); ?>/assetts/img/straw.png" />
           <img class="disco-ball" src="<?php bloginfo('stylesheet_directory'); ?>/assetts/img/melon-ball.png" />
+          <div class='confetti'>
+            <i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i>
+            <i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i>
+            <i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i>
+            <i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i>
+            <i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i>
+            <i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i>
+          </div>
         </div>
     </div>
 
-      <div class="col-md-5 offset-md-4">
+      <div class="col-md-5 offset-md-4 z-10">
         <div class="home-txt-cont">
           <h2>A Good Vibes Drink</h2>
           <p>
@@ -50,12 +60,14 @@ get_header();?>
       </div>
     </div>
   </div>
+  <svg class="home-svg"width="100%" height="100%" viewBox="0 0 1600 100" preserveAspectRatio="xMidYMid slice">
+        <polygon class="svg-blue" points="0,100 0,100 1600,0 1600,100"></polygon>  				</svg>
   </section>
 
   <section class="blue-bg home-three">
     <div class="container">
       <div class="row">
-        <div class="col-md-4">
+        <div class="col-md-4 pad-top">
           <h2>Your dehydration salvation</h2>
           <p>
             H2Melon has all the electrolytes found in our nutty sister H2Coco needed for you to bounce back from a night cutting shapes, with the added boost of Citrulline, a fruity little amino acid which aids muscle recovery. Limber up with us and we’ll get you back on the dancefloor!
@@ -63,14 +75,14 @@ get_header();?>
           <button type="button" class="btn btn-primary"><a href="/shop">Product</a></button>
 
         </div>
-        <div class="col-md-4 offset-md-1">
+        <div class="col-md-4 offset-md-1 pad-top">
           <h2>Superfood Alert!</h2>
           <p>
   We heart watermelon, and you should too because it’s full of the antioxidant Lycopene. Lyco-who?! Lycopene is a carotenoid phytonutrient that is super important for our cardiovascular health. So H2Melon is good for your ticker, and for your taste buds. What a superfood!        </p>
           <button type="button" class="btn btn-primary"><a href="/shop">Product</a></button>
 
         </div>
-        <div class="col-md-6 offset-md-1">
+        <div class="col-md-7">
           <div class="melon-type-cont">
             <img class="melon-slice" src="<?php bloginfo('stylesheet_directory'); ?>/assetts/img/melon.png" />
             <img class="type-fresh" src="<?php bloginfo('stylesheet_directory'); ?>/assetts/img/type_fresh.svg" />

@@ -2,7 +2,7 @@
 
 
 .home-one {
-  padding-top: 200px;
+
 }
 
 .melon-container {
@@ -12,6 +12,8 @@
       object-fit: fill;
       width: 75%;
       float: right;
+      position: relative;
+      z-index: 10
     }
 
     .text-wrap {
@@ -19,6 +21,7 @@
       top: 50%;
       transform: translateY(-50%);
       left: 15%;
+      z-index: 15
     }
 }
 
@@ -40,12 +43,13 @@ padding: 0;
     width: 100%;
     height: 500px;
     margin-top: -80px;
-    margin-bottom: -66px;
-
+    margin-bottom: -36px;
+    z-index: 10;
       .melon-slice {
         position: absolute;
         top:0;
-        width: 100%;
+        width: 95%;
+        right: 0;
       }
 
       .type-fresh {
@@ -83,6 +87,31 @@ padding: 0;
    background-image: url(../assetts/img/bottom-hero.png);
 }
 
+.inc-svg {
+  position: relative;
+}
+
+.home-svg {
+    margin: 0;
+    padding: 0;
+    position: absolute;
+    width: 100%;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    z-index: 100;
+    height: 150px;
+    z-index: 5;
+
+    .svg-blue {
+      fill: $brand-blue;
+    }
+
+    .svg-pink {
+      fill: $brand-light-pink;
+    }
+}
+
 
 
 //Parralax Elements
@@ -103,7 +132,7 @@ padding: 0;
     .disco-ball {
       position: absolute;
       bottom: 0;
-      z-index: 10;
+      z-index: 15;
       width: 100%;
       height: auto;
     }
@@ -114,4 +143,13 @@ padding: 0;
   margin-top: 20px;
   padding: 10px;
   border: 3px dashed $brand-green;
+}
+
+.z-10 {
+  z-index: 10;
+}
+
+.pad-top {
+  padding-top: 80px;
+  padding-bottom: 20px;
 }

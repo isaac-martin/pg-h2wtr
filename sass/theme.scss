@@ -9,7 +9,9 @@
 
 
 // Any additional imported files //
+@import "bourbon/bourbon";
 @import "theme/fonts";
 @import "theme/typography";
 @import "theme/homepage";
+@import "theme/animations";
 @import "theme/theme";  // <--------- Thats where you can add your own design. Thats your part!

@@ -1,0 +1,120 @@
+.animate-bounce{
+  -webkit-animation: bounce 1s cubic-bezier(0.445, 0.05, 0.55, 0.95) alternate infinite;
+     -moz-animation: bounce 1s cubic-bezier(0.445, 0.05, 0.55, 0.95) alternate infinite;
+      -ms-animation: bounce 1s cubic-bezier(0.445, 0.05, 0.55, 0.95) alternate infinite;
+       -o-animation: bounce 1s cubic-bezier(0.445, 0.05, 0.55, 0.95) alternate infinite;
+          animation: bounce 1s cubic-bezier(0.445, 0.05, 0.55, 0.95) alternate infinite;
+
+          transition: width 0.5s ease, height 0.5s ease, top 1.7s ease-in-out;
+}
+
+@-webkit-keyframes bounce {
+  100% {
+    -webkit-transform: translateY(-20px);
+            transform: translateY(-20px);
+  }
+}
+
+@keyframes bounce {
+  100% {
+    -webkit-transform: translateY(-20px);
+            transform: translateY(-20px);
+  }
+}
+
+@-o-keyframes bounce {
+  100% {
+    -webkit-transform: translateY(-20px);
+            transform: translateY(-20px);
+  }
+}
+
+@-moz-keyframes bounce {
+  100% {
+    -webkit-transform: translateY(-20px);
+            transform: translateY(-20px);
+  }
+}
+
+@-ms-keyframes bounce {
+  100% {
+    -webkit-transform: translateY(-20px);
+            transform: translateY(-20px);
+  }
+}
+
+@-webkit-keyframes bouncing{
+    from {-webkit-transform:translate(0,0px);}
+    65% {-webkit-transform:translate(0,10px);}
+    to {-webkit-transform: translate(0,-0px);    }
+}
+
+@-moz-keyframes bouncing{
+    from {-moz-transform:translate(0, 0px);}
+    65% {-moz-transform:translate(0, 10px);}
+    to {-moz-transform: translate(0, -0px);}
+}
+
+
+
+//Confetti Yay
+
+
+@include keyframes(bang) {
+  from {
+    @include transform( translate3d(0,0,0) );
+    opacity: 1;
+  }
+}
+.confetti {
+  padding: 10px 0;
+  position: absolute;
+  bottom: 20%;
+  right: 50%;
+  z-index: 10;
+  span {
+    color: #333;
+    font-size: .9em;
+  }
+  i {
+    position: absolute;
+    display: block;
+    left: 10%;
+    top: 0;
+    width: 40px;
+    height: 60px;
+    opacity: 0;
+  }
+}
+
+.fire{
+    @for $i from 1 through 100 {
+      i:nth-of-type(#{$i}) {
+        @include transform( translate3d(random(2000) + 250 + px,random(1200) - 200 + px,0)
+                            rotate(random(190) + deg)
+                          );
+        // background: hsla(random(360),100%,50%,1);
+        background-image: url(../assetts/img/confetti-bg.png);
+        background-position: random(100) + %;
+        background-size: random(100) + 50 + px;
+        @include animation(bang 3000ms ease-out forwards);
+        opacity: 0;
+      }
+    }
+  }
+
+
+
+.content-wrapper {
+    -webkit-transition: -webkit-transform .28s, opacity .28s;
+    -ms-transition: -o-transform .28s, opacity .28s;
+    -o-transition: -o-transform .28s, opacity .28s;
+    transition: transform .28s, opacity .28s;
+}
+.slide-out .content-wrapper {
+    -webkit-transform: translate3d( 0, 100px, 0 );
+    -ms-transform: translate3d( 0, 100px, 0 );
+    -o-transform: translate3d( 0, 100px, 0 );
+    transform: translate3d( 0, 100px, 0 );
+    opacity: 0;
+}
