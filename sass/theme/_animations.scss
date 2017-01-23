@@ -105,6 +105,14 @@
 
 
 
+  @-ms-keyframes wiggle{0%{-ms-transform:rotate(5deg);}50%{-ms-transform:rotate(-5deg);}100%{-ms-transform:rotate(5deg);}}
+  @-moz-keyframes wiggle{0%{-moz-transform:rotate(5deg);}50%{-moz-transform:rotate(-5deg);}100%{-moz-transform:rotate(5deg);}}
+  @-webkit-keyframes wiggle{0%{-webkit-transform:rotate(5deg);}50%{-webkit-transform:rotate(-5deg);}100%{-webkit-transform:rotate(3deg);}}
+  @keyframes wiggle{0%{transform:rotate(5deg);}50%{transform:rotate(-5deg);}100%{transform:rotate(5deg);}}
+
+  .buy-icon a:hover, .cart-buy a:hover{-ms-animation:wiggle .3s 2;-moz-animation:wiggle .3s 2;-webkit-animation:wiggle .3s 2;animation:wiggle .3s 2;}
+
+
 .content-wrapper {
     -webkit-transition: -webkit-transform .28s, opacity .28s;
     -ms-transition: -o-transform .28s, opacity .28s;
@@ -117,4 +125,17 @@
     -o-transform: translate3d( 0, 100px, 0 );
     transform: translate3d( 0, 100px, 0 );
     opacity: 0;
+}
+
+
+.slide-btm {
+  -webkit-transition: -webkit-transform 1s, opacity 1s;
+  -ms-transition: -o-transform 1s, opacity 1s;
+  -o-transition: -o-transform 1s, opacity 1s;
+  transition: transform 1s, opacity 1s;
+  transform: translateY( 100vh );
+}
+
+.slide-btm-activate {
+    transform: translateY( 0 );
 }

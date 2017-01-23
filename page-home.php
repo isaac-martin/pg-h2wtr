@@ -14,14 +14,13 @@ get_header();?>
 <section class="content-wrapper">
   <section class="blue-bg home-one inc-svg">
     <div class="melon-container container">
-      <div class="row">
+      <div class="row overhang">
         <div class="col-md-16">
-          <img src="<?php bloginfo('stylesheet_directory'); ?>/assetts/img/home-banner.png" />
-          <div class="text-wrap">
-            <h1>Hydrate YOself</h1>
-            <button type="button" class="btn btn-primary"><a href="/shop">Shop</a></button>
-          </div>
-
+            <img src="<?php bloginfo('stylesheet_directory'); ?>/assetts/img/home-banner.png" />
+            <div class="text-wrap">
+              <h1>Hydrate YOself</h1>
+              <button type="button" class="btn btn-primary"><a href="/shop">Shop</a></button>
+            </div>
         </div>
       </div>
     </div>
@@ -33,10 +32,10 @@ get_header();?>
 
   <section class="pink-bg-light home-two inc-svg">
   <div class="container">
-    <div class="row">
+    <div class="row overhang-after">
       <div class="col-md-6">
         <div class="disco-cont">
-          <img class="straw animate-bounce" src="<?php bloginfo('stylesheet_directory'); ?>/assetts/img/straw.png" />
+          <img class="straw" src="<?php bloginfo('stylesheet_directory'); ?>/assetts/img/straw.png" />
           <img class="disco-ball" src="<?php bloginfo('stylesheet_directory'); ?>/assetts/img/melon-ball.png" />
           <div class='confetti'>
             <i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i>
@@ -84,10 +83,10 @@ get_header();?>
         </div>
         <div class="col-md-7">
           <div class="melon-type-cont">
-            <img class="melon-slice" src="<?php bloginfo('stylesheet_directory'); ?>/assetts/img/melon.png" />
-            <img class="type-fresh" src="<?php bloginfo('stylesheet_directory'); ?>/assetts/img/type_fresh.svg" />
-            <img class="type-healthy" src="<?php bloginfo('stylesheet_directory'); ?>/assetts/img/type_healthy.svg" />
-            <img class="type-juicy" src="<?php bloginfo('stylesheet_directory'); ?>/assetts/img/type-juicy.svg" />
+            <img class="melon-slice slide-btm" src="<?php bloginfo('stylesheet_directory'); ?>/assetts/img/melon.png" />
+            <img class="type-fresh animate-bounce" src="<?php bloginfo('stylesheet_directory'); ?>/assetts/img/type_fresh.svg" />
+            <img class="type-healthy animate-bounce" src="<?php bloginfo('stylesheet_directory'); ?>/assetts/img/type_healthy.svg" />
+            <img class="type-juicy animate-bounce" src="<?php bloginfo('stylesheet_directory'); ?>/assetts/img/type-juicy.svg" />
             <img class="type-heart" src="<?php bloginfo('stylesheet_directory'); ?>/assetts/img/type-heart.png" />
           </div>
         </div>

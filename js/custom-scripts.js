@@ -5,7 +5,7 @@
       $(".shop-nav li a").text('');
     }
 
-  function triggerconfetti(){
+  function triggeranimations(){
     // init controller
     	var controller = new ScrollMagic.Controller({globalSceneOptions: {duration: 1000}});
 
@@ -13,6 +13,10 @@
     	new ScrollMagic.Scene({triggerElement: ".confetti"})
     					.setClassToggle(".confetti", "fire") // add class toggle
     					.addTo(controller);
+
+              new ScrollMagic.Scene({triggerElement: ".melon-type-cont"})
+            					.setClassToggle(".melon-slice", "slide-btm-activate") // add class toggle
+            					.addTo(controller);
   }
 
     function addBlacklistClass() {
@@ -27,7 +31,7 @@
 
     $( document ).ready(function() {
       addBlacklistClass();
-      triggerconfetti();
+      triggeranimations();
       removelinktext();
     });
 
@@ -58,7 +62,7 @@
   			},
   			onAfter: function( $container ) {
           addBlacklistClass();
-          triggerconfetti();
+          triggeranimations();
           removelinktext();
   				var $hash = $( window.location.hash );
 
