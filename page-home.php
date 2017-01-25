@@ -33,9 +33,8 @@ get_header();?>
   <section class="pink-bg-light home-two inc-svg after-banner">
   <div class="container">
     <div class="row">
-      <div class="col-md-6">
+      <div class="col-md-6 offset-md-1">
         <div class="disco-cont">
-          <img class="straw" src="<?php bloginfo('stylesheet_directory'); ?>/assetts/img/straw.png" />
           <img class="disco-ball" src="<?php bloginfo('stylesheet_directory'); ?>/assetts/img/melon-ball.png" />
           <div class='confetti'>
             <i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i>
@@ -48,7 +47,7 @@ get_header();?>
         </div>
     </div>
 
-      <div class="col-md-5 offset-md-4 z-10">
+      <div class="col-md-5 offset-md-3 z-10">
         <div class="home-txt-cont">
           <h2>A Good Vibes Drink</h2>
           <p>
@@ -98,7 +97,7 @@ get_header();?>
   <section class="img-bg home-four inc-svg">
   <div class="container">
     <div class="row">
-      <div class="col-md-5 offset-md-8">
+      <div class="col-md-5 offset-md-11">
         <div class="home-txt-cont">
           <h2 class="t-red">Restore the fun</h2>
           <p>

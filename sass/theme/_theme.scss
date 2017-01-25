@@ -239,6 +239,10 @@ body {
 .mrg-btm {
   margin-bottom: 200px;
 }
+
+.mrg-btm-xl {
+  margin-bottom: 300px;
+}
 //Accordion
 .faq-accordion {
   .card {
@@ -273,6 +277,12 @@ body {
 
 
 // Footer
+
+footer {
+  position: fixed;
+  bottom: 0;
+  z-index: 6;
+}
 
 .footer-inner {
   background-image: url(../assetts/img/footer-bg.png);

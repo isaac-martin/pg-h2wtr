@@ -46,6 +46,11 @@
 							// animate color and top border in relation to scroll position
 							.setTween(".home-banner", {y:350}) // the tween durtion can be omitted and defaults to 1
 							.addTo(controller);
+
+              new ScrollMagic.Scene({triggerElement: ".disco-cont", duration: 250, triggerHook: 'onEnter', offset: 50})
+                  // animate color and top border in relation to scroll position
+                  .setTween(".disco-ball", {left:0}) // the tween durtion can be omitted and defaults to 1
+                  .addTo(controller);
   }
 
     function addBlacklistClass() {

@@ -1,8 +1,11 @@
 //Structure
 
+.inc-svg {
+  position: relative;
+}
 
 .home-one {
-
+z-index: 11;
 }
 
 .melon-container {
@@ -13,7 +16,7 @@
       width: 75%;
       float: right;
       position: relative;
-      z-index: 10;
+      z-index: 15;
       margin-right: 5%;
     }
 
@@ -28,6 +31,7 @@
 
 
 .home-two {
+  z-index: 10;
 padding: 0;
   .btn {
     float: right;
@@ -86,11 +90,14 @@ padding: 0;
 .home-four {
     padding: 200px 0 150px 0;
    background-image: url(../assetts/img/bottom-hero.png);
+   position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    z-index: 5;
 }
 
-.inc-svg {
-  position: relative;
-}
+
 
 .home-svg {
     margin: 0;
@@ -141,6 +148,7 @@ padding: 0;
       z-index: 15;
       width: 100%;
       height: auto;
+      left: -100vw;
     }
 }
 
