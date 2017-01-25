@@ -14,9 +14,9 @@ get_header();?>
 <section class="content-wrapper">
   <section class="blue-bg home-one inc-svg">
     <div class="melon-container container">
-      <div class="row overhang">
+      <div class="row">
         <div class="col-md-16">
-            <img src="<?php bloginfo('stylesheet_directory'); ?>/assetts/img/home-banner.png" />
+            <img class="home-banner" src="<?php bloginfo('stylesheet_directory'); ?>/assetts/img/home-banner.png" />
             <div class="text-wrap">
               <h1>Hydrate YOself</h1>
               <button type="button" class="btn btn-primary"><a href="/shop">Shop</a></button>
@@ -25,14 +25,14 @@ get_header();?>
       </div>
     </div>
     <svg class="home-svg"width="100%" height="100%" viewBox="0 0 1600 100" preserveAspectRatio="xMidYMid slice">
-                <polygon class="svg-pink" points="0,0 0,100 1600,100 1600,100"></polygon>
-            </svg>
+        <polygon class="svg-pink" points="0,0 0,100 1600,100 1600,100"></polygon>
+    </svg>
   </section>
 
 
-  <section class="pink-bg-light home-two inc-svg">
+  <section class="pink-bg-light home-two inc-svg after-banner">
   <div class="container">
-    <div class="row overhang-after">
+    <div class="row">
       <div class="col-md-6">
         <div class="disco-cont">
           <img class="straw" src="<?php bloginfo('stylesheet_directory'); ?>/assetts/img/straw.png" />
@@ -95,7 +95,7 @@ get_header();?>
 
   </section>
 
-  <section class="img-bg home-four">
+  <section class="img-bg home-four inc-svg">
   <div class="container">
     <div class="row">
       <div class="col-md-5 offset-md-8">
@@ -110,6 +110,8 @@ get_header();?>
       </div>
     </div>
   </div>
+  <svg class="home-svg svg-top" width="100%" height="100%" viewBox="0 0 1600 100" preserveAspectRatio="xMidYMid slice">
+      <polygon class="svg-blue" points="0,0 0,0 1600,100 1600,0"></polygon>  </svg>
   </section>
 </section><!--content-wrapper-->
 

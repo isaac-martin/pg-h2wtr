@@ -27,7 +27,34 @@ $container = get_theme_mod( 'understrap_container_type' );
 
 <div class="hfeed site" id="page">
 
+	<div class="mini-nav">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-8">
+					<?php wp_nav_menu(
+						array(
+							'theme_location'  => 'mini',
+							'container_class' => '',
+							'container_id'    => '',
+							'menu_class'      => '',
+							'fallback_cb'     => '',
+							'menu_id'         => 'mini-menu',
+							'walker'          => new WP_Bootstrap_Navwalker(),
+						)
+					); ?>
+				</div>
+				<div class="col-md-8">
+					<p>
+						<?php echo get_bloginfo( 'description' ); ?>
+					</p>
+				</div>
+			</div>
+		</div>
+	</div>
+
+
 	<!-- ******************* The Navbar Area ******************* -->
+
 	<div class="wrapper-info-bar full-w pink-bg-drk">
 		<div class="container">
 			<div class="row">

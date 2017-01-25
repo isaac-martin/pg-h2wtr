@@ -4,6 +4,7 @@
 
 .content-wrapper {
   padding: 200px 0 0 0;
+  min-height: calc(100vh - 100px);
 }
 
 //Home Page
@@ -15,10 +16,15 @@
 .overhang-after {
   margin-top: 100px;
 }
+
+.after-banner {
+  padding-top: 300px;
+}
 //BG's
 
 body {
   background-color: $brand-blue;
+  overflow-x: hidden;
 }
 
 .blue-bg {
@@ -45,6 +51,42 @@ body {
 
 
 //navbar
+
+.mini-nav {
+  position: fixed;
+  top: -60px;
+  left: 0;
+  right: 0;
+  height: 60px;
+  background: $brand-blue;
+  z-index: 20;
+  border-bottom: 2px solid $white;
+  text-transform: uppercase;
+
+  @include transition(all .5s ease-in-out);
+
+  p {
+    line-height: 60px;
+    color: $white;
+    text-align: right;
+  }
+  ul {
+    padding: 0;
+    margin: 0;
+    display: inline-block;
+    position: relative;
+    line-height: 40px;
+
+    li {
+       a {
+         color: $white;
+       }
+    }
+  }
+}
+.mini-visible {
+  top: 0;
+}
 
 .wrapper-navbar {
   background-color: $brand-blue;
@@ -164,6 +206,39 @@ body {
   margin-bottom: 40px;
 }
 
+.bottom-section {
+  background-image: url(../assetts/img/watermelon-bg.png);
+  height: 400px;
+}
+
+.drink-carton {
+  position: absolute;
+  display: block;
+  right: 60px;
+  bottom: -80px;
+  width: 280px;
+  z-index: 25;
+}
+
+.melon-top {
+  position: absolute;
+  display: block;
+  width: 350px;
+  right: 0;
+  top: 0;
+}
+
+.melon-btm {
+    position: absolute;
+    display: block;
+    width: 450px;
+    left: 0;
+    bottom: 0;
+}
+
+.mrg-btm {
+  margin-bottom: 200px;
+}
 //Accordion
 .faq-accordion {
   .card {
@@ -195,6 +270,8 @@ body {
 }
 }
 
+
+
 // Footer
 
 .footer-inner {
@@ -205,6 +282,7 @@ body {
   width: 100vw;
   position: relative;
   display: inline-block;
+  z-index: 30;
 }
 
 .footer-nav {
@@ -252,4 +330,9 @@ body {
     background-color: darken( #cc6666, 10% );
     border-color: $white;
   }
+}
+
+
+.row {
+  width: 100%;
 }

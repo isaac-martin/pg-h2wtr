@@ -50,6 +50,7 @@ if ( ! function_exists( 'understrap_setup' ) ) :
 		register_nav_menus( array(
 			'primary' => __( 'Primary Menu', 'understrap' ),
 			'shopping-header' => __( 'Header Shopping', 'understrap' ),
+			'mini' => __( 'Mini Menu', 'understrap' ),
 			'footer' => __( 'Footer Menu', 'understrap' ),
 		) );
 

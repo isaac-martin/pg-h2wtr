@@ -84,7 +84,7 @@ padding: 0;
 }
 
 .home-four {
-  padding: 40px 0 200px 0;
+    padding: 200px 0 150px 0;
    background-image: url(../assetts/img/bottom-hero.png);
 }
 
@@ -113,6 +113,11 @@ padding: 0;
     }
 }
 
+.svg-top {
+  top: 0;
+  bottom: inherit;
+}
+
 
 
 //Parralax Elements
@@ -127,7 +132,7 @@ padding: 0;
       width: 60%;
       top: 12%;
       right: -15%;
-      z-index: 20;
+      z-index: 19;
     }
 
     .disco-ball {
