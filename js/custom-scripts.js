@@ -56,10 +56,10 @@
 
           new ScrollMagic.Scene({triggerElement: ".home-banner", duration: 400, triggerHook: 'onEnter', offset: 800})
 							// animate color and top border in relation to scroll position
-							.setTween(".home-banner", {y:350}) // the tween durtion can be omitted and defaults to 1
+							.setTween(".home-banner", {y:300}) // the tween durtion can be omitted and defaults to 1
 							.addTo(controller);
 
-              new ScrollMagic.Scene({triggerElement: ".disco-cont", duration: 250, triggerHook: 'onEnter', offset: 50})
+              new ScrollMagic.Scene({triggerElement: ".disco-cont", duration: 180, triggerHook: 'onEnter'})
                   // animate color and top border in relation to scroll position
                   .setTween(".disco-ball", {left:0}) // the tween durtion can be omitted and defaults to 1
                   .addTo(controller);
