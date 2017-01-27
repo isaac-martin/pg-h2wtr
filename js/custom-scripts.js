@@ -1,14 +1,5 @@
 (function ($, root, undefined) {
 
-  // $(window).scroll(function () {
-  //             var objTop = $(window).scrollTop()
-  //
-  //            $('.home-banner').css( 'transform','translateY(-' + objTop / 1.9 + 'px)');
-  // 	});
-
-
-
-
   		$(window).scroll(function() {
       var scroll = $(window).scrollTop();
 
@@ -38,6 +29,14 @@
     					.setClassToggle(".confetti", "fire") // add class toggle
     					.addTo(controller);
 
+              new ScrollMagic.Scene({triggerElement: ".story-four", duration: 300, triggerHook: 'onEnter', offset: -150})
+    							.setTween(".fist", {y:-110})
+    							.addTo(controller);
+
+              new ScrollMagic.Scene({triggerElement: ".fail-img-cont", triggerHook: 'onEnter', offset: 200})
+            					.setClassToggle(".slide", "slide-in") // add class toggle
+            					.addTo(controller);
+
               new ScrollMagic.Scene({triggerElement: ".txt-trg-1", triggerHook: 'onEnter', offset: 200})
             					.setClassToggle(".txt-trg-1", "text-fade-in") // add class toggle
             					.addTo(controller);
@@ -55,28 +54,26 @@
             					.addTo(controller);
 
           new ScrollMagic.Scene({triggerElement: ".home-banner", duration: 400, triggerHook: 'onEnter', offset: 800})
-							// animate color and top border in relation to scroll position
-							.setTween(".home-banner", {y:300}) // the tween durtion can be omitted and defaults to 1
+							.setTween(".home-banner", {y:300})
 							.addTo(controller);
 
               new ScrollMagic.Scene({triggerElement: ".disco-cont", duration: 180, triggerHook: 'onEnter'})
-                  // animate color and top border in relation to scroll position
-                  .setTween(".disco-ball", {left:0}) // the tween durtion can be omitted and defaults to 1
+                  .setTween(".disco-ball", {left:0})
                   .addTo(controller);
   }
 
-    function addBlacklistClass() {
-  		$( 'a' ).each( function() {
-  			if ( this.href.indexOf('/wp-admin/') !== -1 ||
-  				 this.href.indexOf('/wp-login.php') !== -1 ) {
-  				$( this ).addClass( 'wp-link' );
-  			}
-  		});
-  	}
+    // function addBlacklistClass() {
+  	// 	$( 'a' ).each( function() {
+  	// 		if ( this.href.indexOf('/wp-admin/') !== -1 ||
+  	// 			 this.href.indexOf('/wp-login.php') !== -1 ) {
+  	// 			$( this ).addClass( 'wp-link' );
+  	// 		}
+  	// 	});
+  	// }
 
 
     $( document ).ready(function() {
-      addBlacklistClass();
+      // addBlacklistClass();
       triggeranimations();
       removelinktext();
     });

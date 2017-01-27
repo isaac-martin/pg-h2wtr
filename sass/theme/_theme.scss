@@ -278,9 +278,10 @@ body {
 
 // Footer
 
+
+
 footer {
-  position: fixed;
-  bottom: 0;
+  position: relative;
   z-index: 6;
 }
 
@@ -290,7 +291,7 @@ footer {
   background-repeat: no-repeat;
   background-position: center center;
   width: 100vw;
-  position: absolute;
+  position: relative;
   bottom: 0;
   margin: 0;
   padding: 0;
@@ -314,6 +315,14 @@ footer {
   padding: 10px 0;
 }
 
+.home footer {
+  position: fixed;
+  bottom: 0;
+
+  .footer-inner {
+    position: absolute;
+  }
+}
 
 //Buttons
 .btn-primary {
@@ -348,4 +357,16 @@ footer {
 
 .row {
   width: 100%;
+}
+
+@mixin vertical-align($position: absolute) {
+  position: $position;
+  top: 50%;
+  -webkit-transform: perspective(1px) translateY(-50%);
+  -ms-transform: perspective(1px) translateY(-50%);
+  transform: perspective(1px) translateY(-50%);
+}
+
+.vertical-align {
+  @include vertical-align();
 }
