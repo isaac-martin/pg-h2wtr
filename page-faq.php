@@ -14,7 +14,7 @@
      <img class="melon-btm" src="<?php bloginfo('stylesheet_directory'); ?>/assetts/img/melons-btm.png" />
      <div class="row">
        <div class="col-md-12 offset-md-2 mrg-btm-xl">
-         <h2 class="text-tpl-header"><?php the_field('page_intro');?></h2>
+         <h2 class="text-tpl-header"> <?php the_field('page_intro');?></h2>
 
          <?php if( have_rows('questions') ): $i = 0; ?>
            <div id="accordion" class="faq-accordion" role="tablist" aria-multiselectable="true">
@@ -26,8 +26,9 @@
 
                <div class="card">
                  <div class="card-header" role="tab" id="headingOne">
-                     <span data-toggle="collapse" data-parent="#accordion" href="#collapse-<?php echo $i; ?>" aria-expanded="true" aria-controls="collapseOne">
-                       <?php echo $question; ?>
+                     <span data-toggle="collapse" data-parent="#accordion" href="#collapse-<?php echo $i; ?>" aria-expanded="true" aria-controls="collapseOne" class="collapsed">
+                       <img class="melon-h" src="<?php bloginfo('stylesheet_directory'); ?>/assetts/img/melon-image.png" />
+            <?php echo $question; ?>
                     </span>
                  </div>
 

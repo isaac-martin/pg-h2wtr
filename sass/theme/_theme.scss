@@ -209,6 +209,7 @@ body {
 .bottom-section {
   background-image: url(../assetts/img/watermelon-bg.png);
   height: 400px;
+  z-index: 5;
 }
 
 .drink-carton {
@@ -254,9 +255,18 @@ body {
     }
 
     .card-header {
-      background-color: $brand-green;
+      background-color: rgba($brand-green, .7);
      border: 2px dashed $brand-light-pink;
      border-top: none;
+
+     .melon-h {
+       transform: rotate(90deg);
+     }
+
+     .collapsed .melon-h {
+       width: 40px;
+       transform: rotate(0);
+     }
 
      span {
        color: $white;
