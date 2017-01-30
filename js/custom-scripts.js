@@ -57,7 +57,7 @@
 							.setTween(".home-banner", {y:300})
 							.addTo(controller);
 
-              new ScrollMagic.Scene({triggerElement: ".disco-cont", duration: 180, triggerHook: 'onEnter'})
+              new ScrollMagic.Scene({triggerElement: ".melon-container .text-wrap", duration: 180})
                   .setTween(".disco-ball", {left:0})
                   .addTo(controller);
   }

@@ -260,12 +260,14 @@ body {
      border-top: none;
 
      .melon-h {
-       transform: rotate(90deg);
+       @include transition(all 1.0s ease-in-out);
+       @include transform(rotate(90deg));
      }
 
      .collapsed .melon-h {
        width: 40px;
-       transform: rotate(0);
+       @include transform(rotate(0));
+
      }
 
      span {
