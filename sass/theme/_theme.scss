@@ -3,8 +3,12 @@
 //Structure
 
 .content-wrapper {
-  padding: 150px 0 0 0;
+  padding: 250px 0 0 0;
   min-height: calc(100vh - 100px);
+}
+
+.content-wrapper-sml {
+  padding-top: 150px;
 }
 
 //Home Page
@@ -24,7 +28,7 @@
 
 body {
   background-color: $brand-blue;
-  overflow-x: hidden;
+  // overflow-x: hidden;
 }
 
 .blue-bg {
@@ -50,8 +54,18 @@ body {
 }
 
 
-//navbar
+//nav
 
+.current-menu-item {
+
+  a {
+  color: $brand-drk-pink!important;
+}
+}
+
+.menu-item {
+  font-size: 1.3rem;
+}
 .mini-nav {
   position: fixed;
   top: -60px;
@@ -69,6 +83,7 @@ body {
     line-height: 60px;
     color: $white;
     text-align: right;
+    font-size: 1.3rem;
   }
   ul {
     padding: 0;
@@ -106,6 +121,8 @@ body {
 .tagline {
   color: $white;
   text-transform: uppercase;
+  font-size: 2rem;
+line-height: 1.8rem;
 }
 
 .navbar {
@@ -238,7 +255,7 @@ body {
 }
 
 .mrg-btm {
-  margin-bottom: 200px;
+  margin-bottom: 50px;
 }
 
 .mrg-btm-xl {
@@ -313,10 +330,14 @@ footer {
 
 .footer-nav {
   margin:  0;
-  padding: 0;
+  padding: 30px 0 0 0;
   .nav-link{
       color: white;
       text-transform: uppercase;
+    }
+
+    .menu-item {
+      font-size: 1rem;
     }
 }
 
@@ -381,4 +402,27 @@ footer {
 
 .vertical-align {
   @include vertical-align();
+}
+
+
+.social-media-icons {
+  list-style-type: none;
+  padding-top: 40px;
+
+  li {
+    display: inline-block;
+    padding: 0 30px 0 0;
+
+    i {
+      font-size: 2rem;
+    }
+
+    a {
+      color: $white;
+
+      &:hover {
+        color: $white
+      }
+    }
+  }
 }

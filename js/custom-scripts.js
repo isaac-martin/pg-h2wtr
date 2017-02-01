@@ -14,7 +14,11 @@
   		}
   });
 
-
+  function mrgbtm(){
+		var height = $('.home-four').height();
+    console.log(height);
+		$('.home-three').css({marginBottom: height});
+	}
 
     function removelinktext() {
       $(".shop-nav li a").text('');
@@ -25,41 +29,43 @@
     	var controller = new ScrollMagic.Controller({globalSceneOptions: {duration: 1000}});
 
     	// build scenes
-    	new ScrollMagic.Scene({triggerElement: ".confetti"})
-    					.setClassToggle(".confetti", "fire") // add class toggle
-    					.addTo(controller);
 
-              new ScrollMagic.Scene({triggerElement: ".story-four", duration: 300, triggerHook: 'onEnter', offset: -150})
-    							.setTween(".fist", {y:-110})
-    							.addTo(controller);
+      	new ScrollMagic.Scene({triggerElement: ".confetti"})
+					.setClassToggle(".confetti", "fire") // add class toggle
+					.addTo(controller);
 
-              new ScrollMagic.Scene({triggerElement: ".fail-img-cont", triggerHook: 'onEnter', offset: 200})
-            					.setClassToggle(".slide", "slide-in") // add class toggle
-            					.addTo(controller);
+        new ScrollMagic.Scene({triggerElement: ".melon-container .text-wrap", duration: 180})
+          .setTween(".disco-ball", {left:0})
+          .addTo(controller);
 
-              new ScrollMagic.Scene({triggerElement: ".txt-trg-1", triggerHook: 'onEnter', offset: 200})
-            					.setClassToggle(".txt-trg-1", "text-fade-in") // add class toggle
-            					.addTo(controller);
+        new ScrollMagic.Scene({triggerElement: ".story-four", duration: 300, triggerHook: 'onEnter', offset: -150})
+					.setTween(".fist", {y:-110})
+					.addTo(controller);
 
-                new ScrollMagic.Scene({triggerElement: ".txt-trg-2", triggerHook: 'onEnter', offset: 200})
-              					.setClassToggle(".txt-trg-2", "text-fade-in") // add class toggle
-              					.addTo(controller);
+        new ScrollMagic.Scene({triggerElement: ".fail-img-cont", triggerHook: 'onEnter', offset: 200})
+					.setClassToggle(".slide", "slide-in") // add class toggle
+					.addTo(controller);
 
-                  new ScrollMagic.Scene({triggerElement: ".txt-trg-3", triggerHook: 'onEnter', offset: 200})
-                          .setClassToggle(".txt-trg-3", "text-fade-in") // add class toggle
-                          .addTo(controller);
+        new ScrollMagic.Scene({triggerElement: ".txt-trg-1", triggerHook: 'onEnter', offset: 200})
+					.setClassToggle(".txt-trg-1", "text-fade-in") // add class toggle
+					.addTo(controller);
+
+        new ScrollMagic.Scene({triggerElement: ".txt-trg-2", triggerHook: 'onEnter', offset: 200})
+					.setClassToggle(".txt-trg-2", "text-fade-in") // add class toggle
+					.addTo(controller);
+
+        new ScrollMagic.Scene({triggerElement: ".txt-trg-3", triggerHook: 'onEnter', offset: 200})
+          .setClassToggle(".txt-trg-3", "text-fade-in") // add class toggle
+          .addTo(controller);
 
         new ScrollMagic.Scene({triggerElement: ".melon-type-cont"})
-            					.setClassToggle(".melon-slice", "slide-btm-activate") // add class toggle
-            					.addTo(controller);
+					.setClassToggle(".melon-slice", "slide-btm-activate") // add class toggle
+					.addTo(controller);
 
-          new ScrollMagic.Scene({triggerElement: ".home-banner", duration: 400, triggerHook: 'onEnter', offset: 800})
-							.setTween(".home-banner", {y:300})
-							.addTo(controller);
+        new ScrollMagic.Scene({triggerElement: ".home-banner", duration: 400, triggerHook: 'onEnter', offset: 800})
+  				.setTween(".home-banner", {y:300})
+  				.addTo(controller);
 
-              new ScrollMagic.Scene({triggerElement: ".melon-container .text-wrap", duration: 180})
-                  .setTween(".disco-ball", {left:0})
-                  .addTo(controller);
   }
 
     // function addBlacklistClass() {
@@ -76,6 +82,7 @@
       // addBlacklistClass();
       triggeranimations();
       removelinktext();
+      mrgbtm();
     });
 
 
