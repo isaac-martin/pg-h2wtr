@@ -114,4 +114,6 @@ get_header();?>
   </section>
 </section><!--content-wrapper-->
 
-<?php get_footer(); ?>
+<?php
+require get_template_directory() . '/newsletter-pop.php';
+get_footer(); ?>

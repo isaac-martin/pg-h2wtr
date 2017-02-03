@@ -24,6 +24,8 @@
       $(".shop-nav li a").text('');
     }
 
+
+
   function triggeranimations(){
     // init controller
     	var controller = new ScrollMagic.Controller({globalSceneOptions: {duration: 1000}});
@@ -79,6 +81,11 @@
 
 
     $( document ).ready(function() {
+
+      $('#newsletter-modal').modal({
+        keyboard: false
+      })
+
       // addBlacklistClass();
       triggeranimations();
       removelinktext();

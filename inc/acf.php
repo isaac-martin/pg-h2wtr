@@ -22,5 +22,11 @@ if( function_exists('acf_add_options_page') ) {
 		'parent_slug' 	=> $parent['menu_slug'],
 	));
 
+	acf_add_options_sub_page(array(
+		'page_title' 	=> 'Newsletter Pop Up',
+		'menu_title' 	=> 'Newsletter Pop Up',
+		'parent_slug' 	=> $parent['menu_slug'],
+	));
+
 
 }
