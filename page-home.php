@@ -11,7 +11,7 @@
  */
 
 get_header();?>
-<section class="content-wrapper">
+<section class="content-wrapper content-wrapper-sml">
   <section class="blue-bg home-one inc-svg">
     <div class="melon-container container">
       <div class="row">
