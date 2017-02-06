@@ -6,7 +6,7 @@
  */
 
 get_header();?>
-<section class="content-wrapper story-wrap content-wrapper-sml">
+<section class="content-wrapper content-wrapper-sml story-wrap content-wrapper-sml">
   <section class="img-bg story-one inc-svg">
     <div class="container vertical-align">
       <div class="row">

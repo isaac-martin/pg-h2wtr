@@ -229,6 +229,14 @@ line-height: 1.8rem;
   z-index: 5;
 }
 
+.melon-slice-btm {
+  background-image: url(../assetts/img/melon-btm-bg.png);
+  background-position: bottom;
+  background-size: contain;
+  background-repeat: no-repeat;
+  min-height: calc(100vh - 300px);
+}
+
 .drink-carton {
   position: absolute;
   display: block;
@@ -425,4 +433,247 @@ footer {
       }
     }
   }
+}
+
+//Pop Up
+
+
+.melon-bg {
+  width: 800px;
+  max-width: 800px;
+  top: 100px;
+  .modal-content {
+  background-image: url(../assetts/img/pop-up-bg.png);
+  background-color: transparent;
+  border: none;
+  background-repeat: no-repeat;
+  background-size: contain;
+  max-width: 800px;
+}
+
+h2 {
+  text-decoration: underline;
+  margin-top: 40px;
+  font-size: 5rem;
+  width: 80%;
+}
+
+p {
+  color: $white;
+  font-size: 2.2rem;
+  line-height: 2rem;
+  width: 80%;
+}
+
+
+.left-news {
+  width: 20%;
+  display: inline-block;
+  position: relative;
+  float: left;
+
+}
+
+.right-news {
+  width: 70%;
+  display: inline-block;
+  position: relative;
+  float: left;
+}
+
+.close-icon {
+    width: 50px;
+    position: absolute;
+    right: 35px;
+    top: -15px;
+    cursor: pointer;
+}
+
+.pop-carton {
+  transform: rotate(-20deg);
+  position: relative;
+  top: -60px;
+  left: -24px;
+}
+}
+
+.popform-cont {
+  width: 80%;
+}
+
+.form-response {
+  display: block;
+  color: $white;
+  font-size: 1.6rem;
+  line-height: 1.2rem;
+}
+
+.footer-form{
+  margin-top: 38px;
+}
+.news-form {
+  font-family: $font-family-sans-serif;
+  .email {
+width: 60%;
+position: relative;
+display: inline-block;
+margin: 0;
+padding: 0 5px;
+float: left;
+-webkit-appearance: none;
+height: 30px;
+border:none;
+border-top-left-radius: 5px;
+border-bottom-left-radius: 5px;
+font-family: $font-family-sans-serif;
+}
+ .button {
+width: 35%;
+position: relative;
+display: inline-block;
+margin: 0;
+float: left;
+height: 30px;
+-webkit-appearance: none;
+background: $brand-drk-pink;
+color: $white;
+border:none;
+border-top-right-radius: 5px;
+border-bottom-right-radius: 5px;
+  font-family: $font-family-sans-serif;
+}
+}
+
+//Blog
+
+.blog-wrap {
+  .container {
+    padding-left: 3%;
+  }
+}
+
+
+.type-post {
+  margin-bottom: 20px;
+}
+.entry-content {
+  background: $bg-white;
+  padding: 10px;
+
+  h2 {
+    color: $brand-drk-pink;
+  }
+}
+
+//contact page
+
+.contact-wrap {
+  font-size: 1.4rem;
+  .contact-label {
+    color: $black;
+    display: block;
+    margin-bottom: 5px;
+  }
+
+  .contact-info {
+    color: $white;
+    display: block;
+    margin-bottom: 5px;
+
+     a{
+       color: $white;
+
+       &:hover {
+         text-decoration: none;
+       }
+     }
+  }
+}
+
+//forms
+
+.gfield_label {
+  display: none;
+}
+
+.name_first {
+  label {
+    display: none;
+  }
+
+  input {
+    padding: 5px 10px;
+    border: 2px solid $brand-green;
+    background: $white;
+    border-radius: 20px;
+    width: 100%;
+    margin-bottom: 5px;
+  }
+}
+
+.name_last {
+  label {
+    display: none;
+  }
+
+  input {
+    padding: 5px 10px;
+    border: 2px solid $brand-green;
+    background: $white;
+    border-radius: 20px;
+    width: 100%;
+    margin-bottom: 5px;
+}
+}
+
+.ginput_container {
+  input {
+    padding: 5px 10px;
+    border: 2px solid $brand-green;
+    background: $white;
+    border-radius: 20px;
+    width: 100%;
+    margin-bottom: 5px;
+  }
+  }
+
+.gfield_radio {
+  list-style-type: none;
+}
+.gform_fields {
+  list-style-type: none;
+}
+
+.gform_next_button, .gform_previous_button {
+  -webkit-appearance: none;
+  background: $brand-drk-pink;
+  color: $white;
+  border:none;
+  border-radius: 5px;
+  font-family: $font-family-sans-serif;
+}
+
+
+.gfield_radio li {
+  input {
+    display: none;
+    visibility: hidden;
+  }
+
+  label {
+    border: 2px solid $white;
+    width: 100%;
+    color: $white;
+    text-align: center;
+    padding: 17.5px 0;
+    line-height: inherit;
+    transition: all .5s ease;
+    cursor: pointer;
+    letter-spacing: 0.1rem;
+  }
+
+  #choice_1_9_0:checked + #label_1_9_0,   #choice_1_9_1:checked + #label_1_9_1,   #choice_1_9_2:checked + #label_1_9_2  {
+    background-color: $brand-drk-pink;
+    border-color: $brand-drk-pink;
+}
 }

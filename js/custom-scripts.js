@@ -86,6 +86,8 @@
         keyboard: false
       })
 
+      $('.news-form').ajaxChimp();
+
       // addBlacklistClass();
       triggeranimations();
       removelinktext();
