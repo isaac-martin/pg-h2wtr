@@ -19,7 +19,7 @@ get_header();?>
             <img class="home-banner" src="<?php bloginfo('stylesheet_directory'); ?>/assetts/img/home-banner.png" />
             <div class="text-wrap">
               <h1>Hydrate YOself</h1>
-              <button type="button" class="btn btn-primary"><a href="/shop">Shop</a></button>
+              <!-- <button type="button" class="btn btn-primary"><a href="/shop">Shop</a></button> -->
             </div>
         </div>
       </div>
@@ -35,7 +35,7 @@ get_header();?>
     <div class="row">
       <div class="col-md-6 offset-md-1">
         <div class="disco-cont">
-          <img class="disco-ball" src="<?php bloginfo('stylesheet_directory'); ?>/assetts/img/melon-ball.png" />
+          <img class="disco-ball" src="<?php bloginfo('stylesheet_directory'); ?>/assetts/img/melon_ball.png" />
           <div class='confetti'>
             <i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i>
             <i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i>
@@ -70,14 +70,14 @@ get_header();?>
           <p>
             H2Melon has all the electrolytes found in our nutty sister H2Coco needed for you to bounce back from a night cutting shapes, with the added boost of Citrulline, a fruity little amino acid which aids muscle recovery. Limber up with us and we’ll get you back on the dancefloor!
           </p>
-          <button type="button" class="btn btn-primary"><a href="/shop">Product</a></button>
+          <!-- <button type="button" class="btn btn-primary"><a href="/shop">Product</a></button> -->
 
         </div>
         <div class="col-md-4 offset-md-1 pad-top text-fade txt-trg-2">
           <h2>Superfood Alert!</h2>
           <p>
   We heart watermelon, and you should too because it’s full of the antioxidant Lycopene. Lyco-who?! Lycopene is a carotenoid phytonutrient that is super important for our cardiovascular health. So H2Melon is good for your ticker, and for your taste buds. What a superfood!        </p>
-          <button type="button" class="btn btn-primary"><a href="/shop">Product</a></button>
+          <!-- <button type="button" class="btn btn-primary"><a href="/shop">Product</a></button> -->
 
         </div>
         <div class="col-md-7">
@@ -104,13 +104,14 @@ get_header();?>
             Craving that tropical holiday vibe, but the grind is getting you down? Kick back with H2Melon and soak up the summer straight out the bottle.
           </p>
         </div>
-        <span class="buy-icon"><a href="#"></a></span>
+        <!-- <span class="buy-icon"><a href="#"></a></span> -->
 
       </div>
     </div>
   </div>
   <!-- <svg class="home-svg svg-top" width="100%" height="100%" viewBox="0 0 1600 100" preserveAspectRatio="xMidYMid slice">
       <polygon class="svg-blue" points="0,0 0,0 1600,100 1600,0"></polygon>  </svg> -->
+  <img class="drink-carton" src="<?php bloginfo('stylesheet_directory'); ?>/assetts/img/carton.png" />
   </section>
 </section><!--content-wrapper-->
 

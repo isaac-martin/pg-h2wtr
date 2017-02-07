@@ -7,13 +7,29 @@
 
 ?>
 
-<div class="col-md-5">
-<article <?php post_class(); ?> id="post-<?php the_ID(); ?>">
+<?php
+// $event_index = 1;
+// $term_list_name = wp_get_post_categories($post->ID, array("fields" => "names"));
+$categories = get_the_category($post->ID);
+$slug_out = array();
 
-<?php echo get_the_post_thumbnail( $post->ID, 'large' ); ?>
+foreach($categories as $category){
+    $slug_out[] = $category->slug;
+}
+
+
+
+echo '<div class="content_filterable col-md-5 article-wrap '.implode(' ', $slug_out).'">'; ?>
+<article <?php post_class(); ?> id="post-<?php the_ID(); ?>">
+<a href="<?php the_permalink(); ?>">
+
+<div class="image-bg">
+	<?php echo get_the_post_thumbnail( $post->ID, 'large' ); ?>
+	<span class="read-article">Read Article</span>
+</div>
 
 	<div class="entry-content">
-			<h2><?php the_title(); ?></h2>
+			<h2 class="text-center"><?php the_title(); ?></h2>
 
 		<?php
 		the_excerpt();
@@ -27,6 +43,7 @@
 		?>
 
 	</div><!-- .entry-content -->
+</a>
 </article><!-- #post-## -->
 
 </div>

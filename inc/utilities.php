@@ -34,3 +34,17 @@ function understrap_excerpt_with_length( $post_id, $word_count ) {
 	return $excerpt;
 }
 
+
+
+function buildFilterBar() {
+ $filterBar = '<div>';
+ 	$filterBar .= '<ul class="filter-wrapper">';
+ 		$filterBar .= '<li class="all-filters filter-active">All</li>';
+  	$categories = get_categories(array('hide_empty' => TRUE));
+ 		foreach ( $categories as $categorie ) {
+ 			$filterBar .= '<li data-filter="'.$categorie->slug.'" class="filter-trigger">'.$categorie->name.'</li>';
+ 		}
+ 	$filterBar .= '</ul>';
+  $filterBar .= '</div>';
+  return $filterBar;
+}

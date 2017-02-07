@@ -20,12 +20,13 @@ var browserSyncWatchFiles = [
 // see: https://www.browsersync.io/docs/options/
 var browserSyncOptions = {
     proxy: "http://pg-h2wtr:8888/",
-    notify: false
+    notify: true
 };
 
 
 // Defining requirements
 var gulp = require('gulp');
+var autoprefixer = require('gulp-autoprefixer');
 var plumber = require('gulp-plumber');
 var sass = require('gulp-sass');
 var watch = require('gulp-watch');
@@ -111,7 +112,7 @@ gulp.task('cssnano', ['cleancss'], function(){
     .pipe(plumber())
     .pipe(rename({suffix: '.min'}))
     .pipe(cssnano({discardComments: {removeAll: true}}))
-    .pipe(sourcemaps.write('./'))
+    .pipe(sourcemaps.write('./css/'))
     .pipe(gulp.dest('./css/'))
 });
 
@@ -121,6 +122,14 @@ gulp.task('cleancss', function() {
     .pipe(rimraf());
 });
 
+gulp.task('prefix', () =>
+    gulp.src('./css/theme.css')
+        .pipe(autoprefixer({
+            browsers: ['last 2 versions'],
+            cascade: false
+        }))
+        .pipe(gulp.dest('./css/'))
+);
 
 // Run:
 // gulp browser-sync
@@ -133,7 +142,7 @@ gulp.task('browser-sync', function() {
 // Run:
 // gulp watch-bs
 // Starts watcher with browser-sync. Browser-sync reloads page automatically on your browser
-gulp.task('watch-bs', ['browser-sync', 'watch', 'cssnano', 'scripts'], function () { });
+gulp.task('watch-bs', ['browser-sync', 'watch', 'prefix' , 'cssnano', 'scripts'], function () { });
 
 
 // Run:

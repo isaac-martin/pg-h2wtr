@@ -6,7 +6,6 @@
   "scripts": {
     "postinstall": "gulp copy-assets"
   },
-
   "repository": {
     "type": "git",
     "url": "https://github.com/holger1411/understrap.git"
@@ -46,5 +45,7 @@
     "run-sequence": "^1.2.2",
     "undescores-for-npm": "^1.0.0"
   },
-  "devDependencies": {}
+  "devDependencies": {
+    "gulp-autoprefixer": "^3.1.1"
+  }
 }

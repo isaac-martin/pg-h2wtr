@@ -20,6 +20,9 @@ get_header();
 
 			<div class="col-md-16">
 				<h1 class="text-center">92% water. 100% fun.</h1>
+
+				<?php echo buildFilterBar(); ?>
+
 			</div>
 
 				<?php if ( have_posts() ) : ?>
