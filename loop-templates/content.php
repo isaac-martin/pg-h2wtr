@@ -33,11 +33,6 @@ echo '<div class="content_filterable col-md-5 article-wrap '.implode(' ', $slug_
 
 	<div class="entry-content">
 			<h2 class="text-center"><?php the_title(); ?></h2>
-
-		<!-- <?php
-		the_excerpt();
-		?> -->
-
     <?php
   $content = get_the_content();
   echo substr(strip_tags($content), 0, 118) . '...';
