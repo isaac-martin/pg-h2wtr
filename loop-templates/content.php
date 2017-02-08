@@ -24,16 +24,25 @@ echo '<div class="content_filterable col-md-5 article-wrap '.implode(' ', $slug_
 <a href="<?php the_permalink(); ?>">
 
 <div class="image-bg">
-	<?php echo get_the_post_thumbnail( $post->ID, 'large' ); ?>
+	<div class="img-wrap" data-mh="single-blog">
+		<?php $image = wp_get_attachment_image_src( get_post_thumbnail_id( $page->ID ), 'full' ); ?>
+			<img src="<?php echo $image[0]; ?>" class="">
+	</div>
 	<span class="read-article">Read Article</span>
 </div>
 
 	<div class="entry-content">
 			<h2 class="text-center"><?php the_title(); ?></h2>
 
-		<?php
+		<!-- <?php
 		the_excerpt();
-		?>
+		?> -->
+
+    <?php
+  $content = get_the_content();
+  echo substr(strip_tags($content), 0, 118) . '...';
+?>
+
 
 		<?php
 		wp_link_pages( array(

@@ -558,6 +558,10 @@ border-bottom-right-radius: 5px;
   }
 }
 
+.post {
+  display: inherit;
+}
+
 
 
 .content-filter-show {
@@ -635,7 +639,48 @@ font-size: 2rem;
 
 .type-post {
   margin-bottom: 20px;
+  display: inline-flex;
+
+  img {
+    display: block;
+  }
+
+  .archive-img {
+    object-fit: cover;
+    position: absolute;
+    left: 0;
+    width: calc(100% - 30px);
+  }
 }
+
+.posted-on-wrap {
+  margin-top: 10px;
+  color: $black;
+
+  a {
+    color: $black;
+    text-decoration: none;
+  }
+}
+
+.nav-links {
+  a {
+    display: inline-block;
+    border: 2px solid $brand-green;
+    padding: 10px 60px;
+    margin: 0 10px 0 0;
+    background: $brand-green;
+    color: $white;
+    cursor: pointer;
+
+    &:hover {
+      text-decoration: none;
+    }
+
+  }
+}
+
+
 
 
 .entry-content {
