@@ -82,6 +82,23 @@
 
     $( document ).ready(function() {
 
+
+      $('.gchoice_1_9_0').click(function() {
+        $("#gform_target_page_number_1").val("2");
+        $("#gform_1").trigger("submit",[true]);
+      });
+
+      $('.gchoice_1_9_1').click(function() {
+        $("#gform_target_page_number_2").val("2");
+        $("#gform_1").trigger("submit",[true]);
+      });
+
+      $('.gchoice_1_9_2').click(function() {
+        $("#gform_target_page_number_3").val("2");
+        $("#gform_1").trigger("submit",[true]);
+      });
+
+
       $('#newsletter-modal').modal({
       });
 

@@ -23,8 +23,7 @@ $sidebar_pos = get_theme_mod( 'understrap_sidebar_position' );
 
 						<?php understrap_post_nav(); ?>
 
-
-				<?php endwhile; // end of the loop. ?>
+					<?php endwhile; // end of the loop. ?>
 
 
 		</div><!-- #primary -->

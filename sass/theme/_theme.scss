@@ -318,6 +318,28 @@ line-height: 1.8rem;
 }
 
 
+//Gallery
+
+.instagram-btn {
+  background: $brand-drk-pink;
+  color: $white;
+  text-decoration: none;
+  border: none;
+  border-radius: 5px;
+  padding: 5px 10px;
+  text-align: center;
+  display: block;
+  margin: 20px auto 0 auto;
+  width: 200px;
+  transition: all .5s ease;
+
+  &:hover {
+    color: $white;
+    text-decoration: none;
+    background-color: darken($brand-drk-pink, 10% );
+  }
+}
+
 
 // Footer
 
@@ -771,22 +793,31 @@ font-size: 2rem;
     width: 100%;
     margin-bottom: 5px;
   }
+
+  .textarea {
+    padding: 5px 10px;
+    border: 2px solid $brand-green;
+    background: $white;
+    border-radius: 20px;
+    width: 100%;
+    margin-bottom: 5px;
+  }
   }
 
-.gfield_radio {
+.gfield_radio, .gform_fields {
   list-style-type: none;
-}
-.gform_fields {
-  list-style-type: none;
+      padding: 0;
 }
 
-.gform_next_button, .gform_previous_button {
+.gform_next_button, .gform_previous_button, #gform_submit_button_1 {
   -webkit-appearance: none;
-  background: $brand-drk-pink;
+  background: $brand-green;
   color: $white;
   border:none;
   border-radius: 5px;
   font-family: $font-family-sans-serif;
+  width: 100%;
+  margin-bottom: 30px;
 }
 
 
@@ -815,6 +846,10 @@ font-size: 2rem;
 }
 
 
+#gform_next_button_1_3, #gform_previous_button_1_5, #gform_previous_button_1_4, #gform_previous_button_1 {
+  display: none;
+  visibility: hidden;
+}
 
 button, input, optgroup, select, textarea {
   font-family: $font-family-sans-serif;

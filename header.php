@@ -67,7 +67,7 @@ $container = get_theme_mod( 'understrap_container_type' );
 						    else:
 						        $linkURL = get_field('link','options');
 						    endif; ?>
-								<button type="button" class="btn btn-secondary"><a href="<?php echo $linkURL; ?>"><?php the_field('button_text','options');?></a></button>
+								<!-- <button type="button" class="btn btn-secondary"><a href="<?php echo $linkURL; ?>"><?php the_field('button_text','options');?></a></button> -->
 					</div>
 				</div>
 			</div>

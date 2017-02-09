@@ -14,7 +14,7 @@
      <img class="melon-btm" src="<?php bloginfo('stylesheet_directory'); ?>/assetts/img/melons-btm.png" />
      <div class="row">
        <div class="col-md-12 offset-md-2 mrg-btm-xl">
-         <h2 class="text-tpl-header"> <?php the_field('page_intro');?></h2>
+         <h2 class="text-tpl-header uppercase"> <?php the_field('page_intro');?></h2>
 
          <?php if( have_rows('questions') ): $i = 0; ?>
            <div id="accordion" class="faq-accordion" role="tablist" aria-multiselectable="true">
