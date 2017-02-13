@@ -78,7 +78,7 @@ During that long walk home, and with the weight of a massive watermelon on his s
         <img class="fist" src="<?php bloginfo('stylesheet_directory'); ?>/assetts/img/fist.png" />
         <img class="type" src="<?php bloginfo('stylesheet_directory'); ?>/assetts/img/watermelon-type.svg" />
         <img class="smile" src="<?php bloginfo('stylesheet_directory'); ?>/assetts/img/smile.svg" />
-        <img class="drink" src="<?php bloginfo('stylesheet_directory'); ?>/assetts/img/carton.png" />
+        <img class="drink" src="<?php bloginfo('stylesheet_directory'); ?>/assetts/img/product_500ml.png" />
       </div>
     </div>
   </div>

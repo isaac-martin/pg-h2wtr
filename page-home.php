@@ -19,7 +19,7 @@ get_header();?>
             <img class="home-banner" src="<?php bloginfo('stylesheet_directory'); ?>/assetts/img/home-banner.png" />
             <div class="text-wrap">
               <h1>Hydrate YOself</h1>
-              <!-- <button type="button" class="btn btn-primary"><a href="/shop">Shop</a></button> -->
+              <button type="button" class="btn btn-primary"><a href="/product">Product</a></button>
             </div>
         </div>
       </div>
@@ -111,7 +111,7 @@ get_header();?>
   </div>
   <!-- <svg class="home-svg svg-top" width="100%" height="100%" viewBox="0 0 1600 100" preserveAspectRatio="xMidYMid slice">
       <polygon class="svg-blue" points="0,0 0,0 1600,100 1600,0"></polygon>  </svg> -->
-  <img class="drink-carton" src="<?php bloginfo('stylesheet_directory'); ?>/assetts/img/carton.png" />
+  <img class="drink-carton" src="<?php bloginfo('stylesheet_directory'); ?>/assetts/img/product_500ml.png" />
   </section>
 </section><!--content-wrapper-->
 

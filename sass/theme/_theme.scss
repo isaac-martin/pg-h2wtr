@@ -5,10 +5,15 @@
 .content-wrapper {
   padding: 250px 0 0 0;
   min-height: calc(100vh - 100px);
+  overflow: hidden;
 }
 
 .content-wrapper-sml {
   padding-top: 150px;
+}
+
+.content-wrapper-no {
+  padding-top: 0;
 }
 
 //Home Page
@@ -242,13 +247,15 @@ line-height: 1.8rem;
   display: block;
   right: 60px;
   bottom: -80px;
-  width: 280px;
+  width: 220px;
   z-index: 25;
+  transform: rotate(11deg);
 }
 
 .home {
   .drink-carton {
     bottom: 40px;
+    right: 200px;
   }
 }
 
@@ -318,9 +325,127 @@ line-height: 1.8rem;
 }
 
 
+//Product
+
+.carton-inner {
+  position: relative;
+  bottom: 0;
+
+}
+
+.negative-top {
+  top: -120px;
+}
+
+.product-txt-wrap {
+  text-shadow: 3px 1px 2px rgba(0,0,0,.8);
+}
+
+.page-id-129 {
+  background-image: url(../assetts/img/melon-bg.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-attachment: fixed;
+
+  .footer-inner {
+    background: none;
+  }
+}
+
+.pro-disco-ball {
+  position: relative;
+  top: -120px;
+  text-align: center;
+  display: block;
+  margin: 0 auto;
+}
+
+
+.loves-melons {
+    font-size: 4rem;
+    margin-bottom: 15px;
+}
+
+.thats-why {
+  color: white;
+font-size: 2.4rem;
+line-height: 2.5rem;
+    margin-bottom: 15px;
+}
+
+.ingredients {
+  color: white;
+  font-size: 2rem;
+  line-height: 2rem;
+      margin-bottom: 15px;
+}
+
+.available-in {
+  color: white;
+  font-size: 1.2rem;
+  line-height: 1.4rem;
+      margin-bottom: 15px;
+}
+
+.buy-btn {
+  text-shadow: none;
+  font-size: 1.6rem;
+  line-height: 1.6rem;
+}
+
+.icon-txt-wrp {
+  margin-bottom: 20px;
+}
+
+.info-icons {
+  height: 90px;
+  width: auto;
+  margin: 0 auto 10px auto;
+  display: block;
+}
+
+
+.info-text-wrap {
+  color: $white;
+  background: $bg-blk;
+  border-radius: 100px;
+  padding: 10px 30px;
+  text-align: center;
+}
+
+.infog-ttl {
+  width: 50%;
+  margin: 100px auto 30px auto;
+  text-shadow: 3px 1px 2px rgba(0,0,0,.8);
+}
+
+.infog-intro {
+    color: $white;
+    font-size: 1.6rem;
+    line-height: 1.6rem;
+      text-shadow: 3px 1px 2px rgba(0,0,0,.8);
+
+    span{
+      font-size: 1.2rem;
+      line-height: 1.2rem;
+      display: block;
+    }
+}
+
 //Gallery
 
-.instagram-btn {
+.padding-top {
+  padding-top: 150px;
+}
+.cloud-bg {
+  background-image: url(../assetts/img/gallery-bg.png);
+  background-size: contain;
+  background-position: top;
+  background-repeat: no-repeat;
+}
+
+.pink-btn {
   background: $brand-drk-pink;
   color: $white;
   text-decoration: none;
@@ -518,7 +643,7 @@ p {
 }
 
 .pop-carton {
-  transform: rotate(-20deg);
+  transform: rotate(-6deg);
   position: relative;
   top: -60px;
   left: -24px;

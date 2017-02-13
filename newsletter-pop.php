@@ -5,7 +5,7 @@
           <div class="container-fluid">
             <div class="row">
           <div class="col-md-6">
-            <img class="pop-carton" src="<?php bloginfo('stylesheet_directory'); ?>/assetts/img/carton.png" />
+            <img class="pop-carton" src="<?php bloginfo('stylesheet_directory'); ?>/assetts/img/product_500ml.png" />
           </div>
           <div class="col-md-10">
             <img class="close-icon" data-dismiss="modal" aria-label="Close" src="<?php bloginfo('stylesheet_directory'); ?>/assetts/img/pop-upclose.png" />
