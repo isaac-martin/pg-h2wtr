@@ -14,7 +14,7 @@
 	<div class="footer-inner">
 		<div class="container">
 			<div class="row">
-				<div class="col-md-6">
+				<div class="col-md-6 hidden-sm-down">
 					<?php wp_nav_menu(
 						array(
 							'theme_location'  => 'footer',
@@ -26,11 +26,11 @@
 					); ?>
 				</div>
 
-				<div class="col-md-4">
+				<div class="col-md-4 hidden-sm-down">
 					<a href="<?php echo get_site_url(); ?>"><img class="footer-logo" src="<?php bloginfo('stylesheet_directory'); ?>/assetts/img/logo-white.svg"/></a>
 				</div>
 
-				<div class="col-md-3">
+				<div class="col-md-3 hidden-sm-down">
 					<!-- Begin MailChimp Signup Form -->
 					<div id="mc_embed_signup" class="footer-form">
 					<form action="//h2melon.us12.list-manage.com/subscribe/post?u=15a1ba46f2ef3436777ccec17&amp;id=36e7be12c9" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate news-form" target="_blank" novalidate>

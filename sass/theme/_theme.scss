@@ -2,6 +2,20 @@
 
 //Structure
 
+html {
+  font-size: 16px;
+}
+
+@include media-breakpoint-down(sm) {
+  .content-wrapper, .content-wrapper-sml {
+    padding-top: 0!important;
+  }
+
+  html {
+    font-size: 12px;
+  }
+}
+
 .content-wrapper {
   padding: 250px 0 0 0;
   min-height: calc(100vh - 100px);
@@ -16,19 +30,7 @@
   padding-top: 0;
 }
 
-//Home Page
 
-.overhang {
-  margin-bottom: -100px;
-}
-
-.overhang-after {
-  margin-top: 100px;
-}
-
-.after-banner {
-  padding-top: 300px;
-}
 //BG's
 
 body {
@@ -60,6 +62,25 @@ body {
 
 
 //nav
+
+.mobile-menu {
+  width: 100vw;
+  height: 100vh;
+  background: $brand-blue;
+  z-index: 1000;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+
+  .menu-item {
+    display: block;
+    text-align: center;
+    font-size: 1.4rem;
+  }
+}
+
 
 .current-menu-item {
 
@@ -103,6 +124,42 @@ body {
        }
     }
   }
+}
+
+@include media-breakpoint-down(sm) {
+  .mini-nav {
+    top: 0;
+    height: auto;
+    background: transparent;
+    border: none;
+  }
+
+#mini-menu {
+    background: $brand-blue;
+    width: 100vw;
+    height: 100vh;
+
+    li {
+      display: block;
+      text-align: center;
+      width: 100%;
+    }
+  }
+ }
+
+
+.navbar-toggler {
+  z-index: 10000;
+  position: fixed;
+  right: 10px;
+  top: 10px;
+
+  i {
+    color: white;
+  }
+}
+.navbar-toggler-icon {
+
 }
 .mini-visible {
   top: 0;
@@ -333,6 +390,10 @@ line-height: 1.8rem;
 
 }
 
+.nip {
+  width: 100%;
+}
+
 .negative-top {
   top: -120px;
 }
@@ -361,10 +422,23 @@ line-height: 1.8rem;
   margin: 0 auto;
 }
 
+@include media-breakpoint-down(sm) {
+  .pro-disco-ball {
+    width: 50%;
+  }
+}
 
 .loves-melons {
     font-size: 4rem;
     margin-bottom: 15px;
+}
+
+@include media-breakpoint-down(sm) {
+  .loves-melons {
+      font-size: 3rem;
+      margin-top: 30px;
+      text-align: center;
+  }
 }
 
 .thats-why {
@@ -420,6 +494,14 @@ line-height: 2.5rem;
   text-shadow: 3px 1px 2px rgba(0,0,0,.8);
 }
 
+@include media-breakpoint-down(sm) {
+  .infog-ttl {
+    width: 100%;
+  }
+}
+
+
+
 .infog-intro {
     color: $white;
     font-size: 1.6rem;
@@ -438,6 +520,12 @@ line-height: 2.5rem;
   background-size: 60%;
   background-position: bottom center;
   background-repeat: no-repeat;
+}
+
+@include media-breakpoint-down(sm) {
+  .infographic {
+  background: none;
+}
 }
 
 //Gallery
@@ -472,6 +560,9 @@ line-height: 2.5rem;
   }
 }
 
+@include media-breakpoint-down(sm) { .pink-btn {
+  width: 150px;
+} }
 
 // Footer
 
@@ -599,16 +690,18 @@ footer {
 
 
 .melon-bg {
-  width: 800px;
-  max-width: 800px;
+  // width: 800px;
+  // max-width: 800px;
   top: 100px;
   .modal-content {
-  background-image: url(../assetts/img/pop-up-bg.png);
+  background-image: url(../assetts/img/melon-bg.jpg);
   background-color: transparent;
   border: none;
   background-repeat: no-repeat;
-  background-size: contain;
+  background-size: cover;
   max-width: 800px;
+  border: 10px solid $brand-drk-pink;
+  border-radius: 20px;
 }
 
 h2 {
@@ -644,9 +737,10 @@ p {
 .close-icon {
     width: 50px;
     position: absolute;
-    right: 35px;
-    top: -15px;
+    right: -20px;
+    top: -30px;
     cursor: pointer;
+    z-index: 100;
 }
 
 .pop-carton {

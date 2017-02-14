@@ -1,14 +1,16 @@
 <div class="modal fade" id="newsletter-modal">
   <div class="modal-dialog melon-bg" role="document">
       <div class="modal-content">
+        <img class="close-icon" data-dismiss="modal" aria-label="Close" src="<?php bloginfo('stylesheet_directory'); ?>/assetts/img/pop-upclose.png" />
+
         <div class="modal-body">
           <div class="container-fluid">
+
             <div class="row">
           <div class="col-md-6">
-            <img class="pop-carton" src="<?php bloginfo('stylesheet_directory'); ?>/assetts/img/product_500ml.png" />
+            <img class="pop-carton hidden-sm-down" src="<?php bloginfo('stylesheet_directory'); ?>/assetts/img/product_500ml.png" />
           </div>
           <div class="col-md-10">
-            <img class="close-icon" data-dismiss="modal" aria-label="Close" src="<?php bloginfo('stylesheet_directory'); ?>/assetts/img/pop-upclose.png" />
             <h2><?php the_field('title','option');?></h2>
             <p>
               <?php the_field('content','option');?>

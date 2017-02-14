@@ -1,5 +1,9 @@
 //Structure
 
+//Home Page
+
+
+
 .inc-svg {
   position: relative;
 }
@@ -131,7 +135,17 @@ padding: 0;
   bottom: inherit;
 }
 
+.overhang {
+  margin-bottom: -100px;
+}
 
+.overhang-after {
+  margin-top: 100px;
+}
+
+.after-banner {
+  padding-top: 300px;
+}
 
 //Parralax Elements
 
@@ -172,4 +186,56 @@ padding: 0;
 .pad-top {
   padding-top: 80px;
   padding-bottom: 20px;
+}
+
+
+//Responsive
+@include media-breakpoint-down(sm) {
+  .melon-container {
+    img {
+    max-width: 100%;
+    height: auto;
+    width: 100%;
+    margin: 0;
+    position: relative;
+  }
+
+  .text-wrap {
+    position: relative;
+    display: inline-block;
+    top: 0;
+    transform: translateY(0);
+    padding-bottom: 100px;
+  }
+}
+
+  .after-banner {
+    padding-top: 0!important;
+  }
+
+  .disco-cont {
+    height: 300px;
+  }
+
+  .mob-pad-override {
+    padding-bottom: 100px;
+  }
+
+  .pad-top {
+    padding-top: 0;
+}
+
+.home-three .melon-type-cont .melon-slice {
+    position: absolute;
+    top: 40px;
+    width: 90%;
+    left: 0;
+}
+
+.main-logo {
+  width: 35%!important;
+  margin: 0 auto!important;
+  display: block!important;
+  float: none!important;
+}
 }

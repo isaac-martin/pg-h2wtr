@@ -28,7 +28,24 @@ $container = get_theme_mod( 'understrap_container_type' );
 
 <div class="hfeed site" id="page">
 
-	<div class="mini-nav">
+	<div class="mobile-nav hidden-sm-up">
+		<button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#mobile-menu" aria-controls="mobile-menu" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"><i class="fa fa-bars fa-2x" aria-hidden="true"></i></span>
+  </button>
+								<?php wp_nav_menu(
+						array(
+							'theme_location'  => 'mobile',
+							'container_class' => 'collapse navbar-collapse mobile-menu',
+							'container_id'    => 'mobile-menu',
+							'menu_class'      => 'navbar-nav',
+							'fallback_cb'     => '',
+							'menu_id'         => 'mobile-items',
+							'walker'          => new WP_Bootstrap_Navwalker(),
+						)
+					); ?>
+	</div>
+
+	<div class="mini-nav hidden-sm-down">
 		<div class="container">
 			<div class="row">
 				<div class="col-md-8">
@@ -56,7 +73,7 @@ $container = get_theme_mod( 'understrap_container_type' );
 
 	<!-- ******************* The Navbar Area ******************* -->
 
-	<div class="wrapper-info-bar full-w pink-bg-drk">
+	<div class="wrapper-info-bar full-w pink-bg-drk hidden-sm-down">
 		<div class="container">
 			<div class="row">
 				<div class="col-md-8 offset-md-8">
@@ -73,7 +90,7 @@ $container = get_theme_mod( 'understrap_container_type' );
 			</div>
 		</div>
 	</div>
-	<div class="wrapper-fluid wrapper-navbar" id="wrapper-navbar">
+	<div class="wrapper-fluid wrapper-navbar hidden-sm-down" id="wrapper-navbar">
 
 		<a class="skip-link screen-reader-text sr-only" href="#content"><?php _e( 'Skip to content',
 		'understrap' ); ?></a>
@@ -86,8 +103,8 @@ $container = get_theme_mod( 'understrap_container_type' );
 						<?php wp_nav_menu(
 							array(
 								'theme_location'  => 'primary',
-								'container_class' => 'collapse navbar-collapse',
-								'container_id'    => 'navbarNavDropdown',
+								'container_class' => '',
+								'container_id'    => '',
 								'menu_class'      => 'navbar-nav',
 								'fallback_cb'     => '',
 								'menu_id'         => 'main-menu',

@@ -51,6 +51,7 @@ if ( ! function_exists( 'understrap_setup' ) ) :
 			'primary' => __( 'Primary Menu', 'understrap' ),
 			'shopping-header' => __( 'Header Shopping', 'understrap' ),
 			'mini' => __( 'Mini Menu', 'understrap' ),
+			'mobile' => __( 'Mobile Menu', 'understrap' ),
 			'footer' => __( 'Footer Menu', 'understrap' ),
 		) );
 

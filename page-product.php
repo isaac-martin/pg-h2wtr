@@ -8,13 +8,13 @@ get_header();?>
   <img class="pro-disco-ball animate-bounce" src="<?php bloginfo('stylesheet_directory'); ?>/assetts/img/discoball-product.png" />
   <div class="container negative-top">
     <div class="row align-items-end">
-      <div class="col-md-3 offset-md-1">
-        <div class="carton-inner align-items-end">
+      <div class="col-8 col-md-3 offset-md-1">
+        <div class=" carton-inner align-items-end">
           <img class="carton-1l" src="<?php bloginfo('stylesheet_directory'); ?>/assetts/img/product_1l.png" />
           <a href="#nip-1l" class="pink-btn" data-toggle="modal" data-target="#nip-1l">Nutritional Information</a>
         </div>
       </div>
-      <div class="col-md-3">
+      <div class="col-8 col-md-3">
         <div class="carton-inner align-items-end">
           <img class="carton-500ml" src="<?php bloginfo('stylesheet_directory'); ?>/assetts/img/product_500ml.png" />
           <a href="#nip-500ml" class="pink-btn" data-toggle="modal" data-target="#nip-500ml">Nutritional Information</a>
