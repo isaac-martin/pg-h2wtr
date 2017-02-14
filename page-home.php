@@ -20,7 +20,7 @@ get_header();?>
             <img class="home-banner" src="<?php bloginfo('stylesheet_directory'); ?>/assetts/img/home-banner.png" />
             <div class="text-wrap">
               <h1>Hydrate YOself</h1>
-              <button type="button" class="btn btn-primary"><a href="/product">Product</a></button>
+              <button type="button" class="btn btn-primary"><a href="/products">Product</a></button>
             </div>
         </div>
       </div>
@@ -105,6 +105,7 @@ get_header();?>
 Craving that tropical holiday vibe, but the grind is getting you down? Kick back with H2melon and soak up the summer straight out the bottle.          </p>
         </div>
         <!-- <span class="buy-icon"><a href="#"></a></span> -->
+        <button type="button" class="btn btn-primary"><a href="/products">Product</a></button>
 
       </div>
     </div>
