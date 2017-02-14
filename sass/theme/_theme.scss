@@ -690,8 +690,7 @@ footer {
 
 
 .melon-bg {
-  // width: 800px;
-  // max-width: 800px;
+  max-width: 800px;
   top: 100px;
   .modal-content {
   background-image: url(../assetts/img/melon-bg.jpg);
@@ -703,6 +702,8 @@ footer {
   border: 10px solid $brand-drk-pink;
   border-radius: 20px;
 }
+
+
 
 h2 {
   text-decoration: underline;
@@ -745,8 +746,8 @@ p {
 
 .pop-carton {
   transform: rotate(-6deg);
-  position: relative;
-  top: -60px;
+  position: absolute;
+  top: -120px;
   left: -24px;
 }
 }
