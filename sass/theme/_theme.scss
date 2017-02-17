@@ -1127,3 +1127,21 @@ button, input, optgroup, select, textarea {
   margin: 0 auto;
   display: block;
 }
+
+
+.account-link {
+  color: $white;
+  text-decoration: none;
+  text-transform: uppercase;
+  margin: 0;
+line-height: 40px;
+border: 2px solid $white;
+padding: 5px 20px;
+  @include transition(all .5s ease-in-out);
+&:hover {
+  color: $white;
+  text-decoration: none;
+  background: $white;
+  color: $brand-drk-pink;
+}
+}

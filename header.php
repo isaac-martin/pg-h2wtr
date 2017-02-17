@@ -76,7 +76,10 @@ $container = get_theme_mod( 'understrap_container_type' );
 	<div class="wrapper-info-bar full-w pink-bg-drk hidden-sm-down">
 		<div class="container">
 			<div class="row">
-				<div class="col-md-8 offset-md-8">
+				<div class="col-md-8">
+					<a class="account-link" href="/my-account">My Account</a>
+				</div>
+				<div class="col-md-8">
 					<div class="info-bar-inner right">
 						<p><?php the_field('general_text','options')?></p>
 						<?php if(get_field('button_link','options') == 'page'):
