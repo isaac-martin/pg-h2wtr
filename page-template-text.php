@@ -24,6 +24,7 @@ get_header();?>
     <svg class="home-svg svg-top" width="100%" height="100%" viewBox="0 0 1600 100" preserveAspectRatio="xMidYMid slice">
           <polygon class="svg-blue" points="0,0 0,100 1600,0 1600,0"></polygon>
     </svg>
+    <img class="type" src="<?php bloginfo('stylesheet_directory'); ?>/assetts/img/everyday.svg" />
     <img class="drink-carton" src="<?php bloginfo('stylesheet_directory'); ?>/assetts/img/product_500ml.png" />
     </div>
   </div>

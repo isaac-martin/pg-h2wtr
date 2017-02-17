@@ -1,14 +1,14 @@
 <div class="modal fade" id="newsletter-modal">
   <div class="modal-dialog melon-bg" role="document">
       <div class="modal-content">
-        <img class="close-icon" data-dismiss="modal" aria-label="Close" src="<?php bloginfo('stylesheet_directory'); ?>/assetts/img/pop-upclose.png" />
+        <img class="close-icon news-close" data-dismiss="modal" aria-label="Close" src="<?php bloginfo('stylesheet_directory'); ?>/assetts/img/pop-upclose.png" alt="Cancel Button For Modal" />
 
         <div class="modal-body">
           <div class="container-fluid">
 
             <div class="row">
           <div class="col-md-6">
-            <img class="pop-carton hidden-sm-down" src="<?php bloginfo('stylesheet_directory'); ?>/assetts/img/product_500ml.png" />
+            <img class="pop-carton hidden-sm-down" src="<?php bloginfo('stylesheet_directory'); ?>/assetts/img/product_500ml.png" alt="H2Melon Watermelon Juice 500ml Product Image" />
           </div>
           <div class="col-md-10">
             <h2><?php the_field('title','option');?></h2>

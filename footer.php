@@ -27,10 +27,18 @@
 				</div>
 
 				<div class="col-md-4 hidden-sm-down">
-					<a href="<?php echo get_site_url(); ?>"><img class="footer-logo" src="<?php bloginfo('stylesheet_directory'); ?>/assetts/img/logo-white.svg"/></a>
+					<a href="<?php echo get_site_url(); ?>"><img class="footer-logo" src="<?php bloginfo('stylesheet_directory'); ?>/assetts/img/logo-white.svg" alt="H2Melon Watermelon Water Logo White"/></a>
+				</div>
+				<div class="col-md-3">
+				<ul class="social-media-icons align-self-center">
+					<li><a href="<?php the_field('instagram_url', 'options')?>"><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
+					<li><a href="<?php the_field('facebook_url', 'options')?>"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
+					<li><a href="<?php the_field('twitter_url', 'options')?>"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
+				</ul>
 				</div>
 
-				<div class="col-md-3 hidden-sm-down">
+
+				<div class="col-md-3">
 					<!-- Begin MailChimp Signup Form -->
 					<div id="mc_embed_signup" class="footer-form">
 					<form action="//h2melon.us12.list-manage.com/subscribe/post?u=15a1ba46f2ef3436777ccec17&amp;id=36e7be12c9" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate news-form" target="_blank" novalidate>
@@ -44,13 +52,7 @@
 					</form>
 					</div><!--End mc_embed_signup-->
 				</div>
-				<div class="col-md-3">
-				<ul class="social-media-icons align-self-center">
-					<li><a href="<?php the_field('instagram_url', 'options')?>"><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
-					<li><a href="<?php the_field('facebook_url', 'options')?>"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
-					<li><a href="<?php the_field('twitter_url', 'options')?>"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
-				</ul>
-				</div>
+
 
 			</div><!-- row end -->
 

@@ -10,8 +10,11 @@
 
 .story-one {
 z-index: 11;
-background-image: url(../assetts/img/story-bg.png);
+background-image: url(../assetts/img/story-bg02.png);
 min-height: 500px;
+background-size: contain!important;
+
+//to be swapped for BM
 }
 
 
@@ -39,8 +42,9 @@ min-height: 500px;
   .type {
     width: 40%;
     position: absolute;
-    left: 0;
+    left: -20px;
     z-index: 5;
+    bottom: initial;
   }
 
   .fist {
@@ -51,6 +55,10 @@ min-height: 500px;
     z-index: 5;
     @include transform(translateY(50vw));
 
+    @include media-breakpoint-down(sm) {
+      width: 45%;
+      left: 45%;
+    }
   }
 
   .smile {

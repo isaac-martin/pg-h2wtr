@@ -114,24 +114,24 @@ $container = get_theme_mod( 'understrap_container_type' );
 					</div>
 
 					<div class="col-md-4">
-						<a href="<?php echo get_site_url(); ?>"><img class="main-logo" src="<?php bloginfo('stylesheet_directory'); ?>/assetts/img/logo-full-col.svg"/></a>
+						<a href="<?php echo get_site_url(); ?>"><img class="main-logo" src="<?php bloginfo('stylesheet_directory'); ?>/assetts/img/logo-full-col.svg" alt="H2Melon Watermelon Juice Top Half of Logo"/></a>
 					</div>
 
 					<div class="col-md-4">
 						<p class="tagline">
-							Straight from the melon to your mouth
+							<?php echo get_bloginfo( 'description' ); ?>
 						</p>
 					</div>
 
 					<div class="col-md-2">
-						<!-- <?php wp_nav_menu(
+						<?php wp_nav_menu(
 							array(
 								'theme_location'  => 'shopping-header',
 								'menu_id'         => 'shopping-menu',
 								'menu_class'      => 'shop-nav align-items-end'
 								// 'walker'          => new WP_Bootstrap_Navwalker(),
 							)
-						); ?> -->
+						); ?>
 					</div>
 
 					<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">

@@ -23,7 +23,7 @@ get_header();?>
             <span class="contact-label">EMAIL</span>
             <span class="contact-info"><a href=mailto:yo@h2melon.com>YO@H2MELON.COM</a></span>
             <span class="contact-label">ADDRESS</span>
-            <span class="contact-info">H2COCO Pty Ltd, 34 Fitzroy Street, Surry Hills, Sydney, NSW 2010, Australia</span>
+            <span class="contact-info">H2coco Pty Ltd, 34 Fitzroy Street, Surry Hills, Sydney, NSW 2010, Australia</span>
           </p>
       </div>
       </div>

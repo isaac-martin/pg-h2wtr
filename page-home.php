@@ -16,8 +16,8 @@ get_header();?>
     <div class="melon-container container">
       <div class="row">
         <div class="col-md-16">
-          <a class="hidden-sm-up" href="<?php echo get_site_url(); ?>"><img class="main-logo" src="<?php bloginfo('stylesheet_directory'); ?>/assetts/img/logo-full-col.svg"/></a>
-            <img class="home-banner" src="<?php bloginfo('stylesheet_directory'); ?>/assetts/img/home-banner.png" />
+          <a class="hidden-sm-up" href="<?php echo get_site_url(); ?>"><img class="main-logo" src="<?php bloginfo('stylesheet_directory'); ?>/assetts/img/logo-full-col.svg" alt="H2Melon Watermelon Juice Top Half of Logo"/></a>
+            <img class="home-banner" src="<?php bloginfo('stylesheet_directory'); ?>/assetts/img/home-banner.png" alt="Watermelon Drink Banner: H2Melon infront of Whole Watermelon" />
             <div class="text-wrap">
               <h1>Hydrate YOself</h1>
               <button type="button" class="btn btn-primary"><a href="/products">Product</a></button>
@@ -34,9 +34,9 @@ get_header();?>
   <section class="pink-bg-light home-two inc-svg after-banner">
   <div class="container">
     <div class="row">
-      <div class="col-md-6 offset-md-1">
+      <div class="col-md-8">
         <div class="disco-cont">
-          <img class="disco-ball" src="<?php bloginfo('stylesheet_directory'); ?>/assetts/img/melon_ball.png" />
+          <img class="disco-ball" src="<?php bloginfo('stylesheet_directory'); ?>/assetts/img/melon_ball.png" alt="Discoball Drink with Watermelon inside & Straw" />
           <div class='confetti'>
             <i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i>
             <i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i>
@@ -83,11 +83,11 @@ get_header();?>
         </div>
         <div class="col-md-7">
           <div class="melon-type-cont">
-            <img class="melon-slice slide-btm" src="<?php bloginfo('stylesheet_directory'); ?>/assetts/img/melon.png" />
-            <img class="type-fresh animate-bounce" src="<?php bloginfo('stylesheet_directory'); ?>/assetts/img/type_fresh.svg" />
-            <img class="type-healthy animate-float" src="<?php bloginfo('stylesheet_directory'); ?>/assetts/img/type_healthy.svg" />
-            <img class="type-juicy animate-rotate" src="<?php bloginfo('stylesheet_directory'); ?>/assetts/img/type-juicy.svg" />
-            <img class="type-heart" src="<?php bloginfo('stylesheet_directory'); ?>/assetts/img/type-heart.png" />
+            <img class="melon-slice slide-btm" src="<?php bloginfo('stylesheet_directory'); ?>/assetts/img/melon.png" alt="Large Slice of Watermelon: Key Ingredient in Watermelon Water" />
+            <img class="type-fresh animate-bounce" src="<?php bloginfo('stylesheet_directory'); ?>/assetts/img/type_fresh.svg" alt="Watermelon Drink Font Type" />
+            <img class="type-healthy animate-float" src="<?php bloginfo('stylesheet_directory'); ?>/assetts/img/type_healthy.svg" alt="Watermelon Water Font Type asset" />
+            <img class="type-juicy animate-rotate" src="<?php bloginfo('stylesheet_directory'); ?>/assetts/img/type-juicy.svg" alt="Type Image Watermelons are Juicy image" />
+            <img class="type-heart" src="<?php bloginfo('stylesheet_directory'); ?>/assetts/img/type-heart.png" alt="Heart Image Watermelon: It’s a Fruit and a Vegetable" />
           </div>
         </div>
       </div>
@@ -105,14 +105,14 @@ get_header();?>
 Craving that tropical holiday vibe, but the grind is getting you down? Kick back with H2melon and soak up the summer straight out the bottle.          </p>
         </div>
         <!-- <span class="buy-icon"><a href="#"></a></span> -->
-        <button type="button" class="btn btn-primary"><a href="/products">Product</a></button>
+        <!-- <button type="button" class="btn btn-primary"><a href="/products">Product</a></button> -->
 
       </div>
     </div>
   </div>
   <!-- <svg class="home-svg svg-top" width="100%" height="100%" viewBox="0 0 1600 100" preserveAspectRatio="xMidYMid slice">
       <polygon class="svg-blue" points="0,0 0,0 1600,100 1600,0"></polygon>  </svg> -->
-  <img class="drink-carton hidden-sm-down" src="<?php bloginfo('stylesheet_directory'); ?>/assetts/img/product_500ml.png" />
+  <img class="drink-carton hidden-sm-down" src="<?php bloginfo('stylesheet_directory'); ?>/assetts/img/product_500ml.png" alt="H2Melon Watermelon Juice 500ml Product Image" />
   </section>
 </section><!--content-wrapper-->
 

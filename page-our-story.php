@@ -29,12 +29,12 @@ get_header();?>
       <div class="col-md-14 offset-md-1">
         <h2 class="text-center">Wandering The
             <span class="heading-imgs">
-              <img class="island" src="<?php bloginfo('stylesheet_directory'); ?>/assetts/img/island.png" />
-              <img class="drink animate-bounce" src="<?php bloginfo('stylesheet_directory'); ?>/assetts/img/drink.png" />
+              <img class="island" src="<?php bloginfo('stylesheet_directory'); ?>/assetts/img/island.png" alt="Island Icon: Watermelon Tropical Refreshment" />
+              <img class="drink animate-bounce" src="<?php bloginfo('stylesheet_directory'); ?>/assetts/img/drink.png" alt="Watermelon Drink with Cut Watermelon pieces behind" />
             </span>
           Nevada Desert</h2>
         <p class="desert-text text-center">
-          The refreshing taste and hydrating awesomeness of watermelon water had long been a friend of David Freeman’s, founder of H2Coco. Having quenched more than a few thirsts with watermelon water in Thailand, it wasn’t until David found himself wandering the Nevada Desert that he discovered the brilliance of cold pressed watermelon water, but visioned H2melon a little differently .  So it’s fair to say David had been a convert of this heavenly fruit’s goodness long before our story unfolded.
+          The refreshing taste and hydrating awesomeness of watermelon water had long been a friend of David Freeman’s, founder of H2coco. Having quenched more than a few thirsts with watermelon water in Thailand, it wasn’t until David found himself wandering the Nevada Desert that he discovered the brilliance of cold pressed watermelon water, but visioned H2melon a little differently .  So it’s fair to say David had been a convert of this heavenly fruit’s goodness long before our story unfolded.
         </p>
       </div>
     </div>
@@ -48,11 +48,11 @@ get_header();?>
       <div class="row">
         <div class="col-md-14 offset-md-1">
           <div class="fail-img-cont">
-            <img class="full-melon" src="<?php bloginfo('stylesheet_directory'); ?>/assetts/img/full-melon.png" />
-            <img class="plus slide" src="<?php bloginfo('stylesheet_directory'); ?>/assetts/img/plus.png" />
-            <img class="pack" src="<?php bloginfo('stylesheet_directory'); ?>/assetts/img/pack.png" />
-            <img class="minus slide" src="<?php bloginfo('stylesheet_directory'); ?>/assetts/img/minus.png" />
-            <img class="frown" src="<?php bloginfo('stylesheet_directory'); ?>/assetts/img/frown.png" />
+            <img class="full-melon" src="<?php bloginfo('stylesheet_directory'); ?>/assetts/img/full-melon.png" alt="Image of one full delicious watermelon" />
+            <img class="plus slide" src="<?php bloginfo('stylesheet_directory'); ?>/assetts/img/plus.png" alt="Plus Image separator" />
+            <img class="pack" src="<?php bloginfo('stylesheet_directory'); ?>/assetts/img/pack.png" alt="Backpack Image: Backpacks cant carry Watermelons but can carry H2Melon Watermelon Water" />
+            <img class="minus slide" src="<?php bloginfo('stylesheet_directory'); ?>/assetts/img/minus.png" alt="Minus Sign" />
+            <img class="frown" src="<?php bloginfo('stylesheet_directory'); ?>/assetts/img/frown.png" alt="Sad Frowny Face Icon" />
           </div>
           <h2 class="text-center">With the weight of the melon on his shoulders</h2>
           <p class="col-text white">
@@ -87,10 +87,10 @@ get_header();?>
   <div class="container">
     <div class="row">
       <div class="col-md-16">
-        <img class="fist" src="<?php bloginfo('stylesheet_directory'); ?>/assetts/img/fist.png" />
-        <img class="type" src="<?php bloginfo('stylesheet_directory'); ?>/assetts/img/watermelon-type.svg" />
-        <img class="smile" src="<?php bloginfo('stylesheet_directory'); ?>/assetts/img/smile.svg" />
-        <img class="drink" src="<?php bloginfo('stylesheet_directory'); ?>/assetts/img/product_500ml.png" />
+        <img class="fist" src="<?php bloginfo('stylesheet_directory'); ?>/assetts/img/fist.png" alt="Fist: Buy Watermelon Call to Action" />
+        <img class="type" src="<?php bloginfo('stylesheet_directory'); ?>/assetts/img/watermelon-type.svg" alt="Type H2melon Image" />
+        <img class="smile hidden-sm-down" src="<?php bloginfo('stylesheet_directory'); ?>/assetts/img/smile.svg" alt="Buy Watermelon Juice Smiley Button" />
+        <img class="drink hidden-sm-down" src="<?php bloginfo('stylesheet_directory'); ?>/assetts/img/product_500ml.png" alt="H2Melon Watermelon Juice 500ml Product Image" />
       </div>
     </div>
   </div>
