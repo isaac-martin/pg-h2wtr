@@ -46,7 +46,7 @@
      </div>
    </div>
 
-   <div class="bottom-section inc-svg img-bg">
+   <div class="bottom-section inc-svg img-bg hidden-sm-down">
      <svg class="home-svg svg-top" width="100%" height="100%" viewBox="0 0 1600 100" preserveAspectRatio="xMidYMid slice">
            <polygon class="svg-blue" points="0,0 0,100 1600,0 1600,0"></polygon>
      </svg>

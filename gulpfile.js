@@ -150,8 +150,8 @@ gulp.task('watch-bs', ['browser-sync', 'watch', 'prefix' , 'cssnano', 'scripts']
 // Uglifies and concat all JS files into one
 gulp.task('scripts', function() {
     var scripts = [
-        basePaths.dev + 'js/owl.carousel.min.js', // Must be loaded before BS4
-        basePaths.dev + 'js/tether.js', // Must be loaded before BS4
+        // basePaths.dev + 'js/owl.carousel.min.js', // Must be loaded before BS4
+        // basePaths.dev + 'js/tether.js', // Must be loaded before BS4
 
         // Start - All BS4 stuff
         basePaths.dev + 'js/bootstrap4/bootstrap.js',
