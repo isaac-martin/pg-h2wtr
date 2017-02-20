@@ -1,6 +1,7 @@
 <?php
-/**
-
+/*
+Template Name: Story Page Template
+ *
  *
  * @package understrap
  */
@@ -18,12 +19,12 @@ get_header();?>
       </div>
     </div>
     <svg class="home-svg"width="100%" height="100%" viewBox="0 0 1600 100" preserveAspectRatio="xMidYMid slice">
-        <polygon class="svg-pink" points="0,0 0,100 1600,100 1600,100"></polygon>
+        <polygon class="svg-blue" points="0,0 0,100 1600,100 1600,100"></polygon>
     </svg>
 </section>
 
 
-  <section class="pink-bg-light story-two inc-svg">
+  <section class="blue-bg story-two inc-svg">
   <div class="container">
     <div class="row">
       <div class="col-md-14 offset-md-1">
@@ -33,17 +34,16 @@ get_header();?>
               <img class="drink animate-bounce" src="<?php bloginfo('stylesheet_directory'); ?>/assetts/img/drink.png" alt="Watermelon Drink with Cut Watermelon pieces behind" />
             </span>
           Nevada Desert</h2>
-        <p class="desert-text text-center">
-          The refreshing taste and hydrating awesomeness of watermelon water had long been a friend of David Freeman’s, founder of H2coco. Having quenched more than a few thirsts with watermelon water in Thailand, it wasn’t until David found himself wandering the Nevada Desert that he discovered the brilliance of cold pressed watermelon water, but visioned H2melon a little differently .  So it’s fair to say David had been a convert of this heavenly fruit’s goodness long before our story unfolded.
-        </p>
+        <p class="desert-text text-center white">
+          David Freeman, founder of H2coco, first enjoyed the refreshing awesomeness of watermelon water on a trip to the Nevada Desert.   With his mouth dry and the sun beating down, David was fresh out of his beloved coconut water. Amongst friends, he was soon handed a bottle of cold-pressedwatermelon and encouraged to drink up.   The perfect combination of thirst-quenching hydration and natural sweetnessmeant it was love at first sip - David was hooked!         </p>
       </div>
     </div>
   </div>
-  <svg class="home-svg"width="100%" height="100%" viewBox="0 0 1600 100" preserveAspectRatio="xMidYMid slice">
-        <polygon class="svg-blue" points="0,100 0,100 1600,0 1600,100"></polygon>  				</svg>
+  <svg class="home-svg" width="100%" height="100%" viewBox="0 0 1600 100" preserveAspectRatio="xMidYMid slice">
+        <polygon class="svg-pink" points="0,100 0,100 1600,0 1600,100"></polygon>  				</svg>
   </section>
 
-  <section class="blue-bg story-three">
+  <section class="pink-bg-light story-three">
     <div class="container">
       <div class="row">
         <div class="col-md-14 offset-md-1">
@@ -55,30 +55,27 @@ get_header();?>
             <img class="frown" src="<?php bloginfo('stylesheet_directory'); ?>/assetts/img/frown.png" alt="Sad Frowny Face Icon" />
           </div>
           <h2 class="text-center">With the weight of the melon on his shoulders</h2>
-          <p class="col-text white">
-            Picture it; one of those sweltering Sydney summer days and our brand founder David Freeman and his best mate are walking down Hall Street Bondi with a cooling arvo swim in their sights.
-            Along their sun-drenched walk they pass a fruit shop where their eyes covet a perfectly ripe and sizeable watermelon. Upon agreeing that slicing up one of nature’s most hydrating fruit on the beach would be an act of thirst-quenching genius, they purchase the mother of all watermelons.
-            After feverishly trying to fit the 9 kilo(this needs to be checked, seems to heavy) fruit into a backpack – which now has both zippers and the very bottom torn out of it – the boys soon share the job of carrying it down the street like an overfed baby and finally onto the shores of Bondi Beach.
-
-            With their swim done, the boys are cooled on the outside but their insides need some serious hydrating. As they prepare to get stuck into that juicy beast, the crushing reality hits – they don’t have anything to cut it open with!
-
-            The boys are hot, sweaty and feeling defeated by the fact that their only thirst relief is literally trapped inside an impenetrable shell.
-
-            During that long walk home, and with the weight of a massive watermelon on his shoulders, David conjures up a vision of what would soon become H2melon – a hydrating and cleansing drink that captures the goodness and thirst-busting wonder that only a watermelon offers.
-            This lightning bolt moment leads to the obsessive study of watermelons inside and out. Did you know there is 1200 types of Watermelon on earth?
-
-          </p>
-          <h2 class="text-center">A convenient go anywhere drink!</h2>
-          <p class="white desert-text text-center">
-            After David forensically studied thirty-three watermelon varieties and 12 months later, H2melon is born  – a convenient go anywhere drink that doesn’t require a knife, packed into an environmentally friendly tetra pak that maintains its freshness for 12 months!
-
-<br />The rest is history, well very modern history at least.
+          <p class="col-text black">
+          Fast forward four months and David is back home in Bondi. With the sweltering Sydney summer in full swing, David and his friends are heading down to thebeach when they spot a perfectly ripe and juicy watermelon.  Remembering back to his thirst-quenching saviour, David decides it’s the perfect snack to cool them all down. After squashing the melon into his backpack –which now has both zippers busted open – they share the job of carrying it like an overfed baby. Down on the beach, they prepare to get stuck into that juicy beast when crushing reality hits – they don’t have anything to cut it open with! With their only thirst relief trapped inside an impenetrable shell, the boys admit defeat and head home.  During that long walk back up the hill, with the weight of the watermelon on his shoulders, David conjures up the vision of H2melon – the thirst-busting wonder of watermelon, without all the hard work!
 
           </p>
         </div>
 
       </div>
       </div>
+  </section>
+
+  <section class="blue-bg story-three-five">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-14 offset-md-1">
+          <h2 class="text-center">Watermelons in the palm of your hand!</h2>
+          <p class="white desert-text text-center">
+            Determined to make H2melon a reality, David spent the next 12 months forensically studying all thirty-three varieties of watermelon. After choosing the juiciest melons and perfecting production process. H2melon was born! The result is delicious, pure watermelon water in convenient eco-friendly bottles. It’s straight from the melon to YO mouth!
+          </p>
+        </div>
+      </div>
+    </div>
   </section>
 
   <section class="img-bg story-four inc-svg">

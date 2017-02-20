@@ -1076,8 +1076,9 @@ font-size: 2rem;
   border:none;
   border-radius: 5px;
   font-family: $font-family-sans-serif;
-  width: 100%;
+  width: 48%;
   margin-bottom: 30px;
+  display: inline-block;
 }
 
 
@@ -1105,11 +1106,11 @@ font-size: 2rem;
 }
 }
 
-
-#gform_next_button_1_3, #gform_previous_button_1_5, #gform_previous_button_1_4, #gform_previous_button_1 {
-  display: none;
-  visibility: hidden;
-}
+// 
+// #gform_next_button_1_3, #gform_previous_button_1_5, #gform_previous_button_1_4, #gform_previous_button_1 {
+//   display: none;
+//   visibility: hidden;
+// }
 
 button, input, optgroup, select, textarea {
   font-family: $font-family-sans-serif;
@@ -1144,4 +1145,8 @@ padding: 5px 20px;
   background: $white;
   color: $brand-drk-pink;
 }
+}
+
+.site-main {
+  width: 100%;
 }

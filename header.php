@@ -77,7 +77,7 @@ $container = get_theme_mod( 'understrap_container_type' );
 		<div class="container">
 			<div class="row">
 				<div class="col-md-8">
-					<a class="account-link" href="/my-account">My Account</a>
+					<!-- <a class="account-link" href="/my-account">My Account</a> -->
 				</div>
 				<div class="col-md-8">
 					<div class="info-bar-inner right">
@@ -127,14 +127,14 @@ $container = get_theme_mod( 'understrap_container_type' );
 					</div>
 
 					<div class="col-md-2">
-						<?php wp_nav_menu(
+						<!-- <?php wp_nav_menu(
 							array(
 								'theme_location'  => 'shopping-header',
 								'menu_id'         => 'shopping-menu',
 								'menu_class'      => 'shop-nav align-items-end'
 								// 'walker'          => new WP_Bootstrap_Navwalker(),
 							)
-						); ?>
+						); ?> -->
 					</div>
 
 					<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">

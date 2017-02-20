@@ -1,11 +1,7 @@
 <?php
-/**
- * The template for displaying all pages.
+/*
+Template Name: Home Page Template
  *
- * This is the template that displays all pages by default.
- * Please note that this is the WordPress construct of pages
- * and that other 'pages' on your WordPress site will use a
- * different template.
  *
  * @package understrap
  */
@@ -20,7 +16,7 @@ get_header();?>
             <img class="home-banner" src="<?php bloginfo('stylesheet_directory'); ?>/assetts/img/home-banner.png" alt="Watermelon Drink Banner: H2Melon infront of Whole Watermelon" />
             <div class="text-wrap">
               <h1>Hydrate YOself</h1>
-              <button type="button" class="btn btn-primary"><a href="/products">Product</a></button>
+              <button type="button" class="btn btn-primary"><a href="/products">For More Information</a></button>
             </div>
         </div>
       </div>
