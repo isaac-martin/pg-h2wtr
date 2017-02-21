@@ -16,7 +16,7 @@ get_header();?>
             <img class="home-banner" src="<?php bloginfo('stylesheet_directory'); ?>/assetts/img/home-banner.png" alt="Watermelon Drink Banner: H2Melon infront of Whole Watermelon" />
             <div class="text-wrap">
               <h1>Hydrate YOself</h1>
-              <button type="button" class="btn btn-primary"><a href="/products">For More Information</a></button>
+              <button type="button" class="btn btn-primary"><a href="/product">For More Information</a></button>
             </div>
         </div>
       </div>
@@ -67,14 +67,14 @@ get_header();?>
           <p>
             H2melon has all the electrolytes needed for you to bounce back from a night cutting shapes, with the added boost of L-Citrulline, a fruity little amino acid which aids muscle recovery. Limber up with us and we’ll get you back on the dancefloor!
           </p>
-          <!-- <button type="button" class="btn btn-primary"><a href="/shop">Product</a></button> -->
+          <!-- <button type="button" class="btn btn-primary"><a href="/product">Product</a></button> -->
 
         </div>
         <div class="col-md-4 offset-md-1 pad-top text-fade txt-trg-2">
           <h2 class="uppercase">Superfood Alert!</h2>
           <p>
             We heart watermelon, and you should too because  natural watermelon juice is packed with vitamin C and Lycopene. Lyco-who?! Lycopene is a carotenoid phytonutrient, a super powerful antioxidant which is great for your insides. So the benefits of watermelon packed inside H2melon’s watermelon drink are good for you, and for your taste buds. What a superfood!
-          <!-- <button type="button" class="btn btn-primary"><a href="/shop">Product</a></button> -->
+          <!-- <button type="button" class="btn btn-primary"><a href="/product">Product</a></button> -->
 
         </div>
         <div class="col-md-7">
@@ -101,7 +101,7 @@ get_header();?>
 Craving that tropical holiday vibe, but the grind is getting you down? Kick back with H2melon and soak up the summer straight out the bottle.          </p>
         </div>
         <!-- <span class="buy-icon"><a href="#"></a></span> -->
-        <!-- <button type="button" class="btn btn-primary"><a href="/products">Product</a></button> -->
+        <!-- <button type="button" class="btn btn-primary"><a href="/product">Product</a></button> -->
 
       </div>
     </div>
