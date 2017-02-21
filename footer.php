@@ -14,7 +14,7 @@
 	<div class="footer-inner">
 		<div class="container">
 			<div class="row">
-				<div class="col-md-6 hidden-sm-down">
+				<div class="col-sm-7 hidden-sm-down">
 					<?php wp_nav_menu(
 						array(
 							'theme_location'  => 'footer',
@@ -26,10 +26,10 @@
 					); ?>
 				</div>
 
-				<div class="col-md-4 hidden-sm-down">
+				<div class="col-sm-3 hidden-md-down">
 					<a href="<?php echo get_site_url(); ?>"><img class="footer-logo" src="<?php bloginfo('stylesheet_directory'); ?>/assetts/img/logo-white.svg" alt="H2Melon Watermelon Water Logo White"/></a>
 				</div>
-				<div class="col-md-3">
+				<div class="col-sm-3">
 				<ul class="social-media-icons align-self-center">
 					<li><a href="<?php the_field('instagram_url', 'options')?>"><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
 					<li><a href="<?php the_field('facebook_url', 'options')?>"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
@@ -38,7 +38,7 @@
 				</div>
 
 
-				<div class="col-md-3">
+				<div class="col-sm-3">
 					<!-- Begin MailChimp Signup Form -->
 					<div id="mc_embed_signup" class="footer-form">
 					<form action="//h2melon.us12.list-manage.com/subscribe/post?u=15a1ba46f2ef3436777ccec17&amp;id=36e7be12c9" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate news-form" target="_blank" novalidate>
@@ -65,6 +65,16 @@
 
 <?php wp_footer(); ?>
 
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-90304730-1', 'auto');
+  ga('send', 'pageview');
+
+</script>
 </body>
 
 </html>

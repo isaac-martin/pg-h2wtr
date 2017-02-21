@@ -102,7 +102,7 @@ body {
 }
 
 .menu-item {
-  font-size: 1.3rem;
+  font-size: 1.2rem;
 }
 .mini-nav {
   position: fixed;
@@ -197,6 +197,11 @@ body {
   text-transform: uppercase;
   font-size: 2rem;
 line-height: 1.8rem;
+
+@include media-breakpoint-down(lg) {
+  font-size: 1.4rem;
+  line-height: 1.4rem;
+}
 }
 
 .navbar {
@@ -410,6 +415,14 @@ line-height: 1.8rem;
   position: relative;
   bottom: 0;
 
+    @include media-breakpoint-down(lg) {
+      img {
+        width: 50%;
+    margin: 20px auto;
+    display: block;
+      }
+    }
+
 }
 
 .nip {
@@ -618,7 +631,7 @@ footer {
   background-position: center center;
   width: 100vw;
   position: relative;
-  bottom: 10px;
+  bottom: 0;
   margin: 0;
   padding: 0 0 10px 0;
   display: inline-block;
@@ -633,6 +646,7 @@ footer {
   .nav-link{
       color: white;
       text-transform: uppercase;
+      padding: 0 .8em 0 0;
     }
 
     .menu-item {
@@ -641,9 +655,9 @@ footer {
 }
 
 .footer-logo {
-  margin: 0 auto;
+  margin: 0 31% 0 auto;
   display: block;
-  width: 35%;
+  width: 50%;
   padding: 10px 0;
 }
 
@@ -706,8 +720,8 @@ footer {
 
 .social-media-icons {
   list-style-type: none;
-  padding-top: 40px;
   text-align: center;
+  padding: 40px 0 0 0;
 
   li {
     display: inline-block;
@@ -715,6 +729,14 @@ footer {
 
     i {
       font-size: 2rem;
+
+      @include media-breakpoint-down(lg) {
+        font-size: 1.5rem;
+      }
+
+      @include media-breakpoint-down(sm) {
+        font-size: 2rem;
+      }
     }
 
     a {

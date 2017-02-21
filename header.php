@@ -28,7 +28,7 @@ $container = get_theme_mod( 'understrap_container_type' );
 
 <div class="hfeed site" id="page">
 
-	<div class="mobile-nav hidden-sm-up">
+	<div class="mobile-nav hidden-md-up">
 		<button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#mobile-menu" aria-controls="mobile-menu" aria-expanded="false" aria-label="Toggle navigation">
     <span class="navbar-toggler-icon"><i class="fa fa-bars fa-2x" aria-hidden="true"></i></span>
   </button>
@@ -45,10 +45,10 @@ $container = get_theme_mod( 'understrap_container_type' );
 					); ?>
 	</div>
 
-	<div class="mini-nav hidden-sm-down">
+	<div class="mini-nav hidden-md-down">
 		<div class="container">
 			<div class="row">
-				<div class="col-md-8">
+				<div class="col-md-9">
 					<?php wp_nav_menu(
 						array(
 							'theme_location'  => 'mini',
@@ -61,7 +61,7 @@ $container = get_theme_mod( 'understrap_container_type' );
 						)
 					); ?>
 				</div>
-				<div class="col-md-8">
+				<div class="col-md-7">
 					<p>
 						<?php echo get_bloginfo( 'description' ); ?>
 					</p>
@@ -73,7 +73,7 @@ $container = get_theme_mod( 'understrap_container_type' );
 
 	<!-- ******************* The Navbar Area ******************* -->
 
-	<div class="wrapper-info-bar full-w pink-bg-drk hidden-sm-down">
+	<div class="wrapper-info-bar full-w pink-bg-drk hidden-md-down">
 		<div class="container">
 			<div class="row">
 				<div class="col-md-8">
@@ -93,7 +93,7 @@ $container = get_theme_mod( 'understrap_container_type' );
 			</div>
 		</div>
 	</div>
-	<div class="wrapper-fluid wrapper-navbar hidden-sm-down" id="wrapper-navbar">
+	<div class="wrapper-fluid wrapper-navbar hidden-md-down" id="wrapper-navbar">
 
 		<a class="skip-link screen-reader-text sr-only" href="#content"><?php _e( 'Skip to content',
 		'understrap' ); ?></a>
@@ -136,12 +136,6 @@ $container = get_theme_mod( 'understrap_container_type' );
 							)
 						); ?> -->
 					</div>
-
-					<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
-	    				<span class="navbar-toggler-icon"></span>
-	 				 </button>
-
-
 
 
 				 </div><!-- .row -->
