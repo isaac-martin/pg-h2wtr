@@ -77,7 +77,7 @@ $container = get_theme_mod( 'understrap_container_type' );
 		<div class="container">
 			<div class="row">
 				<div class="col-md-8">
-					<!-- <a class="account-link" href="/my-account">My Account</a> -->
+					<a class="account-link" href="/my-account">My Account</a>
 				</div>
 				<div class="col-md-8">
 					<div class="info-bar-inner right">
@@ -87,7 +87,7 @@ $container = get_theme_mod( 'understrap_container_type' );
 						    else:
 						        $linkURL = get_field('link','options');
 						    endif; ?>
-								<!-- <button type="button" class="btn btn-secondary"><a href="<?php echo $linkURL; ?>"><?php the_field('button_text','options');?></a></button> -->
+								<button type="button" class="btn btn-secondary"><a href="<?php echo $linkURL; ?>"><?php the_field('button_text','options');?></a></button>
 					</div>
 				</div>
 			</div>
@@ -127,14 +127,14 @@ $container = get_theme_mod( 'understrap_container_type' );
 					</div>
 
 					<div class="col-md-2">
-						<!-- <?php wp_nav_menu(
+						<?php wp_nav_menu(
 							array(
 								'theme_location'  => 'shopping-header',
 								'menu_id'         => 'shopping-menu',
 								'menu_class'      => 'shop-nav align-items-end'
 								// 'walker'          => new WP_Bootstrap_Navwalker(),
 							)
-						); ?> -->
+						); ?>
 					</div>
 
 

@@ -67,7 +67,7 @@ get_header();?>
           <p>
             H2melon has all the electrolytes needed for you to bounce back from a night cutting shapes, with the added boost of L-Citrulline, a fruity little amino acid which aids muscle recovery. Limber up with us and we’ll get you back on the dancefloor!
           </p>
-          <!-- <button type="button" class="btn btn-primary"><a href="/product">Product</a></button> -->
+          <button type="button" class="btn btn-primary"><a href="/product">View Products</a></button>
 
         </div>
         <div class="col-md-4 offset-md-1 pad-top text-fade txt-trg-2">
@@ -100,14 +100,12 @@ get_header();?>
           <p class="large-p">
 Craving that tropical holiday vibe, but the grind is getting you down? Kick back with H2melon and soak up the summer straight out the bottle.          </p>
         </div>
-        <!-- <span class="buy-icon"><a href="#"></a></span> -->
+        <span class="buy-icon"><a href="/product/watermelon-water/"></a></span>
         <!-- <button type="button" class="btn btn-primary"><a href="/product">Product</a></button> -->
 
       </div>
     </div>
   </div>
-  <!-- <svg class="home-svg svg-top" width="100%" height="100%" viewBox="0 0 1600 100" preserveAspectRatio="xMidYMid slice">
-      <polygon class="svg-blue" points="0,0 0,0 1600,100 1600,0"></polygon>  </svg> -->
   <img class="drink-carton hidden-sm-down" src="<?php bloginfo('stylesheet_directory'); ?>/assetts/img/product_500ml.png" alt="H2Melon Watermelon Juice 500ml Product Image" />
   </section>
 </section><!--content-wrapper-->
