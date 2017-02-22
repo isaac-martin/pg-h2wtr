@@ -6,7 +6,7 @@ html {
   font-size: 16px;
 }
 
-@include media-breakpoint-down(sm) {
+@include media-breakpoint-down(md) {
   .content-wrapper {
     padding-top: 30px!important;
   }
@@ -897,9 +897,10 @@ border-bottom-right-radius: 5px;
     display: inline-block;
     border: 2px solid $brand-green;
     padding: 10px 60px;
-    margin: 0 10px 0 0;
+    margin: 0 10px 10px 0;
     background: $brand-green;
     color: $white;
+    width: 200px;
     cursor: pointer;
 
     &:hover {

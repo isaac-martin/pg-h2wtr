@@ -44,7 +44,7 @@ get_header();?>
         </div>
     </div>
 
-      <div class="col-md-5 offset-md-3 z-10 mob-pad-override">
+    <div class="col-md-8 col-lg-5 offset-lg-3 z-10 mob-pad-override">
         <div class="home-txt-cont text-fade txt-trg-1">
           <h2 class="uppercase">A Good Vibes Drink</h2>
           <p>

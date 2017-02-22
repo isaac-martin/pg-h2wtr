@@ -26,7 +26,7 @@
     .setClassToggle(".txt-trg-3", "text-fade-in") // add class toggle
     .addTo(controller);
 
- new ScrollMagic.Scene({triggerElement: ".melon-type-cont"})
+ new ScrollMagic.Scene({triggerElement: ".melon-type-cont", duration: 2000,})
                         .setClassToggle(".melon-slice", "slide-btm-activate") // add class toggle
                         .addTo(controller);
 

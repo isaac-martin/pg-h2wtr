@@ -145,6 +145,8 @@ padding: 0;
 
 .after-banner {
   padding-top: 300px;
+
+
 }
 
 //Parralax Elements
@@ -193,7 +195,12 @@ padding: 0;
   padding-bottom: 20px;
 }
 
+@include media-breakpoint-down(md) {
+  .after-banner {
+    padding-top: 0!important;
+  }
 
+}
 //Responsive
 @include media-breakpoint-down(sm) {
   .melon-container {
@@ -213,10 +220,6 @@ padding: 0;
     padding-bottom: 100px;
   }
 }
-
-  .after-banner {
-    padding-top: 0!important;
-  }
 
   .disco-cont {
     height: 300px;
