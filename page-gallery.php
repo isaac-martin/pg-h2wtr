@@ -13,7 +13,7 @@
      <div class="row">
        <div class="col-md-12 offset-md-2 mrg-btm padding-top">
          <h1 class="text-center">We love our melons as much as you do.</h1>
-         <?php do_shortcode('[instagram-feed]');?> 
+         <?php echo do_shortcode('[instagram-feed]');?> 
          <a class="pink-btn" target="_blank" href="<?php the_field('instagram_url', 'options')?>">Roll with us @H2melonwater</a>
        </div>
      </div>
