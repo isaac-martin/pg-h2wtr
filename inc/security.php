@@ -35,7 +35,7 @@ remove_action( 'wp_head', 'wp_shortlink_wp_head', 10, 0 );
  * @return string
  */
 function show_less_login_info() {
-	return '<strong>ERROR</strong>: Stop guessing!';
+	return '<strong>ERROR</strong>: Wrong Password, Please Try again, if you have forgotten you can reset below';
 }
 
 add_filter( 'login_errors', 'show_less_login_info' );

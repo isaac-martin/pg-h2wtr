@@ -425,10 +425,6 @@ line-height: 1.8rem;
 
 }
 
-.nip {
-  width: 100%;
-}
-
 .negative-top {
   top: -120px;
 }
@@ -437,12 +433,30 @@ line-height: 1.8rem;
   text-shadow: 3px 1px 2px rgba(0,0,0,.8);
 }
 
+
+.bg-img {
+  position: fixed;
+  display: block;
+    z-index: -1;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+  img {
+  max-width: initial;
+  height: 100%;
+  object-fit: cover;
+  width: 100%;
+  }
+}
 .page-id-129 {
-  background-image: url(../assetts/img/melon-bg.jpg);
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: center center;
-  background-attachment: fixed;
+  // background-image: url(../assetts/img/melon-bg.jpg);
+  // background-size: cover;
+  // background-repeat: no-repeat;
+  // background-position: center center;
+  // background-attachment: fixed;
+
+
 
   .footer-inner {
     background: none;
@@ -753,7 +767,6 @@ footer {
 
 
 .melon-bg {
-  max-width: 800px;
   top: 100px;
   .modal-content {
   background-image: url(../assetts/img/melon-bg.jpg);
@@ -764,6 +777,12 @@ footer {
   max-width: 800px;
   border: 10px solid $brand-drk-pink;
   border-radius: 20px;
+
+  img {
+    height: 70vh;
+    display: block;
+    margin: 0 auto;
+  }
 }
 
 

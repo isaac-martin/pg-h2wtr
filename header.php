@@ -77,7 +77,7 @@ $container = get_theme_mod( 'understrap_container_type' );
 		<div class="container">
 			<div class="row">
 				<div class="col-md-8">
-					<a class="account-link" href="/my-account">My Account</a>
+					<!-- <a class="account-link" href="/my-account">My Account</a> -->
 				</div>
 				<div class="col-md-8">
 					<div class="info-bar-inner right">
@@ -86,8 +86,13 @@ $container = get_theme_mod( 'understrap_container_type' );
 						        $linkURL = get_field('page','options');
 						    else:
 						        $linkURL = get_field('link','options');
-						    endif; ?>
-								<button type="button" class="btn btn-secondary"><a href="<?php echo $linkURL; ?>"><?php the_field('button_text','options');?></a></button>
+
+								endif; ?>
+
+								<?php if( get_field('button_text','options') ): ?>
+									<button type="button" class="btn btn-secondary"><a href="<?php echo $linkURL; ?>"><?php the_field('button_text','options');?></a></button>
+								<?php endif; ?>
+
 					</div>
 				</div>
 			</div>
@@ -126,7 +131,7 @@ $container = get_theme_mod( 'understrap_container_type' );
 						</p>
 					</div>
 
-					<div class="col-md-2">
+					<!-- <div class="col-md-2">
 						<?php wp_nav_menu(
 							array(
 								'theme_location'  => 'shopping-header',
@@ -135,7 +140,7 @@ $container = get_theme_mod( 'understrap_container_type' );
 								// 'walker'          => new WP_Bootstrap_Navwalker(),
 							)
 						); ?>
-					</div>
+					</div> -->
 
 
 				 </div><!-- .row -->
