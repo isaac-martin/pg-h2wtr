@@ -1987,22 +1987,22 @@ fieldset[disabled] a.btn {
     border-color: #5a9132; }
 
 .btn-secondary {
-  color: #fff;
-  background-color: #CC6666;
+  color: #292b2c;
+  background-color: #fff;
   border-color: #ccc; }
   .btn-secondary:hover {
-    color: #fff;
-    background-color: #bf4040;
+    color: #292b2c;
+    background-color: #e6e6e6;
     border-color: #adadad; }
   .btn-secondary:focus, .btn-secondary.focus {
     box-shadow: 0 0 0 2px rgba(204, 204, 204, 0.5); }
   .btn-secondary.disabled, .btn-secondary:disabled {
-    background-color: #CC6666;
+    background-color: #fff;
     border-color: #ccc; }
   .btn-secondary:active, .btn-secondary.active,
   .show > .btn-secondary.dropdown-toggle {
-    color: #fff;
-    background-color: #bf4040;
+    color: #292b2c;
+    background-color: #e6e6e6;
     background-image: none;
     border-color: #adadad; }
 
@@ -9243,1400 +9243,1400 @@ a {
     opacity: 0; }
 
 .fire i:nth-of-type(1) {
-  -webkit-transform: translate3d(532px, -134px, 0) rotate(40deg);
-  -moz-transform: translate3d(532px, -134px, 0) rotate(40deg);
-  -ms-transform: translate3d(532px, -134px, 0) rotate(40deg);
-  -o-transform: translate3d(532px, -134px, 0) rotate(40deg);
-  transform: translate3d(532px, -134px, 0) rotate(40deg);
+  -webkit-transform: translate3d(524px, 277px, 0) rotate(86deg);
+  -moz-transform: translate3d(524px, 277px, 0) rotate(86deg);
+  -ms-transform: translate3d(524px, 277px, 0) rotate(86deg);
+  -o-transform: translate3d(524px, 277px, 0) rotate(86deg);
+  transform: translate3d(524px, 277px, 0) rotate(86deg);
   background-image: url(../assetts/img/confetti-bg.png);
-  background-position: 83%;
-  background-size: 142px;
+  background-position: 59%;
+  background-size: 56px;
   -webkit-animation: bang 3000ms ease-out forwards;
   -moz-animation: bang 3000ms ease-out forwards;
   animation: bang 3000ms ease-out forwards;
   opacity: 0; }
 
 .fire i:nth-of-type(2) {
-  -webkit-transform: translate3d(1072px, 679px, 0) rotate(111deg);
-  -moz-transform: translate3d(1072px, 679px, 0) rotate(111deg);
-  -ms-transform: translate3d(1072px, 679px, 0) rotate(111deg);
-  -o-transform: translate3d(1072px, 679px, 0) rotate(111deg);
-  transform: translate3d(1072px, 679px, 0) rotate(111deg);
+  -webkit-transform: translate3d(2041px, 395px, 0) rotate(55deg);
+  -moz-transform: translate3d(2041px, 395px, 0) rotate(55deg);
+  -ms-transform: translate3d(2041px, 395px, 0) rotate(55deg);
+  -o-transform: translate3d(2041px, 395px, 0) rotate(55deg);
+  transform: translate3d(2041px, 395px, 0) rotate(55deg);
   background-image: url(../assetts/img/confetti-bg.png);
-  background-position: 54%;
-  background-size: 59px;
+  background-position: 88%;
+  background-size: 83px;
   -webkit-animation: bang 3000ms ease-out forwards;
   -moz-animation: bang 3000ms ease-out forwards;
   animation: bang 3000ms ease-out forwards;
   opacity: 0; }
 
 .fire i:nth-of-type(3) {
-  -webkit-transform: translate3d(1961px, 511px, 0) rotate(61deg);
-  -moz-transform: translate3d(1961px, 511px, 0) rotate(61deg);
-  -ms-transform: translate3d(1961px, 511px, 0) rotate(61deg);
-  -o-transform: translate3d(1961px, 511px, 0) rotate(61deg);
-  transform: translate3d(1961px, 511px, 0) rotate(61deg);
+  -webkit-transform: translate3d(878px, -89px, 0) rotate(166deg);
+  -moz-transform: translate3d(878px, -89px, 0) rotate(166deg);
+  -ms-transform: translate3d(878px, -89px, 0) rotate(166deg);
+  -o-transform: translate3d(878px, -89px, 0) rotate(166deg);
+  transform: translate3d(878px, -89px, 0) rotate(166deg);
   background-image: url(../assetts/img/confetti-bg.png);
-  background-position: 77%;
-  background-size: 108px;
+  background-position: 50%;
+  background-size: 59px;
   -webkit-animation: bang 3000ms ease-out forwards;
   -moz-animation: bang 3000ms ease-out forwards;
   animation: bang 3000ms ease-out forwards;
   opacity: 0; }
 
 .fire i:nth-of-type(4) {
-  -webkit-transform: translate3d(1057px, 897px, 0) rotate(29deg);
-  -moz-transform: translate3d(1057px, 897px, 0) rotate(29deg);
-  -ms-transform: translate3d(1057px, 897px, 0) rotate(29deg);
-  -o-transform: translate3d(1057px, 897px, 0) rotate(29deg);
-  transform: translate3d(1057px, 897px, 0) rotate(29deg);
+  -webkit-transform: translate3d(2094px, 37px, 0) rotate(69deg);
+  -moz-transform: translate3d(2094px, 37px, 0) rotate(69deg);
+  -ms-transform: translate3d(2094px, 37px, 0) rotate(69deg);
+  -o-transform: translate3d(2094px, 37px, 0) rotate(69deg);
+  transform: translate3d(2094px, 37px, 0) rotate(69deg);
   background-image: url(../assetts/img/confetti-bg.png);
-  background-position: 75%;
-  background-size: 74px;
+  background-position: 50%;
+  background-size: 138px;
   -webkit-animation: bang 3000ms ease-out forwards;
   -moz-animation: bang 3000ms ease-out forwards;
   animation: bang 3000ms ease-out forwards;
   opacity: 0; }
 
 .fire i:nth-of-type(5) {
-  -webkit-transform: translate3d(1561px, 917px, 0) rotate(166deg);
-  -moz-transform: translate3d(1561px, 917px, 0) rotate(166deg);
-  -ms-transform: translate3d(1561px, 917px, 0) rotate(166deg);
-  -o-transform: translate3d(1561px, 917px, 0) rotate(166deg);
-  transform: translate3d(1561px, 917px, 0) rotate(166deg);
-  background-image: url(../assetts/img/confetti-bg.png);
-  background-position: 88%;
-  background-size: 109px;
-  -webkit-animation: bang 3000ms ease-out forwards;
-  -moz-animation: bang 3000ms ease-out forwards;
-  animation: bang 3000ms ease-out forwards;
-  opacity: 0; }
-
-.fire i:nth-of-type(6) {
-  -webkit-transform: translate3d(1273px, 436px, 0) rotate(134deg);
-  -moz-transform: translate3d(1273px, 436px, 0) rotate(134deg);
-  -ms-transform: translate3d(1273px, 436px, 0) rotate(134deg);
-  -o-transform: translate3d(1273px, 436px, 0) rotate(134deg);
-  transform: translate3d(1273px, 436px, 0) rotate(134deg);
-  background-image: url(../assetts/img/confetti-bg.png);
-  background-position: 96%;
-  background-size: 103px;
-  -webkit-animation: bang 3000ms ease-out forwards;
-  -moz-animation: bang 3000ms ease-out forwards;
-  animation: bang 3000ms ease-out forwards;
-  opacity: 0; }
-
-.fire i:nth-of-type(7) {
-  -webkit-transform: translate3d(2200px, 159px, 0) rotate(52deg);
-  -moz-transform: translate3d(2200px, 159px, 0) rotate(52deg);
-  -ms-transform: translate3d(2200px, 159px, 0) rotate(52deg);
-  -o-transform: translate3d(2200px, 159px, 0) rotate(52deg);
-  transform: translate3d(2200px, 159px, 0) rotate(52deg);
-  background-image: url(../assetts/img/confetti-bg.png);
-  background-position: 37%;
-  background-size: 149px;
-  -webkit-animation: bang 3000ms ease-out forwards;
-  -moz-animation: bang 3000ms ease-out forwards;
-  animation: bang 3000ms ease-out forwards;
-  opacity: 0; }
-
-.fire i:nth-of-type(8) {
-  -webkit-transform: translate3d(1503px, -97px, 0) rotate(4deg);
-  -moz-transform: translate3d(1503px, -97px, 0) rotate(4deg);
-  -ms-transform: translate3d(1503px, -97px, 0) rotate(4deg);
-  -o-transform: translate3d(1503px, -97px, 0) rotate(4deg);
-  transform: translate3d(1503px, -97px, 0) rotate(4deg);
-  background-image: url(../assetts/img/confetti-bg.png);
-  background-position: 90%;
-  background-size: 78px;
-  -webkit-animation: bang 3000ms ease-out forwards;
-  -moz-animation: bang 3000ms ease-out forwards;
-  animation: bang 3000ms ease-out forwards;
-  opacity: 0; }
-
-.fire i:nth-of-type(9) {
-  -webkit-transform: translate3d(837px, 996px, 0) rotate(10deg);
-  -moz-transform: translate3d(837px, 996px, 0) rotate(10deg);
-  -ms-transform: translate3d(837px, 996px, 0) rotate(10deg);
-  -o-transform: translate3d(837px, 996px, 0) rotate(10deg);
-  transform: translate3d(837px, 996px, 0) rotate(10deg);
-  background-image: url(../assetts/img/confetti-bg.png);
-  background-position: 99%;
-  background-size: 88px;
-  -webkit-animation: bang 3000ms ease-out forwards;
-  -moz-animation: bang 3000ms ease-out forwards;
-  animation: bang 3000ms ease-out forwards;
-  opacity: 0; }
-
-.fire i:nth-of-type(10) {
-  -webkit-transform: translate3d(913px, -57px, 0) rotate(186deg);
-  -moz-transform: translate3d(913px, -57px, 0) rotate(186deg);
-  -ms-transform: translate3d(913px, -57px, 0) rotate(186deg);
-  -o-transform: translate3d(913px, -57px, 0) rotate(186deg);
-  transform: translate3d(913px, -57px, 0) rotate(186deg);
-  background-image: url(../assetts/img/confetti-bg.png);
-  background-position: 13%;
-  background-size: 85px;
-  -webkit-animation: bang 3000ms ease-out forwards;
-  -moz-animation: bang 3000ms ease-out forwards;
-  animation: bang 3000ms ease-out forwards;
-  opacity: 0; }
-
-.fire i:nth-of-type(11) {
-  -webkit-transform: translate3d(419px, -58px, 0) rotate(15deg);
-  -moz-transform: translate3d(419px, -58px, 0) rotate(15deg);
-  -ms-transform: translate3d(419px, -58px, 0) rotate(15deg);
-  -o-transform: translate3d(419px, -58px, 0) rotate(15deg);
-  transform: translate3d(419px, -58px, 0) rotate(15deg);
-  background-image: url(../assetts/img/confetti-bg.png);
-  background-position: 97%;
-  background-size: 58px;
-  -webkit-animation: bang 3000ms ease-out forwards;
-  -moz-animation: bang 3000ms ease-out forwards;
-  animation: bang 3000ms ease-out forwards;
-  opacity: 0; }
-
-.fire i:nth-of-type(12) {
-  -webkit-transform: translate3d(853px, -15px, 0) rotate(128deg);
-  -moz-transform: translate3d(853px, -15px, 0) rotate(128deg);
-  -ms-transform: translate3d(853px, -15px, 0) rotate(128deg);
-  -o-transform: translate3d(853px, -15px, 0) rotate(128deg);
-  transform: translate3d(853px, -15px, 0) rotate(128deg);
-  background-image: url(../assetts/img/confetti-bg.png);
-  background-position: 80%;
-  background-size: 144px;
-  -webkit-animation: bang 3000ms ease-out forwards;
-  -moz-animation: bang 3000ms ease-out forwards;
-  animation: bang 3000ms ease-out forwards;
-  opacity: 0; }
-
-.fire i:nth-of-type(13) {
-  -webkit-transform: translate3d(1169px, -153px, 0) rotate(21deg);
-  -moz-transform: translate3d(1169px, -153px, 0) rotate(21deg);
-  -ms-transform: translate3d(1169px, -153px, 0) rotate(21deg);
-  -o-transform: translate3d(1169px, -153px, 0) rotate(21deg);
-  transform: translate3d(1169px, -153px, 0) rotate(21deg);
-  background-image: url(../assetts/img/confetti-bg.png);
-  background-position: 6%;
-  background-size: 53px;
-  -webkit-animation: bang 3000ms ease-out forwards;
-  -moz-animation: bang 3000ms ease-out forwards;
-  animation: bang 3000ms ease-out forwards;
-  opacity: 0; }
-
-.fire i:nth-of-type(14) {
-  -webkit-transform: translate3d(348px, 199px, 0) rotate(176deg);
-  -moz-transform: translate3d(348px, 199px, 0) rotate(176deg);
-  -ms-transform: translate3d(348px, 199px, 0) rotate(176deg);
-  -o-transform: translate3d(348px, 199px, 0) rotate(176deg);
-  transform: translate3d(348px, 199px, 0) rotate(176deg);
-  background-image: url(../assetts/img/confetti-bg.png);
-  background-position: 38%;
-  background-size: 101px;
-  -webkit-animation: bang 3000ms ease-out forwards;
-  -moz-animation: bang 3000ms ease-out forwards;
-  animation: bang 3000ms ease-out forwards;
-  opacity: 0; }
-
-.fire i:nth-of-type(15) {
-  -webkit-transform: translate3d(1432px, 358px, 0) rotate(106deg);
-  -moz-transform: translate3d(1432px, 358px, 0) rotate(106deg);
-  -ms-transform: translate3d(1432px, 358px, 0) rotate(106deg);
-  -o-transform: translate3d(1432px, 358px, 0) rotate(106deg);
-  transform: translate3d(1432px, 358px, 0) rotate(106deg);
-  background-image: url(../assetts/img/confetti-bg.png);
-  background-position: 59%;
-  background-size: 124px;
-  -webkit-animation: bang 3000ms ease-out forwards;
-  -moz-animation: bang 3000ms ease-out forwards;
-  animation: bang 3000ms ease-out forwards;
-  opacity: 0; }
-
-.fire i:nth-of-type(16) {
-  -webkit-transform: translate3d(1772px, 908px, 0) rotate(131deg);
-  -moz-transform: translate3d(1772px, 908px, 0) rotate(131deg);
-  -ms-transform: translate3d(1772px, 908px, 0) rotate(131deg);
-  -o-transform: translate3d(1772px, 908px, 0) rotate(131deg);
-  transform: translate3d(1772px, 908px, 0) rotate(131deg);
-  background-image: url(../assetts/img/confetti-bg.png);
-  background-position: 6%;
-  background-size: 129px;
-  -webkit-animation: bang 3000ms ease-out forwards;
-  -moz-animation: bang 3000ms ease-out forwards;
-  animation: bang 3000ms ease-out forwards;
-  opacity: 0; }
-
-.fire i:nth-of-type(17) {
-  -webkit-transform: translate3d(1440px, -36px, 0) rotate(171deg);
-  -moz-transform: translate3d(1440px, -36px, 0) rotate(171deg);
-  -ms-transform: translate3d(1440px, -36px, 0) rotate(171deg);
-  -o-transform: translate3d(1440px, -36px, 0) rotate(171deg);
-  transform: translate3d(1440px, -36px, 0) rotate(171deg);
-  background-image: url(../assetts/img/confetti-bg.png);
-  background-position: 43%;
-  background-size: 136px;
-  -webkit-animation: bang 3000ms ease-out forwards;
-  -moz-animation: bang 3000ms ease-out forwards;
-  animation: bang 3000ms ease-out forwards;
-  opacity: 0; }
-
-.fire i:nth-of-type(18) {
-  -webkit-transform: translate3d(293px, 521px, 0) rotate(61deg);
-  -moz-transform: translate3d(293px, 521px, 0) rotate(61deg);
-  -ms-transform: translate3d(293px, 521px, 0) rotate(61deg);
-  -o-transform: translate3d(293px, 521px, 0) rotate(61deg);
-  transform: translate3d(293px, 521px, 0) rotate(61deg);
-  background-image: url(../assetts/img/confetti-bg.png);
-  background-position: 34%;
-  background-size: 80px;
-  -webkit-animation: bang 3000ms ease-out forwards;
-  -moz-animation: bang 3000ms ease-out forwards;
-  animation: bang 3000ms ease-out forwards;
-  opacity: 0; }
-
-.fire i:nth-of-type(19) {
-  -webkit-transform: translate3d(1759px, 241px, 0) rotate(175deg);
-  -moz-transform: translate3d(1759px, 241px, 0) rotate(175deg);
-  -ms-transform: translate3d(1759px, 241px, 0) rotate(175deg);
-  -o-transform: translate3d(1759px, 241px, 0) rotate(175deg);
-  transform: translate3d(1759px, 241px, 0) rotate(175deg);
-  background-image: url(../assetts/img/confetti-bg.png);
-  background-position: 81%;
-  background-size: 81px;
-  -webkit-animation: bang 3000ms ease-out forwards;
-  -moz-animation: bang 3000ms ease-out forwards;
-  animation: bang 3000ms ease-out forwards;
-  opacity: 0; }
-
-.fire i:nth-of-type(20) {
-  -webkit-transform: translate3d(702px, 482px, 0) rotate(184deg);
-  -moz-transform: translate3d(702px, 482px, 0) rotate(184deg);
-  -ms-transform: translate3d(702px, 482px, 0) rotate(184deg);
-  -o-transform: translate3d(702px, 482px, 0) rotate(184deg);
-  transform: translate3d(702px, 482px, 0) rotate(184deg);
-  background-image: url(../assetts/img/confetti-bg.png);
-  background-position: 26%;
-  background-size: 145px;
-  -webkit-animation: bang 3000ms ease-out forwards;
-  -moz-animation: bang 3000ms ease-out forwards;
-  animation: bang 3000ms ease-out forwards;
-  opacity: 0; }
-
-.fire i:nth-of-type(21) {
-  -webkit-transform: translate3d(1704px, 522px, 0) rotate(47deg);
-  -moz-transform: translate3d(1704px, 522px, 0) rotate(47deg);
-  -ms-transform: translate3d(1704px, 522px, 0) rotate(47deg);
-  -o-transform: translate3d(1704px, 522px, 0) rotate(47deg);
-  transform: translate3d(1704px, 522px, 0) rotate(47deg);
-  background-image: url(../assetts/img/confetti-bg.png);
-  background-position: 88%;
-  background-size: 132px;
-  -webkit-animation: bang 3000ms ease-out forwards;
-  -moz-animation: bang 3000ms ease-out forwards;
-  animation: bang 3000ms ease-out forwards;
-  opacity: 0; }
-
-.fire i:nth-of-type(22) {
-  -webkit-transform: translate3d(1272px, 919px, 0) rotate(63deg);
-  -moz-transform: translate3d(1272px, 919px, 0) rotate(63deg);
-  -ms-transform: translate3d(1272px, 919px, 0) rotate(63deg);
-  -o-transform: translate3d(1272px, 919px, 0) rotate(63deg);
-  transform: translate3d(1272px, 919px, 0) rotate(63deg);
-  background-image: url(../assetts/img/confetti-bg.png);
-  background-position: 80%;
-  background-size: 148px;
-  -webkit-animation: bang 3000ms ease-out forwards;
-  -moz-animation: bang 3000ms ease-out forwards;
-  animation: bang 3000ms ease-out forwards;
-  opacity: 0; }
-
-.fire i:nth-of-type(23) {
-  -webkit-transform: translate3d(1426px, 35px, 0) rotate(121deg);
-  -moz-transform: translate3d(1426px, 35px, 0) rotate(121deg);
-  -ms-transform: translate3d(1426px, 35px, 0) rotate(121deg);
-  -o-transform: translate3d(1426px, 35px, 0) rotate(121deg);
-  transform: translate3d(1426px, 35px, 0) rotate(121deg);
-  background-image: url(../assetts/img/confetti-bg.png);
-  background-position: 61%;
-  background-size: 58px;
-  -webkit-animation: bang 3000ms ease-out forwards;
-  -moz-animation: bang 3000ms ease-out forwards;
-  animation: bang 3000ms ease-out forwards;
-  opacity: 0; }
-
-.fire i:nth-of-type(24) {
-  -webkit-transform: translate3d(380px, -98px, 0) rotate(30deg);
-  -moz-transform: translate3d(380px, -98px, 0) rotate(30deg);
-  -ms-transform: translate3d(380px, -98px, 0) rotate(30deg);
-  -o-transform: translate3d(380px, -98px, 0) rotate(30deg);
-  transform: translate3d(380px, -98px, 0) rotate(30deg);
-  background-image: url(../assetts/img/confetti-bg.png);
-  background-position: 77%;
-  background-size: 59px;
-  -webkit-animation: bang 3000ms ease-out forwards;
-  -moz-animation: bang 3000ms ease-out forwards;
-  animation: bang 3000ms ease-out forwards;
-  opacity: 0; }
-
-.fire i:nth-of-type(25) {
-  -webkit-transform: translate3d(1365px, 709px, 0) rotate(7deg);
-  -moz-transform: translate3d(1365px, 709px, 0) rotate(7deg);
-  -ms-transform: translate3d(1365px, 709px, 0) rotate(7deg);
-  -o-transform: translate3d(1365px, 709px, 0) rotate(7deg);
-  transform: translate3d(1365px, 709px, 0) rotate(7deg);
-  background-image: url(../assetts/img/confetti-bg.png);
-  background-position: 3%;
-  background-size: 103px;
-  -webkit-animation: bang 3000ms ease-out forwards;
-  -moz-animation: bang 3000ms ease-out forwards;
-  animation: bang 3000ms ease-out forwards;
-  opacity: 0; }
-
-.fire i:nth-of-type(26) {
-  -webkit-transform: translate3d(1137px, 904px, 0) rotate(14deg);
-  -moz-transform: translate3d(1137px, 904px, 0) rotate(14deg);
-  -ms-transform: translate3d(1137px, 904px, 0) rotate(14deg);
-  -o-transform: translate3d(1137px, 904px, 0) rotate(14deg);
-  transform: translate3d(1137px, 904px, 0) rotate(14deg);
-  background-image: url(../assetts/img/confetti-bg.png);
-  background-position: 10%;
-  background-size: 77px;
-  -webkit-animation: bang 3000ms ease-out forwards;
-  -moz-animation: bang 3000ms ease-out forwards;
-  animation: bang 3000ms ease-out forwards;
-  opacity: 0; }
-
-.fire i:nth-of-type(27) {
-  -webkit-transform: translate3d(1779px, 455px, 0) rotate(86deg);
-  -moz-transform: translate3d(1779px, 455px, 0) rotate(86deg);
-  -ms-transform: translate3d(1779px, 455px, 0) rotate(86deg);
-  -o-transform: translate3d(1779px, 455px, 0) rotate(86deg);
-  transform: translate3d(1779px, 455px, 0) rotate(86deg);
-  background-image: url(../assetts/img/confetti-bg.png);
-  background-position: 27%;
-  background-size: 84px;
-  -webkit-animation: bang 3000ms ease-out forwards;
-  -moz-animation: bang 3000ms ease-out forwards;
-  animation: bang 3000ms ease-out forwards;
-  opacity: 0; }
-
-.fire i:nth-of-type(28) {
-  -webkit-transform: translate3d(1316px, 650px, 0) rotate(154deg);
-  -moz-transform: translate3d(1316px, 650px, 0) rotate(154deg);
-  -ms-transform: translate3d(1316px, 650px, 0) rotate(154deg);
-  -o-transform: translate3d(1316px, 650px, 0) rotate(154deg);
-  transform: translate3d(1316px, 650px, 0) rotate(154deg);
-  background-image: url(../assetts/img/confetti-bg.png);
-  background-position: 65%;
-  background-size: 70px;
-  -webkit-animation: bang 3000ms ease-out forwards;
-  -moz-animation: bang 3000ms ease-out forwards;
-  animation: bang 3000ms ease-out forwards;
-  opacity: 0; }
-
-.fire i:nth-of-type(29) {
-  -webkit-transform: translate3d(632px, 978px, 0) rotate(43deg);
-  -moz-transform: translate3d(632px, 978px, 0) rotate(43deg);
-  -ms-transform: translate3d(632px, 978px, 0) rotate(43deg);
-  -o-transform: translate3d(632px, 978px, 0) rotate(43deg);
-  transform: translate3d(632px, 978px, 0) rotate(43deg);
-  background-image: url(../assetts/img/confetti-bg.png);
-  background-position: 37%;
-  background-size: 74px;
-  -webkit-animation: bang 3000ms ease-out forwards;
-  -moz-animation: bang 3000ms ease-out forwards;
-  animation: bang 3000ms ease-out forwards;
-  opacity: 0; }
-
-.fire i:nth-of-type(30) {
-  -webkit-transform: translate3d(1650px, 146px, 0) rotate(109deg);
-  -moz-transform: translate3d(1650px, 146px, 0) rotate(109deg);
-  -ms-transform: translate3d(1650px, 146px, 0) rotate(109deg);
-  -o-transform: translate3d(1650px, 146px, 0) rotate(109deg);
-  transform: translate3d(1650px, 146px, 0) rotate(109deg);
-  background-image: url(../assetts/img/confetti-bg.png);
-  background-position: 14%;
-  background-size: 74px;
-  -webkit-animation: bang 3000ms ease-out forwards;
-  -moz-animation: bang 3000ms ease-out forwards;
-  animation: bang 3000ms ease-out forwards;
-  opacity: 0; }
-
-.fire i:nth-of-type(31) {
-  -webkit-transform: translate3d(2116px, 346px, 0) rotate(89deg);
-  -moz-transform: translate3d(2116px, 346px, 0) rotate(89deg);
-  -ms-transform: translate3d(2116px, 346px, 0) rotate(89deg);
-  -o-transform: translate3d(2116px, 346px, 0) rotate(89deg);
-  transform: translate3d(2116px, 346px, 0) rotate(89deg);
-  background-image: url(../assetts/img/confetti-bg.png);
-  background-position: 87%;
-  background-size: 51px;
-  -webkit-animation: bang 3000ms ease-out forwards;
-  -moz-animation: bang 3000ms ease-out forwards;
-  animation: bang 3000ms ease-out forwards;
-  opacity: 0; }
-
-.fire i:nth-of-type(32) {
-  -webkit-transform: translate3d(899px, 853px, 0) rotate(151deg);
-  -moz-transform: translate3d(899px, 853px, 0) rotate(151deg);
-  -ms-transform: translate3d(899px, 853px, 0) rotate(151deg);
-  -o-transform: translate3d(899px, 853px, 0) rotate(151deg);
-  transform: translate3d(899px, 853px, 0) rotate(151deg);
-  background-image: url(../assetts/img/confetti-bg.png);
-  background-position: 9%;
-  background-size: 84px;
-  -webkit-animation: bang 3000ms ease-out forwards;
-  -moz-animation: bang 3000ms ease-out forwards;
-  animation: bang 3000ms ease-out forwards;
-  opacity: 0; }
-
-.fire i:nth-of-type(33) {
-  -webkit-transform: translate3d(1942px, 514px, 0) rotate(142deg);
-  -moz-transform: translate3d(1942px, 514px, 0) rotate(142deg);
-  -ms-transform: translate3d(1942px, 514px, 0) rotate(142deg);
-  -o-transform: translate3d(1942px, 514px, 0) rotate(142deg);
-  transform: translate3d(1942px, 514px, 0) rotate(142deg);
-  background-image: url(../assetts/img/confetti-bg.png);
-  background-position: 38%;
-  background-size: 107px;
-  -webkit-animation: bang 3000ms ease-out forwards;
-  -moz-animation: bang 3000ms ease-out forwards;
-  animation: bang 3000ms ease-out forwards;
-  opacity: 0; }
-
-.fire i:nth-of-type(34) {
-  -webkit-transform: translate3d(2007px, 884px, 0) rotate(106deg);
-  -moz-transform: translate3d(2007px, 884px, 0) rotate(106deg);
-  -ms-transform: translate3d(2007px, 884px, 0) rotate(106deg);
-  -o-transform: translate3d(2007px, 884px, 0) rotate(106deg);
-  transform: translate3d(2007px, 884px, 0) rotate(106deg);
-  background-image: url(../assetts/img/confetti-bg.png);
-  background-position: 10%;
-  background-size: 73px;
-  -webkit-animation: bang 3000ms ease-out forwards;
-  -moz-animation: bang 3000ms ease-out forwards;
-  animation: bang 3000ms ease-out forwards;
-  opacity: 0; }
-
-.fire i:nth-of-type(35) {
-  -webkit-transform: translate3d(716px, 208px, 0) rotate(2deg);
-  -moz-transform: translate3d(716px, 208px, 0) rotate(2deg);
-  -ms-transform: translate3d(716px, 208px, 0) rotate(2deg);
-  -o-transform: translate3d(716px, 208px, 0) rotate(2deg);
-  transform: translate3d(716px, 208px, 0) rotate(2deg);
-  background-image: url(../assetts/img/confetti-bg.png);
-  background-position: 29%;
-  background-size: 65px;
-  -webkit-animation: bang 3000ms ease-out forwards;
-  -moz-animation: bang 3000ms ease-out forwards;
-  animation: bang 3000ms ease-out forwards;
-  opacity: 0; }
-
-.fire i:nth-of-type(36) {
-  -webkit-transform: translate3d(1790px, 622px, 0) rotate(142deg);
-  -moz-transform: translate3d(1790px, 622px, 0) rotate(142deg);
-  -ms-transform: translate3d(1790px, 622px, 0) rotate(142deg);
-  -o-transform: translate3d(1790px, 622px, 0) rotate(142deg);
-  transform: translate3d(1790px, 622px, 0) rotate(142deg);
-  background-image: url(../assetts/img/confetti-bg.png);
-  background-position: 96%;
-  background-size: 147px;
-  -webkit-animation: bang 3000ms ease-out forwards;
-  -moz-animation: bang 3000ms ease-out forwards;
-  animation: bang 3000ms ease-out forwards;
-  opacity: 0; }
-
-.fire i:nth-of-type(37) {
-  -webkit-transform: translate3d(897px, 174px, 0) rotate(61deg);
-  -moz-transform: translate3d(897px, 174px, 0) rotate(61deg);
-  -ms-transform: translate3d(897px, 174px, 0) rotate(61deg);
-  -o-transform: translate3d(897px, 174px, 0) rotate(61deg);
-  transform: translate3d(897px, 174px, 0) rotate(61deg);
-  background-image: url(../assetts/img/confetti-bg.png);
-  background-position: 59%;
-  background-size: 121px;
-  -webkit-animation: bang 3000ms ease-out forwards;
-  -moz-animation: bang 3000ms ease-out forwards;
-  animation: bang 3000ms ease-out forwards;
-  opacity: 0; }
-
-.fire i:nth-of-type(38) {
-  -webkit-transform: translate3d(618px, 820px, 0) rotate(86deg);
-  -moz-transform: translate3d(618px, 820px, 0) rotate(86deg);
-  -ms-transform: translate3d(618px, 820px, 0) rotate(86deg);
-  -o-transform: translate3d(618px, 820px, 0) rotate(86deg);
-  transform: translate3d(618px, 820px, 0) rotate(86deg);
-  background-image: url(../assetts/img/confetti-bg.png);
-  background-position: 97%;
-  background-size: 73px;
-  -webkit-animation: bang 3000ms ease-out forwards;
-  -moz-animation: bang 3000ms ease-out forwards;
-  animation: bang 3000ms ease-out forwards;
-  opacity: 0; }
-
-.fire i:nth-of-type(39) {
-  -webkit-transform: translate3d(2035px, 604px, 0) rotate(121deg);
-  -moz-transform: translate3d(2035px, 604px, 0) rotate(121deg);
-  -ms-transform: translate3d(2035px, 604px, 0) rotate(121deg);
-  -o-transform: translate3d(2035px, 604px, 0) rotate(121deg);
-  transform: translate3d(2035px, 604px, 0) rotate(121deg);
-  background-image: url(../assetts/img/confetti-bg.png);
-  background-position: 86%;
-  background-size: 100px;
-  -webkit-animation: bang 3000ms ease-out forwards;
-  -moz-animation: bang 3000ms ease-out forwards;
-  animation: bang 3000ms ease-out forwards;
-  opacity: 0; }
-
-.fire i:nth-of-type(40) {
-  -webkit-transform: translate3d(831px, -175px, 0) rotate(9deg);
-  -moz-transform: translate3d(831px, -175px, 0) rotate(9deg);
-  -ms-transform: translate3d(831px, -175px, 0) rotate(9deg);
-  -o-transform: translate3d(831px, -175px, 0) rotate(9deg);
-  transform: translate3d(831px, -175px, 0) rotate(9deg);
-  background-image: url(../assetts/img/confetti-bg.png);
-  background-position: 13%;
-  background-size: 80px;
-  -webkit-animation: bang 3000ms ease-out forwards;
-  -moz-animation: bang 3000ms ease-out forwards;
-  animation: bang 3000ms ease-out forwards;
-  opacity: 0; }
-
-.fire i:nth-of-type(41) {
-  -webkit-transform: translate3d(1392px, 984px, 0) rotate(73deg);
-  -moz-transform: translate3d(1392px, 984px, 0) rotate(73deg);
-  -ms-transform: translate3d(1392px, 984px, 0) rotate(73deg);
-  -o-transform: translate3d(1392px, 984px, 0) rotate(73deg);
-  transform: translate3d(1392px, 984px, 0) rotate(73deg);
-  background-image: url(../assetts/img/confetti-bg.png);
-  background-position: 13%;
-  background-size: 108px;
-  -webkit-animation: bang 3000ms ease-out forwards;
-  -moz-animation: bang 3000ms ease-out forwards;
-  animation: bang 3000ms ease-out forwards;
-  opacity: 0; }
-
-.fire i:nth-of-type(42) {
-  -webkit-transform: translate3d(1462px, 887px, 0) rotate(92deg);
-  -moz-transform: translate3d(1462px, 887px, 0) rotate(92deg);
-  -ms-transform: translate3d(1462px, 887px, 0) rotate(92deg);
-  -o-transform: translate3d(1462px, 887px, 0) rotate(92deg);
-  transform: translate3d(1462px, 887px, 0) rotate(92deg);
-  background-image: url(../assetts/img/confetti-bg.png);
-  background-position: 38%;
-  background-size: 125px;
-  -webkit-animation: bang 3000ms ease-out forwards;
-  -moz-animation: bang 3000ms ease-out forwards;
-  animation: bang 3000ms ease-out forwards;
-  opacity: 0; }
-
-.fire i:nth-of-type(43) {
-  -webkit-transform: translate3d(2062px, -45px, 0) rotate(136deg);
-  -moz-transform: translate3d(2062px, -45px, 0) rotate(136deg);
-  -ms-transform: translate3d(2062px, -45px, 0) rotate(136deg);
-  -o-transform: translate3d(2062px, -45px, 0) rotate(136deg);
-  transform: translate3d(2062px, -45px, 0) rotate(136deg);
-  background-image: url(../assetts/img/confetti-bg.png);
-  background-position: 42%;
-  background-size: 82px;
-  -webkit-animation: bang 3000ms ease-out forwards;
-  -moz-animation: bang 3000ms ease-out forwards;
-  animation: bang 3000ms ease-out forwards;
-  opacity: 0; }
-
-.fire i:nth-of-type(44) {
-  -webkit-transform: translate3d(1225px, 141px, 0) rotate(28deg);
-  -moz-transform: translate3d(1225px, 141px, 0) rotate(28deg);
-  -ms-transform: translate3d(1225px, 141px, 0) rotate(28deg);
-  -o-transform: translate3d(1225px, 141px, 0) rotate(28deg);
-  transform: translate3d(1225px, 141px, 0) rotate(28deg);
-  background-image: url(../assetts/img/confetti-bg.png);
-  background-position: 54%;
-  background-size: 115px;
-  -webkit-animation: bang 3000ms ease-out forwards;
-  -moz-animation: bang 3000ms ease-out forwards;
-  animation: bang 3000ms ease-out forwards;
-  opacity: 0; }
-
-.fire i:nth-of-type(45) {
-  -webkit-transform: translate3d(1050px, 124px, 0) rotate(97deg);
-  -moz-transform: translate3d(1050px, 124px, 0) rotate(97deg);
-  -ms-transform: translate3d(1050px, 124px, 0) rotate(97deg);
-  -o-transform: translate3d(1050px, 124px, 0) rotate(97deg);
-  transform: translate3d(1050px, 124px, 0) rotate(97deg);
-  background-image: url(../assetts/img/confetti-bg.png);
-  background-position: 86%;
-  background-size: 70px;
-  -webkit-animation: bang 3000ms ease-out forwards;
-  -moz-animation: bang 3000ms ease-out forwards;
-  animation: bang 3000ms ease-out forwards;
-  opacity: 0; }
-
-.fire i:nth-of-type(46) {
-  -webkit-transform: translate3d(1151px, 488px, 0) rotate(132deg);
-  -moz-transform: translate3d(1151px, 488px, 0) rotate(132deg);
-  -ms-transform: translate3d(1151px, 488px, 0) rotate(132deg);
-  -o-transform: translate3d(1151px, 488px, 0) rotate(132deg);
-  transform: translate3d(1151px, 488px, 0) rotate(132deg);
-  background-image: url(../assetts/img/confetti-bg.png);
-  background-position: 49%;
-  background-size: 111px;
-  -webkit-animation: bang 3000ms ease-out forwards;
-  -moz-animation: bang 3000ms ease-out forwards;
-  animation: bang 3000ms ease-out forwards;
-  opacity: 0; }
-
-.fire i:nth-of-type(47) {
-  -webkit-transform: translate3d(1406px, 958px, 0) rotate(168deg);
-  -moz-transform: translate3d(1406px, 958px, 0) rotate(168deg);
-  -ms-transform: translate3d(1406px, 958px, 0) rotate(168deg);
-  -o-transform: translate3d(1406px, 958px, 0) rotate(168deg);
-  transform: translate3d(1406px, 958px, 0) rotate(168deg);
-  background-image: url(../assetts/img/confetti-bg.png);
-  background-position: 20%;
-  background-size: 85px;
-  -webkit-animation: bang 3000ms ease-out forwards;
-  -moz-animation: bang 3000ms ease-out forwards;
-  animation: bang 3000ms ease-out forwards;
-  opacity: 0; }
-
-.fire i:nth-of-type(48) {
-  -webkit-transform: translate3d(2222px, 532px, 0) rotate(17deg);
-  -moz-transform: translate3d(2222px, 532px, 0) rotate(17deg);
-  -ms-transform: translate3d(2222px, 532px, 0) rotate(17deg);
-  -o-transform: translate3d(2222px, 532px, 0) rotate(17deg);
-  transform: translate3d(2222px, 532px, 0) rotate(17deg);
-  background-image: url(../assetts/img/confetti-bg.png);
-  background-position: 62%;
-  background-size: 103px;
-  -webkit-animation: bang 3000ms ease-out forwards;
-  -moz-animation: bang 3000ms ease-out forwards;
-  animation: bang 3000ms ease-out forwards;
-  opacity: 0; }
-
-.fire i:nth-of-type(49) {
-  -webkit-transform: translate3d(294px, 912px, 0) rotate(77deg);
-  -moz-transform: translate3d(294px, 912px, 0) rotate(77deg);
-  -ms-transform: translate3d(294px, 912px, 0) rotate(77deg);
-  -o-transform: translate3d(294px, 912px, 0) rotate(77deg);
-  transform: translate3d(294px, 912px, 0) rotate(77deg);
-  background-image: url(../assetts/img/confetti-bg.png);
-  background-position: 20%;
-  background-size: 74px;
-  -webkit-animation: bang 3000ms ease-out forwards;
-  -moz-animation: bang 3000ms ease-out forwards;
-  animation: bang 3000ms ease-out forwards;
-  opacity: 0; }
-
-.fire i:nth-of-type(50) {
-  -webkit-transform: translate3d(283px, 819px, 0) rotate(135deg);
-  -moz-transform: translate3d(283px, 819px, 0) rotate(135deg);
-  -ms-transform: translate3d(283px, 819px, 0) rotate(135deg);
-  -o-transform: translate3d(283px, 819px, 0) rotate(135deg);
-  transform: translate3d(283px, 819px, 0) rotate(135deg);
-  background-image: url(../assetts/img/confetti-bg.png);
-  background-position: 35%;
-  background-size: 93px;
-  -webkit-animation: bang 3000ms ease-out forwards;
-  -moz-animation: bang 3000ms ease-out forwards;
-  animation: bang 3000ms ease-out forwards;
-  opacity: 0; }
-
-.fire i:nth-of-type(51) {
-  -webkit-transform: translate3d(1685px, 601px, 0) rotate(31deg);
-  -moz-transform: translate3d(1685px, 601px, 0) rotate(31deg);
-  -ms-transform: translate3d(1685px, 601px, 0) rotate(31deg);
-  -o-transform: translate3d(1685px, 601px, 0) rotate(31deg);
-  transform: translate3d(1685px, 601px, 0) rotate(31deg);
-  background-image: url(../assetts/img/confetti-bg.png);
-  background-position: 58%;
-  background-size: 102px;
-  -webkit-animation: bang 3000ms ease-out forwards;
-  -moz-animation: bang 3000ms ease-out forwards;
-  animation: bang 3000ms ease-out forwards;
-  opacity: 0; }
-
-.fire i:nth-of-type(52) {
-  -webkit-transform: translate3d(1639px, 949px, 0) rotate(141deg);
-  -moz-transform: translate3d(1639px, 949px, 0) rotate(141deg);
-  -ms-transform: translate3d(1639px, 949px, 0) rotate(141deg);
-  -o-transform: translate3d(1639px, 949px, 0) rotate(141deg);
-  transform: translate3d(1639px, 949px, 0) rotate(141deg);
-  background-image: url(../assetts/img/confetti-bg.png);
-  background-position: 70%;
-  background-size: 70px;
-  -webkit-animation: bang 3000ms ease-out forwards;
-  -moz-animation: bang 3000ms ease-out forwards;
-  animation: bang 3000ms ease-out forwards;
-  opacity: 0; }
-
-.fire i:nth-of-type(53) {
-  -webkit-transform: translate3d(827px, 815px, 0) rotate(104deg);
-  -moz-transform: translate3d(827px, 815px, 0) rotate(104deg);
-  -ms-transform: translate3d(827px, 815px, 0) rotate(104deg);
-  -o-transform: translate3d(827px, 815px, 0) rotate(104deg);
-  transform: translate3d(827px, 815px, 0) rotate(104deg);
-  background-image: url(../assetts/img/confetti-bg.png);
-  background-position: 62%;
-  background-size: 104px;
-  -webkit-animation: bang 3000ms ease-out forwards;
-  -moz-animation: bang 3000ms ease-out forwards;
-  animation: bang 3000ms ease-out forwards;
-  opacity: 0; }
-
-.fire i:nth-of-type(54) {
-  -webkit-transform: translate3d(2073px, 271px, 0) rotate(2deg);
-  -moz-transform: translate3d(2073px, 271px, 0) rotate(2deg);
-  -ms-transform: translate3d(2073px, 271px, 0) rotate(2deg);
-  -o-transform: translate3d(2073px, 271px, 0) rotate(2deg);
-  transform: translate3d(2073px, 271px, 0) rotate(2deg);
-  background-image: url(../assetts/img/confetti-bg.png);
-  background-position: 92%;
-  background-size: 62px;
-  -webkit-animation: bang 3000ms ease-out forwards;
-  -moz-animation: bang 3000ms ease-out forwards;
-  animation: bang 3000ms ease-out forwards;
-  opacity: 0; }
-
-.fire i:nth-of-type(55) {
-  -webkit-transform: translate3d(1611px, 536px, 0) rotate(113deg);
-  -moz-transform: translate3d(1611px, 536px, 0) rotate(113deg);
-  -ms-transform: translate3d(1611px, 536px, 0) rotate(113deg);
-  -o-transform: translate3d(1611px, 536px, 0) rotate(113deg);
-  transform: translate3d(1611px, 536px, 0) rotate(113deg);
-  background-image: url(../assetts/img/confetti-bg.png);
-  background-position: 35%;
-  background-size: 107px;
-  -webkit-animation: bang 3000ms ease-out forwards;
-  -moz-animation: bang 3000ms ease-out forwards;
-  animation: bang 3000ms ease-out forwards;
-  opacity: 0; }
-
-.fire i:nth-of-type(56) {
-  -webkit-transform: translate3d(1261px, 562px, 0) rotate(182deg);
-  -moz-transform: translate3d(1261px, 562px, 0) rotate(182deg);
-  -ms-transform: translate3d(1261px, 562px, 0) rotate(182deg);
-  -o-transform: translate3d(1261px, 562px, 0) rotate(182deg);
-  transform: translate3d(1261px, 562px, 0) rotate(182deg);
-  background-image: url(../assetts/img/confetti-bg.png);
-  background-position: 36%;
-  background-size: 148px;
-  -webkit-animation: bang 3000ms ease-out forwards;
-  -moz-animation: bang 3000ms ease-out forwards;
-  animation: bang 3000ms ease-out forwards;
-  opacity: 0; }
-
-.fire i:nth-of-type(57) {
-  -webkit-transform: translate3d(1257px, 162px, 0) rotate(153deg);
-  -moz-transform: translate3d(1257px, 162px, 0) rotate(153deg);
-  -ms-transform: translate3d(1257px, 162px, 0) rotate(153deg);
-  -o-transform: translate3d(1257px, 162px, 0) rotate(153deg);
-  transform: translate3d(1257px, 162px, 0) rotate(153deg);
-  background-image: url(../assetts/img/confetti-bg.png);
-  background-position: 89%;
-  background-size: 75px;
-  -webkit-animation: bang 3000ms ease-out forwards;
-  -moz-animation: bang 3000ms ease-out forwards;
-  animation: bang 3000ms ease-out forwards;
-  opacity: 0; }
-
-.fire i:nth-of-type(58) {
-  -webkit-transform: translate3d(1638px, 672px, 0) rotate(47deg);
-  -moz-transform: translate3d(1638px, 672px, 0) rotate(47deg);
-  -ms-transform: translate3d(1638px, 672px, 0) rotate(47deg);
-  -o-transform: translate3d(1638px, 672px, 0) rotate(47deg);
-  transform: translate3d(1638px, 672px, 0) rotate(47deg);
-  background-image: url(../assetts/img/confetti-bg.png);
-  background-position: 12%;
-  background-size: 62px;
-  -webkit-animation: bang 3000ms ease-out forwards;
-  -moz-animation: bang 3000ms ease-out forwards;
-  animation: bang 3000ms ease-out forwards;
-  opacity: 0; }
-
-.fire i:nth-of-type(59) {
-  -webkit-transform: translate3d(951px, -196px, 0) rotate(187deg);
-  -moz-transform: translate3d(951px, -196px, 0) rotate(187deg);
-  -ms-transform: translate3d(951px, -196px, 0) rotate(187deg);
-  -o-transform: translate3d(951px, -196px, 0) rotate(187deg);
-  transform: translate3d(951px, -196px, 0) rotate(187deg);
-  background-image: url(../assetts/img/confetti-bg.png);
-  background-position: 84%;
-  background-size: 71px;
-  -webkit-animation: bang 3000ms ease-out forwards;
-  -moz-animation: bang 3000ms ease-out forwards;
-  animation: bang 3000ms ease-out forwards;
-  opacity: 0; }
-
-.fire i:nth-of-type(60) {
-  -webkit-transform: translate3d(1381px, 450px, 0) rotate(104deg);
-  -moz-transform: translate3d(1381px, 450px, 0) rotate(104deg);
-  -ms-transform: translate3d(1381px, 450px, 0) rotate(104deg);
-  -o-transform: translate3d(1381px, 450px, 0) rotate(104deg);
-  transform: translate3d(1381px, 450px, 0) rotate(104deg);
-  background-image: url(../assetts/img/confetti-bg.png);
-  background-position: 81%;
-  background-size: 71px;
-  -webkit-animation: bang 3000ms ease-out forwards;
-  -moz-animation: bang 3000ms ease-out forwards;
-  animation: bang 3000ms ease-out forwards;
-  opacity: 0; }
-
-.fire i:nth-of-type(61) {
-  -webkit-transform: translate3d(1517px, -193px, 0) rotate(158deg);
-  -moz-transform: translate3d(1517px, -193px, 0) rotate(158deg);
-  -ms-transform: translate3d(1517px, -193px, 0) rotate(158deg);
-  -o-transform: translate3d(1517px, -193px, 0) rotate(158deg);
-  transform: translate3d(1517px, -193px, 0) rotate(158deg);
-  background-image: url(../assetts/img/confetti-bg.png);
-  background-position: 37%;
-  background-size: 110px;
-  -webkit-animation: bang 3000ms ease-out forwards;
-  -moz-animation: bang 3000ms ease-out forwards;
-  animation: bang 3000ms ease-out forwards;
-  opacity: 0; }
-
-.fire i:nth-of-type(62) {
-  -webkit-transform: translate3d(1441px, 369px, 0) rotate(137deg);
-  -moz-transform: translate3d(1441px, 369px, 0) rotate(137deg);
-  -ms-transform: translate3d(1441px, 369px, 0) rotate(137deg);
-  -o-transform: translate3d(1441px, 369px, 0) rotate(137deg);
-  transform: translate3d(1441px, 369px, 0) rotate(137deg);
-  background-image: url(../assetts/img/confetti-bg.png);
-  background-position: 55%;
-  background-size: 105px;
-  -webkit-animation: bang 3000ms ease-out forwards;
-  -moz-animation: bang 3000ms ease-out forwards;
-  animation: bang 3000ms ease-out forwards;
-  opacity: 0; }
-
-.fire i:nth-of-type(63) {
-  -webkit-transform: translate3d(1674px, 473px, 0) rotate(142deg);
-  -moz-transform: translate3d(1674px, 473px, 0) rotate(142deg);
-  -ms-transform: translate3d(1674px, 473px, 0) rotate(142deg);
-  -o-transform: translate3d(1674px, 473px, 0) rotate(142deg);
-  transform: translate3d(1674px, 473px, 0) rotate(142deg);
-  background-image: url(../assetts/img/confetti-bg.png);
-  background-position: 41%;
-  background-size: 71px;
-  -webkit-animation: bang 3000ms ease-out forwards;
-  -moz-animation: bang 3000ms ease-out forwards;
-  animation: bang 3000ms ease-out forwards;
-  opacity: 0; }
-
-.fire i:nth-of-type(64) {
-  -webkit-transform: translate3d(1535px, 290px, 0) rotate(188deg);
-  -moz-transform: translate3d(1535px, 290px, 0) rotate(188deg);
-  -ms-transform: translate3d(1535px, 290px, 0) rotate(188deg);
-  -o-transform: translate3d(1535px, 290px, 0) rotate(188deg);
-  transform: translate3d(1535px, 290px, 0) rotate(188deg);
-  background-image: url(../assetts/img/confetti-bg.png);
-  background-position: 85%;
-  background-size: 79px;
-  -webkit-animation: bang 3000ms ease-out forwards;
-  -moz-animation: bang 3000ms ease-out forwards;
-  animation: bang 3000ms ease-out forwards;
-  opacity: 0; }
-
-.fire i:nth-of-type(65) {
-  -webkit-transform: translate3d(686px, 186px, 0) rotate(28deg);
-  -moz-transform: translate3d(686px, 186px, 0) rotate(28deg);
-  -ms-transform: translate3d(686px, 186px, 0) rotate(28deg);
-  -o-transform: translate3d(686px, 186px, 0) rotate(28deg);
-  transform: translate3d(686px, 186px, 0) rotate(28deg);
-  background-image: url(../assetts/img/confetti-bg.png);
-  background-position: 65%;
-  background-size: 99px;
-  -webkit-animation: bang 3000ms ease-out forwards;
-  -moz-animation: bang 3000ms ease-out forwards;
-  animation: bang 3000ms ease-out forwards;
-  opacity: 0; }
-
-.fire i:nth-of-type(66) {
-  -webkit-transform: translate3d(2130px, 783px, 0) rotate(117deg);
-  -moz-transform: translate3d(2130px, 783px, 0) rotate(117deg);
-  -ms-transform: translate3d(2130px, 783px, 0) rotate(117deg);
-  -o-transform: translate3d(2130px, 783px, 0) rotate(117deg);
-  transform: translate3d(2130px, 783px, 0) rotate(117deg);
-  background-image: url(../assetts/img/confetti-bg.png);
-  background-position: 53%;
-  background-size: 128px;
-  -webkit-animation: bang 3000ms ease-out forwards;
-  -moz-animation: bang 3000ms ease-out forwards;
-  animation: bang 3000ms ease-out forwards;
-  opacity: 0; }
-
-.fire i:nth-of-type(67) {
-  -webkit-transform: translate3d(651px, 464px, 0) rotate(25deg);
-  -moz-transform: translate3d(651px, 464px, 0) rotate(25deg);
-  -ms-transform: translate3d(651px, 464px, 0) rotate(25deg);
-  -o-transform: translate3d(651px, 464px, 0) rotate(25deg);
-  transform: translate3d(651px, 464px, 0) rotate(25deg);
-  background-image: url(../assetts/img/confetti-bg.png);
-  background-position: 73%;
-  background-size: 68px;
-  -webkit-animation: bang 3000ms ease-out forwards;
-  -moz-animation: bang 3000ms ease-out forwards;
-  animation: bang 3000ms ease-out forwards;
-  opacity: 0; }
-
-.fire i:nth-of-type(68) {
-  -webkit-transform: translate3d(1992px, 834px, 0) rotate(90deg);
-  -moz-transform: translate3d(1992px, 834px, 0) rotate(90deg);
-  -ms-transform: translate3d(1992px, 834px, 0) rotate(90deg);
-  -o-transform: translate3d(1992px, 834px, 0) rotate(90deg);
-  transform: translate3d(1992px, 834px, 0) rotate(90deg);
-  background-image: url(../assetts/img/confetti-bg.png);
-  background-position: 18%;
-  background-size: 118px;
-  -webkit-animation: bang 3000ms ease-out forwards;
-  -moz-animation: bang 3000ms ease-out forwards;
-  animation: bang 3000ms ease-out forwards;
-  opacity: 0; }
-
-.fire i:nth-of-type(69) {
-  -webkit-transform: translate3d(1103px, 688px, 0) rotate(52deg);
-  -moz-transform: translate3d(1103px, 688px, 0) rotate(52deg);
-  -ms-transform: translate3d(1103px, 688px, 0) rotate(52deg);
-  -o-transform: translate3d(1103px, 688px, 0) rotate(52deg);
-  transform: translate3d(1103px, 688px, 0) rotate(52deg);
-  background-image: url(../assetts/img/confetti-bg.png);
-  background-position: 1%;
-  background-size: 59px;
-  -webkit-animation: bang 3000ms ease-out forwards;
-  -moz-animation: bang 3000ms ease-out forwards;
-  animation: bang 3000ms ease-out forwards;
-  opacity: 0; }
-
-.fire i:nth-of-type(70) {
-  -webkit-transform: translate3d(1766px, 156px, 0) rotate(34deg);
-  -moz-transform: translate3d(1766px, 156px, 0) rotate(34deg);
-  -ms-transform: translate3d(1766px, 156px, 0) rotate(34deg);
-  -o-transform: translate3d(1766px, 156px, 0) rotate(34deg);
-  transform: translate3d(1766px, 156px, 0) rotate(34deg);
-  background-image: url(../assetts/img/confetti-bg.png);
-  background-position: 12%;
-  background-size: 92px;
-  -webkit-animation: bang 3000ms ease-out forwards;
-  -moz-animation: bang 3000ms ease-out forwards;
-  animation: bang 3000ms ease-out forwards;
-  opacity: 0; }
-
-.fire i:nth-of-type(71) {
-  -webkit-transform: translate3d(2166px, -137px, 0) rotate(87deg);
-  -moz-transform: translate3d(2166px, -137px, 0) rotate(87deg);
-  -ms-transform: translate3d(2166px, -137px, 0) rotate(87deg);
-  -o-transform: translate3d(2166px, -137px, 0) rotate(87deg);
-  transform: translate3d(2166px, -137px, 0) rotate(87deg);
-  background-image: url(../assetts/img/confetti-bg.png);
-  background-position: 75%;
-  background-size: 81px;
-  -webkit-animation: bang 3000ms ease-out forwards;
-  -moz-animation: bang 3000ms ease-out forwards;
-  animation: bang 3000ms ease-out forwards;
-  opacity: 0; }
-
-.fire i:nth-of-type(72) {
-  -webkit-transform: translate3d(695px, 917px, 0) rotate(142deg);
-  -moz-transform: translate3d(695px, 917px, 0) rotate(142deg);
-  -ms-transform: translate3d(695px, 917px, 0) rotate(142deg);
-  -o-transform: translate3d(695px, 917px, 0) rotate(142deg);
-  transform: translate3d(695px, 917px, 0) rotate(142deg);
-  background-image: url(../assetts/img/confetti-bg.png);
-  background-position: 60%;
-  background-size: 93px;
-  -webkit-animation: bang 3000ms ease-out forwards;
-  -moz-animation: bang 3000ms ease-out forwards;
-  animation: bang 3000ms ease-out forwards;
-  opacity: 0; }
-
-.fire i:nth-of-type(73) {
-  -webkit-transform: translate3d(1014px, 153px, 0) rotate(4deg);
-  -moz-transform: translate3d(1014px, 153px, 0) rotate(4deg);
-  -ms-transform: translate3d(1014px, 153px, 0) rotate(4deg);
-  -o-transform: translate3d(1014px, 153px, 0) rotate(4deg);
-  transform: translate3d(1014px, 153px, 0) rotate(4deg);
-  background-image: url(../assetts/img/confetti-bg.png);
-  background-position: 31%;
-  background-size: 110px;
-  -webkit-animation: bang 3000ms ease-out forwards;
-  -moz-animation: bang 3000ms ease-out forwards;
-  animation: bang 3000ms ease-out forwards;
-  opacity: 0; }
-
-.fire i:nth-of-type(74) {
-  -webkit-transform: translate3d(1770px, 731px, 0) rotate(55deg);
-  -moz-transform: translate3d(1770px, 731px, 0) rotate(55deg);
-  -ms-transform: translate3d(1770px, 731px, 0) rotate(55deg);
-  -o-transform: translate3d(1770px, 731px, 0) rotate(55deg);
-  transform: translate3d(1770px, 731px, 0) rotate(55deg);
-  background-image: url(../assetts/img/confetti-bg.png);
-  background-position: 91%;
-  background-size: 143px;
-  -webkit-animation: bang 3000ms ease-out forwards;
-  -moz-animation: bang 3000ms ease-out forwards;
-  animation: bang 3000ms ease-out forwards;
-  opacity: 0; }
-
-.fire i:nth-of-type(75) {
-  -webkit-transform: translate3d(361px, 544px, 0) rotate(71deg);
-  -moz-transform: translate3d(361px, 544px, 0) rotate(71deg);
-  -ms-transform: translate3d(361px, 544px, 0) rotate(71deg);
-  -o-transform: translate3d(361px, 544px, 0) rotate(71deg);
-  transform: translate3d(361px, 544px, 0) rotate(71deg);
-  background-image: url(../assetts/img/confetti-bg.png);
-  background-position: 17%;
-  background-size: 127px;
-  -webkit-animation: bang 3000ms ease-out forwards;
-  -moz-animation: bang 3000ms ease-out forwards;
-  animation: bang 3000ms ease-out forwards;
-  opacity: 0; }
-
-.fire i:nth-of-type(76) {
-  -webkit-transform: translate3d(1413px, 857px, 0) rotate(26deg);
-  -moz-transform: translate3d(1413px, 857px, 0) rotate(26deg);
-  -ms-transform: translate3d(1413px, 857px, 0) rotate(26deg);
-  -o-transform: translate3d(1413px, 857px, 0) rotate(26deg);
-  transform: translate3d(1413px, 857px, 0) rotate(26deg);
-  background-image: url(../assetts/img/confetti-bg.png);
-  background-position: 7%;
-  background-size: 87px;
-  -webkit-animation: bang 3000ms ease-out forwards;
-  -moz-animation: bang 3000ms ease-out forwards;
-  animation: bang 3000ms ease-out forwards;
-  opacity: 0; }
-
-.fire i:nth-of-type(77) {
-  -webkit-transform: translate3d(1854px, -15px, 0) rotate(62deg);
-  -moz-transform: translate3d(1854px, -15px, 0) rotate(62deg);
-  -ms-transform: translate3d(1854px, -15px, 0) rotate(62deg);
-  -o-transform: translate3d(1854px, -15px, 0) rotate(62deg);
-  transform: translate3d(1854px, -15px, 0) rotate(62deg);
-  background-image: url(../assetts/img/confetti-bg.png);
-  background-position: 69%;
-  background-size: 142px;
-  -webkit-animation: bang 3000ms ease-out forwards;
-  -moz-animation: bang 3000ms ease-out forwards;
-  animation: bang 3000ms ease-out forwards;
-  opacity: 0; }
-
-.fire i:nth-of-type(78) {
-  -webkit-transform: translate3d(281px, 389px, 0) rotate(36deg);
-  -moz-transform: translate3d(281px, 389px, 0) rotate(36deg);
-  -ms-transform: translate3d(281px, 389px, 0) rotate(36deg);
-  -o-transform: translate3d(281px, 389px, 0) rotate(36deg);
-  transform: translate3d(281px, 389px, 0) rotate(36deg);
-  background-image: url(../assetts/img/confetti-bg.png);
-  background-position: 48%;
-  background-size: 80px;
-  -webkit-animation: bang 3000ms ease-out forwards;
-  -moz-animation: bang 3000ms ease-out forwards;
-  animation: bang 3000ms ease-out forwards;
-  opacity: 0; }
-
-.fire i:nth-of-type(79) {
-  -webkit-transform: translate3d(327px, 686px, 0) rotate(80deg);
-  -moz-transform: translate3d(327px, 686px, 0) rotate(80deg);
-  -ms-transform: translate3d(327px, 686px, 0) rotate(80deg);
-  -o-transform: translate3d(327px, 686px, 0) rotate(80deg);
-  transform: translate3d(327px, 686px, 0) rotate(80deg);
-  background-image: url(../assetts/img/confetti-bg.png);
-  background-position: 72%;
-  background-size: 137px;
-  -webkit-animation: bang 3000ms ease-out forwards;
-  -moz-animation: bang 3000ms ease-out forwards;
-  animation: bang 3000ms ease-out forwards;
-  opacity: 0; }
-
-.fire i:nth-of-type(80) {
-  -webkit-transform: translate3d(833px, 48px, 0) rotate(119deg);
-  -moz-transform: translate3d(833px, 48px, 0) rotate(119deg);
-  -ms-transform: translate3d(833px, 48px, 0) rotate(119deg);
-  -o-transform: translate3d(833px, 48px, 0) rotate(119deg);
-  transform: translate3d(833px, 48px, 0) rotate(119deg);
-  background-image: url(../assetts/img/confetti-bg.png);
-  background-position: 41%;
-  background-size: 111px;
-  -webkit-animation: bang 3000ms ease-out forwards;
-  -moz-animation: bang 3000ms ease-out forwards;
-  animation: bang 3000ms ease-out forwards;
-  opacity: 0; }
-
-.fire i:nth-of-type(81) {
-  -webkit-transform: translate3d(1971px, 651px, 0) rotate(4deg);
-  -moz-transform: translate3d(1971px, 651px, 0) rotate(4deg);
-  -ms-transform: translate3d(1971px, 651px, 0) rotate(4deg);
-  -o-transform: translate3d(1971px, 651px, 0) rotate(4deg);
-  transform: translate3d(1971px, 651px, 0) rotate(4deg);
-  background-image: url(../assetts/img/confetti-bg.png);
-  background-position: 23%;
-  background-size: 67px;
-  -webkit-animation: bang 3000ms ease-out forwards;
-  -moz-animation: bang 3000ms ease-out forwards;
-  animation: bang 3000ms ease-out forwards;
-  opacity: 0; }
-
-.fire i:nth-of-type(82) {
-  -webkit-transform: translate3d(501px, -15px, 0) rotate(159deg);
-  -moz-transform: translate3d(501px, -15px, 0) rotate(159deg);
-  -ms-transform: translate3d(501px, -15px, 0) rotate(159deg);
-  -o-transform: translate3d(501px, -15px, 0) rotate(159deg);
-  transform: translate3d(501px, -15px, 0) rotate(159deg);
-  background-image: url(../assetts/img/confetti-bg.png);
-  background-position: 61%;
-  background-size: 65px;
-  -webkit-animation: bang 3000ms ease-out forwards;
-  -moz-animation: bang 3000ms ease-out forwards;
-  animation: bang 3000ms ease-out forwards;
-  opacity: 0; }
-
-.fire i:nth-of-type(83) {
-  -webkit-transform: translate3d(1003px, 757px, 0) rotate(50deg);
-  -moz-transform: translate3d(1003px, 757px, 0) rotate(50deg);
-  -ms-transform: translate3d(1003px, 757px, 0) rotate(50deg);
-  -o-transform: translate3d(1003px, 757px, 0) rotate(50deg);
-  transform: translate3d(1003px, 757px, 0) rotate(50deg);
-  background-image: url(../assetts/img/confetti-bg.png);
-  background-position: 78%;
-  background-size: 106px;
-  -webkit-animation: bang 3000ms ease-out forwards;
-  -moz-animation: bang 3000ms ease-out forwards;
-  animation: bang 3000ms ease-out forwards;
-  opacity: 0; }
-
-.fire i:nth-of-type(84) {
-  -webkit-transform: translate3d(1284px, 811px, 0) rotate(146deg);
-  -moz-transform: translate3d(1284px, 811px, 0) rotate(146deg);
-  -ms-transform: translate3d(1284px, 811px, 0) rotate(146deg);
-  -o-transform: translate3d(1284px, 811px, 0) rotate(146deg);
-  transform: translate3d(1284px, 811px, 0) rotate(146deg);
-  background-image: url(../assetts/img/confetti-bg.png);
-  background-position: 34%;
-  background-size: 79px;
-  -webkit-animation: bang 3000ms ease-out forwards;
-  -moz-animation: bang 3000ms ease-out forwards;
-  animation: bang 3000ms ease-out forwards;
-  opacity: 0; }
-
-.fire i:nth-of-type(85) {
-  -webkit-transform: translate3d(1239px, 973px, 0) rotate(75deg);
-  -moz-transform: translate3d(1239px, 973px, 0) rotate(75deg);
-  -ms-transform: translate3d(1239px, 973px, 0) rotate(75deg);
-  -o-transform: translate3d(1239px, 973px, 0) rotate(75deg);
-  transform: translate3d(1239px, 973px, 0) rotate(75deg);
-  background-image: url(../assetts/img/confetti-bg.png);
-  background-position: 25%;
-  background-size: 51px;
-  -webkit-animation: bang 3000ms ease-out forwards;
-  -moz-animation: bang 3000ms ease-out forwards;
-  animation: bang 3000ms ease-out forwards;
-  opacity: 0; }
-
-.fire i:nth-of-type(86) {
-  -webkit-transform: translate3d(628px, 201px, 0) rotate(77deg);
-  -moz-transform: translate3d(628px, 201px, 0) rotate(77deg);
-  -ms-transform: translate3d(628px, 201px, 0) rotate(77deg);
-  -o-transform: translate3d(628px, 201px, 0) rotate(77deg);
-  transform: translate3d(628px, 201px, 0) rotate(77deg);
-  background-image: url(../assetts/img/confetti-bg.png);
-  background-position: 18%;
-  background-size: 104px;
-  -webkit-animation: bang 3000ms ease-out forwards;
-  -moz-animation: bang 3000ms ease-out forwards;
-  animation: bang 3000ms ease-out forwards;
-  opacity: 0; }
-
-.fire i:nth-of-type(87) {
-  -webkit-transform: translate3d(611px, 987px, 0) rotate(158deg);
-  -moz-transform: translate3d(611px, 987px, 0) rotate(158deg);
-  -ms-transform: translate3d(611px, 987px, 0) rotate(158deg);
-  -o-transform: translate3d(611px, 987px, 0) rotate(158deg);
-  transform: translate3d(611px, 987px, 0) rotate(158deg);
-  background-image: url(../assetts/img/confetti-bg.png);
-  background-position: 65%;
-  background-size: 130px;
-  -webkit-animation: bang 3000ms ease-out forwards;
-  -moz-animation: bang 3000ms ease-out forwards;
-  animation: bang 3000ms ease-out forwards;
-  opacity: 0; }
-
-.fire i:nth-of-type(88) {
-  -webkit-transform: translate3d(869px, 508px, 0) rotate(138deg);
-  -moz-transform: translate3d(869px, 508px, 0) rotate(138deg);
-  -ms-transform: translate3d(869px, 508px, 0) rotate(138deg);
-  -o-transform: translate3d(869px, 508px, 0) rotate(138deg);
-  transform: translate3d(869px, 508px, 0) rotate(138deg);
-  background-image: url(../assetts/img/confetti-bg.png);
-  background-position: 72%;
-  background-size: 121px;
-  -webkit-animation: bang 3000ms ease-out forwards;
-  -moz-animation: bang 3000ms ease-out forwards;
-  animation: bang 3000ms ease-out forwards;
-  opacity: 0; }
-
-.fire i:nth-of-type(89) {
-  -webkit-transform: translate3d(881px, 476px, 0) rotate(170deg);
-  -moz-transform: translate3d(881px, 476px, 0) rotate(170deg);
-  -ms-transform: translate3d(881px, 476px, 0) rotate(170deg);
-  -o-transform: translate3d(881px, 476px, 0) rotate(170deg);
-  transform: translate3d(881px, 476px, 0) rotate(170deg);
-  background-image: url(../assetts/img/confetti-bg.png);
-  background-position: 46%;
-  background-size: 129px;
-  -webkit-animation: bang 3000ms ease-out forwards;
-  -moz-animation: bang 3000ms ease-out forwards;
-  animation: bang 3000ms ease-out forwards;
-  opacity: 0; }
-
-.fire i:nth-of-type(90) {
-  -webkit-transform: translate3d(1137px, 882px, 0) rotate(22deg);
-  -moz-transform: translate3d(1137px, 882px, 0) rotate(22deg);
-  -ms-transform: translate3d(1137px, 882px, 0) rotate(22deg);
-  -o-transform: translate3d(1137px, 882px, 0) rotate(22deg);
-  transform: translate3d(1137px, 882px, 0) rotate(22deg);
-  background-image: url(../assetts/img/confetti-bg.png);
-  background-position: 50%;
-  background-size: 75px;
-  -webkit-animation: bang 3000ms ease-out forwards;
-  -moz-animation: bang 3000ms ease-out forwards;
-  animation: bang 3000ms ease-out forwards;
-  opacity: 0; }
-
-.fire i:nth-of-type(91) {
-  -webkit-transform: translate3d(1902px, 82px, 0) rotate(101deg);
-  -moz-transform: translate3d(1902px, 82px, 0) rotate(101deg);
-  -ms-transform: translate3d(1902px, 82px, 0) rotate(101deg);
-  -o-transform: translate3d(1902px, 82px, 0) rotate(101deg);
-  transform: translate3d(1902px, 82px, 0) rotate(101deg);
-  background-image: url(../assetts/img/confetti-bg.png);
-  background-position: 24%;
-  background-size: 92px;
-  -webkit-animation: bang 3000ms ease-out forwards;
-  -moz-animation: bang 3000ms ease-out forwards;
-  animation: bang 3000ms ease-out forwards;
-  opacity: 0; }
-
-.fire i:nth-of-type(92) {
-  -webkit-transform: translate3d(700px, 530px, 0) rotate(119deg);
-  -moz-transform: translate3d(700px, 530px, 0) rotate(119deg);
-  -ms-transform: translate3d(700px, 530px, 0) rotate(119deg);
-  -o-transform: translate3d(700px, 530px, 0) rotate(119deg);
-  transform: translate3d(700px, 530px, 0) rotate(119deg);
-  background-image: url(../assetts/img/confetti-bg.png);
-  background-position: 69%;
+  -webkit-transform: translate3d(777px, 262px, 0) rotate(34deg);
+  -moz-transform: translate3d(777px, 262px, 0) rotate(34deg);
+  -ms-transform: translate3d(777px, 262px, 0) rotate(34deg);
+  -o-transform: translate3d(777px, 262px, 0) rotate(34deg);
+  transform: translate3d(777px, 262px, 0) rotate(34deg);
+  background-image: url(../assetts/img/confetti-bg.png);
+  background-position: 39%;
   background-size: 131px;
   -webkit-animation: bang 3000ms ease-out forwards;
   -moz-animation: bang 3000ms ease-out forwards;
   animation: bang 3000ms ease-out forwards;
   opacity: 0; }
 
-.fire i:nth-of-type(93) {
-  -webkit-transform: translate3d(1664px, 536px, 0) rotate(44deg);
-  -moz-transform: translate3d(1664px, 536px, 0) rotate(44deg);
-  -ms-transform: translate3d(1664px, 536px, 0) rotate(44deg);
-  -o-transform: translate3d(1664px, 536px, 0) rotate(44deg);
-  transform: translate3d(1664px, 536px, 0) rotate(44deg);
+.fire i:nth-of-type(6) {
+  -webkit-transform: translate3d(1160px, 643px, 0) rotate(40deg);
+  -moz-transform: translate3d(1160px, 643px, 0) rotate(40deg);
+  -ms-transform: translate3d(1160px, 643px, 0) rotate(40deg);
+  -o-transform: translate3d(1160px, 643px, 0) rotate(40deg);
+  transform: translate3d(1160px, 643px, 0) rotate(40deg);
   background-image: url(../assetts/img/confetti-bg.png);
-  background-position: 21%;
-  background-size: 97px;
+  background-position: 55%;
+  background-size: 125px;
   -webkit-animation: bang 3000ms ease-out forwards;
   -moz-animation: bang 3000ms ease-out forwards;
   animation: bang 3000ms ease-out forwards;
   opacity: 0; }
 
-.fire i:nth-of-type(94) {
-  -webkit-transform: translate3d(1351px, -56px, 0) rotate(47deg);
-  -moz-transform: translate3d(1351px, -56px, 0) rotate(47deg);
-  -ms-transform: translate3d(1351px, -56px, 0) rotate(47deg);
-  -o-transform: translate3d(1351px, -56px, 0) rotate(47deg);
-  transform: translate3d(1351px, -56px, 0) rotate(47deg);
+.fire i:nth-of-type(7) {
+  -webkit-transform: translate3d(987px, 480px, 0) rotate(189deg);
+  -moz-transform: translate3d(987px, 480px, 0) rotate(189deg);
+  -ms-transform: translate3d(987px, 480px, 0) rotate(189deg);
+  -o-transform: translate3d(987px, 480px, 0) rotate(189deg);
+  transform: translate3d(987px, 480px, 0) rotate(189deg);
   background-image: url(../assetts/img/confetti-bg.png);
-  background-position: 2%;
-  background-size: 59px;
+  background-position: 15%;
+  background-size: 81px;
   -webkit-animation: bang 3000ms ease-out forwards;
   -moz-animation: bang 3000ms ease-out forwards;
   animation: bang 3000ms ease-out forwards;
   opacity: 0; }
 
-.fire i:nth-of-type(95) {
-  -webkit-transform: translate3d(1308px, 918px, 0) rotate(31deg);
-  -moz-transform: translate3d(1308px, 918px, 0) rotate(31deg);
-  -ms-transform: translate3d(1308px, 918px, 0) rotate(31deg);
-  -o-transform: translate3d(1308px, 918px, 0) rotate(31deg);
-  transform: translate3d(1308px, 918px, 0) rotate(31deg);
+.fire i:nth-of-type(8) {
+  -webkit-transform: translate3d(914px, 252px, 0) rotate(178deg);
+  -moz-transform: translate3d(914px, 252px, 0) rotate(178deg);
+  -ms-transform: translate3d(914px, 252px, 0) rotate(178deg);
+  -o-transform: translate3d(914px, 252px, 0) rotate(178deg);
+  transform: translate3d(914px, 252px, 0) rotate(178deg);
   background-image: url(../assetts/img/confetti-bg.png);
-  background-position: 63%;
-  background-size: 91px;
+  background-position: 96%;
+  background-size: 119px;
   -webkit-animation: bang 3000ms ease-out forwards;
   -moz-animation: bang 3000ms ease-out forwards;
   animation: bang 3000ms ease-out forwards;
   opacity: 0; }
 
-.fire i:nth-of-type(96) {
-  -webkit-transform: translate3d(1955px, 821px, 0) rotate(43deg);
-  -moz-transform: translate3d(1955px, 821px, 0) rotate(43deg);
-  -ms-transform: translate3d(1955px, 821px, 0) rotate(43deg);
-  -o-transform: translate3d(1955px, 821px, 0) rotate(43deg);
-  transform: translate3d(1955px, 821px, 0) rotate(43deg);
+.fire i:nth-of-type(9) {
+  -webkit-transform: translate3d(1185px, -197px, 0) rotate(151deg);
+  -moz-transform: translate3d(1185px, -197px, 0) rotate(151deg);
+  -ms-transform: translate3d(1185px, -197px, 0) rotate(151deg);
+  -o-transform: translate3d(1185px, -197px, 0) rotate(151deg);
+  transform: translate3d(1185px, -197px, 0) rotate(151deg);
   background-image: url(../assetts/img/confetti-bg.png);
-  background-position: 26%;
+  background-position: 70%;
+  background-size: 101px;
+  -webkit-animation: bang 3000ms ease-out forwards;
+  -moz-animation: bang 3000ms ease-out forwards;
+  animation: bang 3000ms ease-out forwards;
+  opacity: 0; }
+
+.fire i:nth-of-type(10) {
+  -webkit-transform: translate3d(1487px, 205px, 0) rotate(30deg);
+  -moz-transform: translate3d(1487px, 205px, 0) rotate(30deg);
+  -ms-transform: translate3d(1487px, 205px, 0) rotate(30deg);
+  -o-transform: translate3d(1487px, 205px, 0) rotate(30deg);
+  transform: translate3d(1487px, 205px, 0) rotate(30deg);
+  background-image: url(../assetts/img/confetti-bg.png);
+  background-position: 35%;
+  background-size: 129px;
+  -webkit-animation: bang 3000ms ease-out forwards;
+  -moz-animation: bang 3000ms ease-out forwards;
+  animation: bang 3000ms ease-out forwards;
+  opacity: 0; }
+
+.fire i:nth-of-type(11) {
+  -webkit-transform: translate3d(1497px, 244px, 0) rotate(116deg);
+  -moz-transform: translate3d(1497px, 244px, 0) rotate(116deg);
+  -ms-transform: translate3d(1497px, 244px, 0) rotate(116deg);
+  -o-transform: translate3d(1497px, 244px, 0) rotate(116deg);
+  transform: translate3d(1497px, 244px, 0) rotate(116deg);
+  background-image: url(../assetts/img/confetti-bg.png);
+  background-position: 45%;
+  background-size: 81px;
+  -webkit-animation: bang 3000ms ease-out forwards;
+  -moz-animation: bang 3000ms ease-out forwards;
+  animation: bang 3000ms ease-out forwards;
+  opacity: 0; }
+
+.fire i:nth-of-type(12) {
+  -webkit-transform: translate3d(710px, 884px, 0) rotate(91deg);
+  -moz-transform: translate3d(710px, 884px, 0) rotate(91deg);
+  -ms-transform: translate3d(710px, 884px, 0) rotate(91deg);
+  -o-transform: translate3d(710px, 884px, 0) rotate(91deg);
+  transform: translate3d(710px, 884px, 0) rotate(91deg);
+  background-image: url(../assetts/img/confetti-bg.png);
+  background-position: 91%;
+  background-size: 123px;
+  -webkit-animation: bang 3000ms ease-out forwards;
+  -moz-animation: bang 3000ms ease-out forwards;
+  animation: bang 3000ms ease-out forwards;
+  opacity: 0; }
+
+.fire i:nth-of-type(13) {
+  -webkit-transform: translate3d(2067px, -89px, 0) rotate(91deg);
+  -moz-transform: translate3d(2067px, -89px, 0) rotate(91deg);
+  -ms-transform: translate3d(2067px, -89px, 0) rotate(91deg);
+  -o-transform: translate3d(2067px, -89px, 0) rotate(91deg);
+  transform: translate3d(2067px, -89px, 0) rotate(91deg);
+  background-image: url(../assetts/img/confetti-bg.png);
+  background-position: 80%;
+  background-size: 145px;
+  -webkit-animation: bang 3000ms ease-out forwards;
+  -moz-animation: bang 3000ms ease-out forwards;
+  animation: bang 3000ms ease-out forwards;
+  opacity: 0; }
+
+.fire i:nth-of-type(14) {
+  -webkit-transform: translate3d(1983px, 450px, 0) rotate(185deg);
+  -moz-transform: translate3d(1983px, 450px, 0) rotate(185deg);
+  -ms-transform: translate3d(1983px, 450px, 0) rotate(185deg);
+  -o-transform: translate3d(1983px, 450px, 0) rotate(185deg);
+  transform: translate3d(1983px, 450px, 0) rotate(185deg);
+  background-image: url(../assetts/img/confetti-bg.png);
+  background-position: 41%;
+  background-size: 117px;
+  -webkit-animation: bang 3000ms ease-out forwards;
+  -moz-animation: bang 3000ms ease-out forwards;
+  animation: bang 3000ms ease-out forwards;
+  opacity: 0; }
+
+.fire i:nth-of-type(15) {
+  -webkit-transform: translate3d(2170px, 98px, 0) rotate(4deg);
+  -moz-transform: translate3d(2170px, 98px, 0) rotate(4deg);
+  -ms-transform: translate3d(2170px, 98px, 0) rotate(4deg);
+  -o-transform: translate3d(2170px, 98px, 0) rotate(4deg);
+  transform: translate3d(2170px, 98px, 0) rotate(4deg);
+  background-image: url(../assetts/img/confetti-bg.png);
+  background-position: 91%;
+  background-size: 81px;
+  -webkit-animation: bang 3000ms ease-out forwards;
+  -moz-animation: bang 3000ms ease-out forwards;
+  animation: bang 3000ms ease-out forwards;
+  opacity: 0; }
+
+.fire i:nth-of-type(16) {
+  -webkit-transform: translate3d(1820px, 263px, 0) rotate(139deg);
+  -moz-transform: translate3d(1820px, 263px, 0) rotate(139deg);
+  -ms-transform: translate3d(1820px, 263px, 0) rotate(139deg);
+  -o-transform: translate3d(1820px, 263px, 0) rotate(139deg);
+  transform: translate3d(1820px, 263px, 0) rotate(139deg);
+  background-image: url(../assetts/img/confetti-bg.png);
+  background-position: 15%;
+  background-size: 132px;
+  -webkit-animation: bang 3000ms ease-out forwards;
+  -moz-animation: bang 3000ms ease-out forwards;
+  animation: bang 3000ms ease-out forwards;
+  opacity: 0; }
+
+.fire i:nth-of-type(17) {
+  -webkit-transform: translate3d(730px, 904px, 0) rotate(155deg);
+  -moz-transform: translate3d(730px, 904px, 0) rotate(155deg);
+  -ms-transform: translate3d(730px, 904px, 0) rotate(155deg);
+  -o-transform: translate3d(730px, 904px, 0) rotate(155deg);
+  transform: translate3d(730px, 904px, 0) rotate(155deg);
+  background-image: url(../assetts/img/confetti-bg.png);
+  background-position: 3%;
+  background-size: 69px;
+  -webkit-animation: bang 3000ms ease-out forwards;
+  -moz-animation: bang 3000ms ease-out forwards;
+  animation: bang 3000ms ease-out forwards;
+  opacity: 0; }
+
+.fire i:nth-of-type(18) {
+  -webkit-transform: translate3d(2030px, 105px, 0) rotate(124deg);
+  -moz-transform: translate3d(2030px, 105px, 0) rotate(124deg);
+  -ms-transform: translate3d(2030px, 105px, 0) rotate(124deg);
+  -o-transform: translate3d(2030px, 105px, 0) rotate(124deg);
+  transform: translate3d(2030px, 105px, 0) rotate(124deg);
+  background-image: url(../assetts/img/confetti-bg.png);
+  background-position: 82%;
+  background-size: 113px;
+  -webkit-animation: bang 3000ms ease-out forwards;
+  -moz-animation: bang 3000ms ease-out forwards;
+  animation: bang 3000ms ease-out forwards;
+  opacity: 0; }
+
+.fire i:nth-of-type(19) {
+  -webkit-transform: translate3d(1478px, 679px, 0) rotate(55deg);
+  -moz-transform: translate3d(1478px, 679px, 0) rotate(55deg);
+  -ms-transform: translate3d(1478px, 679px, 0) rotate(55deg);
+  -o-transform: translate3d(1478px, 679px, 0) rotate(55deg);
+  transform: translate3d(1478px, 679px, 0) rotate(55deg);
+  background-image: url(../assetts/img/confetti-bg.png);
+  background-position: 4%;
   background-size: 142px;
   -webkit-animation: bang 3000ms ease-out forwards;
   -moz-animation: bang 3000ms ease-out forwards;
   animation: bang 3000ms ease-out forwards;
   opacity: 0; }
 
-.fire i:nth-of-type(97) {
-  -webkit-transform: translate3d(576px, -82px, 0) rotate(101deg);
-  -moz-transform: translate3d(576px, -82px, 0) rotate(101deg);
-  -ms-transform: translate3d(576px, -82px, 0) rotate(101deg);
-  -o-transform: translate3d(576px, -82px, 0) rotate(101deg);
-  transform: translate3d(576px, -82px, 0) rotate(101deg);
+.fire i:nth-of-type(20) {
+  -webkit-transform: translate3d(2185px, -104px, 0) rotate(119deg);
+  -moz-transform: translate3d(2185px, -104px, 0) rotate(119deg);
+  -ms-transform: translate3d(2185px, -104px, 0) rotate(119deg);
+  -o-transform: translate3d(2185px, -104px, 0) rotate(119deg);
+  transform: translate3d(2185px, -104px, 0) rotate(119deg);
   background-image: url(../assetts/img/confetti-bg.png);
-  background-position: 4%;
+  background-position: 13%;
+  background-size: 122px;
+  -webkit-animation: bang 3000ms ease-out forwards;
+  -moz-animation: bang 3000ms ease-out forwards;
+  animation: bang 3000ms ease-out forwards;
+  opacity: 0; }
+
+.fire i:nth-of-type(21) {
+  -webkit-transform: translate3d(1542px, 617px, 0) rotate(147deg);
+  -moz-transform: translate3d(1542px, 617px, 0) rotate(147deg);
+  -ms-transform: translate3d(1542px, 617px, 0) rotate(147deg);
+  -o-transform: translate3d(1542px, 617px, 0) rotate(147deg);
+  transform: translate3d(1542px, 617px, 0) rotate(147deg);
+  background-image: url(../assetts/img/confetti-bg.png);
+  background-position: 9%;
+  background-size: 124px;
+  -webkit-animation: bang 3000ms ease-out forwards;
+  -moz-animation: bang 3000ms ease-out forwards;
+  animation: bang 3000ms ease-out forwards;
+  opacity: 0; }
+
+.fire i:nth-of-type(22) {
+  -webkit-transform: translate3d(1872px, 774px, 0) rotate(13deg);
+  -moz-transform: translate3d(1872px, 774px, 0) rotate(13deg);
+  -ms-transform: translate3d(1872px, 774px, 0) rotate(13deg);
+  -o-transform: translate3d(1872px, 774px, 0) rotate(13deg);
+  transform: translate3d(1872px, 774px, 0) rotate(13deg);
+  background-image: url(../assetts/img/confetti-bg.png);
+  background-position: 33%;
+  background-size: 70px;
+  -webkit-animation: bang 3000ms ease-out forwards;
+  -moz-animation: bang 3000ms ease-out forwards;
+  animation: bang 3000ms ease-out forwards;
+  opacity: 0; }
+
+.fire i:nth-of-type(23) {
+  -webkit-transform: translate3d(766px, -183px, 0) rotate(124deg);
+  -moz-transform: translate3d(766px, -183px, 0) rotate(124deg);
+  -ms-transform: translate3d(766px, -183px, 0) rotate(124deg);
+  -o-transform: translate3d(766px, -183px, 0) rotate(124deg);
+  transform: translate3d(766px, -183px, 0) rotate(124deg);
+  background-image: url(../assetts/img/confetti-bg.png);
+  background-position: 84%;
+  background-size: 119px;
+  -webkit-animation: bang 3000ms ease-out forwards;
+  -moz-animation: bang 3000ms ease-out forwards;
+  animation: bang 3000ms ease-out forwards;
+  opacity: 0; }
+
+.fire i:nth-of-type(24) {
+  -webkit-transform: translate3d(1763px, 893px, 0) rotate(164deg);
+  -moz-transform: translate3d(1763px, 893px, 0) rotate(164deg);
+  -ms-transform: translate3d(1763px, 893px, 0) rotate(164deg);
+  -o-transform: translate3d(1763px, 893px, 0) rotate(164deg);
+  transform: translate3d(1763px, 893px, 0) rotate(164deg);
+  background-image: url(../assetts/img/confetti-bg.png);
+  background-position: 91%;
+  background-size: 56px;
+  -webkit-animation: bang 3000ms ease-out forwards;
+  -moz-animation: bang 3000ms ease-out forwards;
+  animation: bang 3000ms ease-out forwards;
+  opacity: 0; }
+
+.fire i:nth-of-type(25) {
+  -webkit-transform: translate3d(1443px, 390px, 0) rotate(113deg);
+  -moz-transform: translate3d(1443px, 390px, 0) rotate(113deg);
+  -ms-transform: translate3d(1443px, 390px, 0) rotate(113deg);
+  -o-transform: translate3d(1443px, 390px, 0) rotate(113deg);
+  transform: translate3d(1443px, 390px, 0) rotate(113deg);
+  background-image: url(../assetts/img/confetti-bg.png);
+  background-position: 68%;
+  background-size: 121px;
+  -webkit-animation: bang 3000ms ease-out forwards;
+  -moz-animation: bang 3000ms ease-out forwards;
+  animation: bang 3000ms ease-out forwards;
+  opacity: 0; }
+
+.fire i:nth-of-type(26) {
+  -webkit-transform: translate3d(2152px, 226px, 0) rotate(36deg);
+  -moz-transform: translate3d(2152px, 226px, 0) rotate(36deg);
+  -ms-transform: translate3d(2152px, 226px, 0) rotate(36deg);
+  -o-transform: translate3d(2152px, 226px, 0) rotate(36deg);
+  transform: translate3d(2152px, 226px, 0) rotate(36deg);
+  background-image: url(../assetts/img/confetti-bg.png);
+  background-position: 48%;
+  background-size: 143px;
+  -webkit-animation: bang 3000ms ease-out forwards;
+  -moz-animation: bang 3000ms ease-out forwards;
+  animation: bang 3000ms ease-out forwards;
+  opacity: 0; }
+
+.fire i:nth-of-type(27) {
+  -webkit-transform: translate3d(1298px, -187px, 0) rotate(142deg);
+  -moz-transform: translate3d(1298px, -187px, 0) rotate(142deg);
+  -ms-transform: translate3d(1298px, -187px, 0) rotate(142deg);
+  -o-transform: translate3d(1298px, -187px, 0) rotate(142deg);
+  transform: translate3d(1298px, -187px, 0) rotate(142deg);
+  background-image: url(../assetts/img/confetti-bg.png);
+  background-position: 54%;
+  background-size: 96px;
+  -webkit-animation: bang 3000ms ease-out forwards;
+  -moz-animation: bang 3000ms ease-out forwards;
+  animation: bang 3000ms ease-out forwards;
+  opacity: 0; }
+
+.fire i:nth-of-type(28) {
+  -webkit-transform: translate3d(507px, -163px, 0) rotate(148deg);
+  -moz-transform: translate3d(507px, -163px, 0) rotate(148deg);
+  -ms-transform: translate3d(507px, -163px, 0) rotate(148deg);
+  -o-transform: translate3d(507px, -163px, 0) rotate(148deg);
+  transform: translate3d(507px, -163px, 0) rotate(148deg);
+  background-image: url(../assetts/img/confetti-bg.png);
+  background-position: 43%;
+  background-size: 139px;
+  -webkit-animation: bang 3000ms ease-out forwards;
+  -moz-animation: bang 3000ms ease-out forwards;
+  animation: bang 3000ms ease-out forwards;
+  opacity: 0; }
+
+.fire i:nth-of-type(29) {
+  -webkit-transform: translate3d(1036px, 307px, 0) rotate(165deg);
+  -moz-transform: translate3d(1036px, 307px, 0) rotate(165deg);
+  -ms-transform: translate3d(1036px, 307px, 0) rotate(165deg);
+  -o-transform: translate3d(1036px, 307px, 0) rotate(165deg);
+  transform: translate3d(1036px, 307px, 0) rotate(165deg);
+  background-image: url(../assetts/img/confetti-bg.png);
+  background-position: 49%;
+  background-size: 52px;
+  -webkit-animation: bang 3000ms ease-out forwards;
+  -moz-animation: bang 3000ms ease-out forwards;
+  animation: bang 3000ms ease-out forwards;
+  opacity: 0; }
+
+.fire i:nth-of-type(30) {
+  -webkit-transform: translate3d(624px, 261px, 0) rotate(164deg);
+  -moz-transform: translate3d(624px, 261px, 0) rotate(164deg);
+  -ms-transform: translate3d(624px, 261px, 0) rotate(164deg);
+  -o-transform: translate3d(624px, 261px, 0) rotate(164deg);
+  transform: translate3d(624px, 261px, 0) rotate(164deg);
+  background-image: url(../assetts/img/confetti-bg.png);
+  background-position: 25%;
   background-size: 92px;
   -webkit-animation: bang 3000ms ease-out forwards;
   -moz-animation: bang 3000ms ease-out forwards;
   animation: bang 3000ms ease-out forwards;
   opacity: 0; }
 
-.fire i:nth-of-type(98) {
-  -webkit-transform: translate3d(736px, 770px, 0) rotate(124deg);
-  -moz-transform: translate3d(736px, 770px, 0) rotate(124deg);
-  -ms-transform: translate3d(736px, 770px, 0) rotate(124deg);
-  -o-transform: translate3d(736px, 770px, 0) rotate(124deg);
-  transform: translate3d(736px, 770px, 0) rotate(124deg);
+.fire i:nth-of-type(31) {
+  -webkit-transform: translate3d(842px, 37px, 0) rotate(25deg);
+  -moz-transform: translate3d(842px, 37px, 0) rotate(25deg);
+  -ms-transform: translate3d(842px, 37px, 0) rotate(25deg);
+  -o-transform: translate3d(842px, 37px, 0) rotate(25deg);
+  transform: translate3d(842px, 37px, 0) rotate(25deg);
   background-image: url(../assetts/img/confetti-bg.png);
-  background-position: 12%;
-  background-size: 118px;
+  background-position: 33%;
+  background-size: 92px;
   -webkit-animation: bang 3000ms ease-out forwards;
   -moz-animation: bang 3000ms ease-out forwards;
   animation: bang 3000ms ease-out forwards;
   opacity: 0; }
 
-.fire i:nth-of-type(99) {
-  -webkit-transform: translate3d(527px, -194px, 0) rotate(115deg);
-  -moz-transform: translate3d(527px, -194px, 0) rotate(115deg);
-  -ms-transform: translate3d(527px, -194px, 0) rotate(115deg);
-  -o-transform: translate3d(527px, -194px, 0) rotate(115deg);
-  transform: translate3d(527px, -194px, 0) rotate(115deg);
+.fire i:nth-of-type(32) {
+  -webkit-transform: translate3d(1553px, 503px, 0) rotate(72deg);
+  -moz-transform: translate3d(1553px, 503px, 0) rotate(72deg);
+  -ms-transform: translate3d(1553px, 503px, 0) rotate(72deg);
+  -o-transform: translate3d(1553px, 503px, 0) rotate(72deg);
+  transform: translate3d(1553px, 503px, 0) rotate(72deg);
   background-image: url(../assetts/img/confetti-bg.png);
-  background-position: 98%;
+  background-position: 93%;
   background-size: 64px;
   -webkit-animation: bang 3000ms ease-out forwards;
   -moz-animation: bang 3000ms ease-out forwards;
   animation: bang 3000ms ease-out forwards;
   opacity: 0; }
 
-.fire i:nth-of-type(100) {
-  -webkit-transform: translate3d(715px, 415px, 0) rotate(10deg);
-  -moz-transform: translate3d(715px, 415px, 0) rotate(10deg);
-  -ms-transform: translate3d(715px, 415px, 0) rotate(10deg);
-  -o-transform: translate3d(715px, 415px, 0) rotate(10deg);
-  transform: translate3d(715px, 415px, 0) rotate(10deg);
+.fire i:nth-of-type(33) {
+  -webkit-transform: translate3d(1308px, 499px, 0) rotate(26deg);
+  -moz-transform: translate3d(1308px, 499px, 0) rotate(26deg);
+  -ms-transform: translate3d(1308px, 499px, 0) rotate(26deg);
+  -o-transform: translate3d(1308px, 499px, 0) rotate(26deg);
+  transform: translate3d(1308px, 499px, 0) rotate(26deg);
   background-image: url(../assetts/img/confetti-bg.png);
-  background-position: 84%;
-  background-size: 57px;
+  background-position: 99%;
+  background-size: 122px;
+  -webkit-animation: bang 3000ms ease-out forwards;
+  -moz-animation: bang 3000ms ease-out forwards;
+  animation: bang 3000ms ease-out forwards;
+  opacity: 0; }
+
+.fire i:nth-of-type(34) {
+  -webkit-transform: translate3d(1914px, 453px, 0) rotate(112deg);
+  -moz-transform: translate3d(1914px, 453px, 0) rotate(112deg);
+  -ms-transform: translate3d(1914px, 453px, 0) rotate(112deg);
+  -o-transform: translate3d(1914px, 453px, 0) rotate(112deg);
+  transform: translate3d(1914px, 453px, 0) rotate(112deg);
+  background-image: url(../assetts/img/confetti-bg.png);
+  background-position: 48%;
+  background-size: 94px;
+  -webkit-animation: bang 3000ms ease-out forwards;
+  -moz-animation: bang 3000ms ease-out forwards;
+  animation: bang 3000ms ease-out forwards;
+  opacity: 0; }
+
+.fire i:nth-of-type(35) {
+  -webkit-transform: translate3d(2186px, 343px, 0) rotate(50deg);
+  -moz-transform: translate3d(2186px, 343px, 0) rotate(50deg);
+  -ms-transform: translate3d(2186px, 343px, 0) rotate(50deg);
+  -o-transform: translate3d(2186px, 343px, 0) rotate(50deg);
+  transform: translate3d(2186px, 343px, 0) rotate(50deg);
+  background-image: url(../assetts/img/confetti-bg.png);
+  background-position: 8%;
+  background-size: 81px;
+  -webkit-animation: bang 3000ms ease-out forwards;
+  -moz-animation: bang 3000ms ease-out forwards;
+  animation: bang 3000ms ease-out forwards;
+  opacity: 0; }
+
+.fire i:nth-of-type(36) {
+  -webkit-transform: translate3d(523px, 984px, 0) rotate(13deg);
+  -moz-transform: translate3d(523px, 984px, 0) rotate(13deg);
+  -ms-transform: translate3d(523px, 984px, 0) rotate(13deg);
+  -o-transform: translate3d(523px, 984px, 0) rotate(13deg);
+  transform: translate3d(523px, 984px, 0) rotate(13deg);
+  background-image: url(../assetts/img/confetti-bg.png);
+  background-position: 67%;
+  background-size: 78px;
+  -webkit-animation: bang 3000ms ease-out forwards;
+  -moz-animation: bang 3000ms ease-out forwards;
+  animation: bang 3000ms ease-out forwards;
+  opacity: 0; }
+
+.fire i:nth-of-type(37) {
+  -webkit-transform: translate3d(2180px, 675px, 0) rotate(80deg);
+  -moz-transform: translate3d(2180px, 675px, 0) rotate(80deg);
+  -ms-transform: translate3d(2180px, 675px, 0) rotate(80deg);
+  -o-transform: translate3d(2180px, 675px, 0) rotate(80deg);
+  transform: translate3d(2180px, 675px, 0) rotate(80deg);
+  background-image: url(../assetts/img/confetti-bg.png);
+  background-position: 55%;
+  background-size: 146px;
+  -webkit-animation: bang 3000ms ease-out forwards;
+  -moz-animation: bang 3000ms ease-out forwards;
+  animation: bang 3000ms ease-out forwards;
+  opacity: 0; }
+
+.fire i:nth-of-type(38) {
+  -webkit-transform: translate3d(1957px, 439px, 0) rotate(76deg);
+  -moz-transform: translate3d(1957px, 439px, 0) rotate(76deg);
+  -ms-transform: translate3d(1957px, 439px, 0) rotate(76deg);
+  -o-transform: translate3d(1957px, 439px, 0) rotate(76deg);
+  transform: translate3d(1957px, 439px, 0) rotate(76deg);
+  background-image: url(../assetts/img/confetti-bg.png);
+  background-position: 89%;
+  background-size: 66px;
+  -webkit-animation: bang 3000ms ease-out forwards;
+  -moz-animation: bang 3000ms ease-out forwards;
+  animation: bang 3000ms ease-out forwards;
+  opacity: 0; }
+
+.fire i:nth-of-type(39) {
+  -webkit-transform: translate3d(1696px, 820px, 0) rotate(32deg);
+  -moz-transform: translate3d(1696px, 820px, 0) rotate(32deg);
+  -ms-transform: translate3d(1696px, 820px, 0) rotate(32deg);
+  -o-transform: translate3d(1696px, 820px, 0) rotate(32deg);
+  transform: translate3d(1696px, 820px, 0) rotate(32deg);
+  background-image: url(../assetts/img/confetti-bg.png);
+  background-position: 95%;
+  background-size: 129px;
+  -webkit-animation: bang 3000ms ease-out forwards;
+  -moz-animation: bang 3000ms ease-out forwards;
+  animation: bang 3000ms ease-out forwards;
+  opacity: 0; }
+
+.fire i:nth-of-type(40) {
+  -webkit-transform: translate3d(1571px, 153px, 0) rotate(4deg);
+  -moz-transform: translate3d(1571px, 153px, 0) rotate(4deg);
+  -ms-transform: translate3d(1571px, 153px, 0) rotate(4deg);
+  -o-transform: translate3d(1571px, 153px, 0) rotate(4deg);
+  transform: translate3d(1571px, 153px, 0) rotate(4deg);
+  background-image: url(../assetts/img/confetti-bg.png);
+  background-position: 5%;
+  background-size: 114px;
+  -webkit-animation: bang 3000ms ease-out forwards;
+  -moz-animation: bang 3000ms ease-out forwards;
+  animation: bang 3000ms ease-out forwards;
+  opacity: 0; }
+
+.fire i:nth-of-type(41) {
+  -webkit-transform: translate3d(328px, 754px, 0) rotate(5deg);
+  -moz-transform: translate3d(328px, 754px, 0) rotate(5deg);
+  -ms-transform: translate3d(328px, 754px, 0) rotate(5deg);
+  -o-transform: translate3d(328px, 754px, 0) rotate(5deg);
+  transform: translate3d(328px, 754px, 0) rotate(5deg);
+  background-image: url(../assetts/img/confetti-bg.png);
+  background-position: 82%;
+  background-size: 125px;
+  -webkit-animation: bang 3000ms ease-out forwards;
+  -moz-animation: bang 3000ms ease-out forwards;
+  animation: bang 3000ms ease-out forwards;
+  opacity: 0; }
+
+.fire i:nth-of-type(42) {
+  -webkit-transform: translate3d(2176px, 268px, 0) rotate(157deg);
+  -moz-transform: translate3d(2176px, 268px, 0) rotate(157deg);
+  -ms-transform: translate3d(2176px, 268px, 0) rotate(157deg);
+  -o-transform: translate3d(2176px, 268px, 0) rotate(157deg);
+  transform: translate3d(2176px, 268px, 0) rotate(157deg);
+  background-image: url(../assetts/img/confetti-bg.png);
+  background-position: 47%;
+  background-size: 67px;
+  -webkit-animation: bang 3000ms ease-out forwards;
+  -moz-animation: bang 3000ms ease-out forwards;
+  animation: bang 3000ms ease-out forwards;
+  opacity: 0; }
+
+.fire i:nth-of-type(43) {
+  -webkit-transform: translate3d(1019px, 642px, 0) rotate(134deg);
+  -moz-transform: translate3d(1019px, 642px, 0) rotate(134deg);
+  -ms-transform: translate3d(1019px, 642px, 0) rotate(134deg);
+  -o-transform: translate3d(1019px, 642px, 0) rotate(134deg);
+  transform: translate3d(1019px, 642px, 0) rotate(134deg);
+  background-image: url(../assetts/img/confetti-bg.png);
+  background-position: 72%;
+  background-size: 103px;
+  -webkit-animation: bang 3000ms ease-out forwards;
+  -moz-animation: bang 3000ms ease-out forwards;
+  animation: bang 3000ms ease-out forwards;
+  opacity: 0; }
+
+.fire i:nth-of-type(44) {
+  -webkit-transform: translate3d(601px, 501px, 0) rotate(168deg);
+  -moz-transform: translate3d(601px, 501px, 0) rotate(168deg);
+  -ms-transform: translate3d(601px, 501px, 0) rotate(168deg);
+  -o-transform: translate3d(601px, 501px, 0) rotate(168deg);
+  transform: translate3d(601px, 501px, 0) rotate(168deg);
+  background-image: url(../assetts/img/confetti-bg.png);
+  background-position: 27%;
+  background-size: 95px;
+  -webkit-animation: bang 3000ms ease-out forwards;
+  -moz-animation: bang 3000ms ease-out forwards;
+  animation: bang 3000ms ease-out forwards;
+  opacity: 0; }
+
+.fire i:nth-of-type(45) {
+  -webkit-transform: translate3d(1806px, 56px, 0) rotate(12deg);
+  -moz-transform: translate3d(1806px, 56px, 0) rotate(12deg);
+  -ms-transform: translate3d(1806px, 56px, 0) rotate(12deg);
+  -o-transform: translate3d(1806px, 56px, 0) rotate(12deg);
+  transform: translate3d(1806px, 56px, 0) rotate(12deg);
+  background-image: url(../assetts/img/confetti-bg.png);
+  background-position: 86%;
+  background-size: 92px;
+  -webkit-animation: bang 3000ms ease-out forwards;
+  -moz-animation: bang 3000ms ease-out forwards;
+  animation: bang 3000ms ease-out forwards;
+  opacity: 0; }
+
+.fire i:nth-of-type(46) {
+  -webkit-transform: translate3d(1202px, 283px, 0) rotate(166deg);
+  -moz-transform: translate3d(1202px, 283px, 0) rotate(166deg);
+  -ms-transform: translate3d(1202px, 283px, 0) rotate(166deg);
+  -o-transform: translate3d(1202px, 283px, 0) rotate(166deg);
+  transform: translate3d(1202px, 283px, 0) rotate(166deg);
+  background-image: url(../assetts/img/confetti-bg.png);
+  background-position: 50%;
+  background-size: 54px;
+  -webkit-animation: bang 3000ms ease-out forwards;
+  -moz-animation: bang 3000ms ease-out forwards;
+  animation: bang 3000ms ease-out forwards;
+  opacity: 0; }
+
+.fire i:nth-of-type(47) {
+  -webkit-transform: translate3d(358px, 934px, 0) rotate(104deg);
+  -moz-transform: translate3d(358px, 934px, 0) rotate(104deg);
+  -ms-transform: translate3d(358px, 934px, 0) rotate(104deg);
+  -o-transform: translate3d(358px, 934px, 0) rotate(104deg);
+  transform: translate3d(358px, 934px, 0) rotate(104deg);
+  background-image: url(../assetts/img/confetti-bg.png);
+  background-position: 63%;
+  background-size: 138px;
+  -webkit-animation: bang 3000ms ease-out forwards;
+  -moz-animation: bang 3000ms ease-out forwards;
+  animation: bang 3000ms ease-out forwards;
+  opacity: 0; }
+
+.fire i:nth-of-type(48) {
+  -webkit-transform: translate3d(607px, 959px, 0) rotate(66deg);
+  -moz-transform: translate3d(607px, 959px, 0) rotate(66deg);
+  -ms-transform: translate3d(607px, 959px, 0) rotate(66deg);
+  -o-transform: translate3d(607px, 959px, 0) rotate(66deg);
+  transform: translate3d(607px, 959px, 0) rotate(66deg);
+  background-image: url(../assetts/img/confetti-bg.png);
+  background-position: 100%;
+  background-size: 124px;
+  -webkit-animation: bang 3000ms ease-out forwards;
+  -moz-animation: bang 3000ms ease-out forwards;
+  animation: bang 3000ms ease-out forwards;
+  opacity: 0; }
+
+.fire i:nth-of-type(49) {
+  -webkit-transform: translate3d(2066px, 767px, 0) rotate(23deg);
+  -moz-transform: translate3d(2066px, 767px, 0) rotate(23deg);
+  -ms-transform: translate3d(2066px, 767px, 0) rotate(23deg);
+  -o-transform: translate3d(2066px, 767px, 0) rotate(23deg);
+  transform: translate3d(2066px, 767px, 0) rotate(23deg);
+  background-image: url(../assetts/img/confetti-bg.png);
+  background-position: 94%;
+  background-size: 72px;
+  -webkit-animation: bang 3000ms ease-out forwards;
+  -moz-animation: bang 3000ms ease-out forwards;
+  animation: bang 3000ms ease-out forwards;
+  opacity: 0; }
+
+.fire i:nth-of-type(50) {
+  -webkit-transform: translate3d(2241px, 398px, 0) rotate(100deg);
+  -moz-transform: translate3d(2241px, 398px, 0) rotate(100deg);
+  -ms-transform: translate3d(2241px, 398px, 0) rotate(100deg);
+  -o-transform: translate3d(2241px, 398px, 0) rotate(100deg);
+  transform: translate3d(2241px, 398px, 0) rotate(100deg);
+  background-image: url(../assetts/img/confetti-bg.png);
+  background-position: 68%;
+  background-size: 60px;
+  -webkit-animation: bang 3000ms ease-out forwards;
+  -moz-animation: bang 3000ms ease-out forwards;
+  animation: bang 3000ms ease-out forwards;
+  opacity: 0; }
+
+.fire i:nth-of-type(51) {
+  -webkit-transform: translate3d(2127px, -9px, 0) rotate(30deg);
+  -moz-transform: translate3d(2127px, -9px, 0) rotate(30deg);
+  -ms-transform: translate3d(2127px, -9px, 0) rotate(30deg);
+  -o-transform: translate3d(2127px, -9px, 0) rotate(30deg);
+  transform: translate3d(2127px, -9px, 0) rotate(30deg);
+  background-image: url(../assetts/img/confetti-bg.png);
+  background-position: 47%;
+  background-size: 97px;
+  -webkit-animation: bang 3000ms ease-out forwards;
+  -moz-animation: bang 3000ms ease-out forwards;
+  animation: bang 3000ms ease-out forwards;
+  opacity: 0; }
+
+.fire i:nth-of-type(52) {
+  -webkit-transform: translate3d(1881px, 59px, 0) rotate(190deg);
+  -moz-transform: translate3d(1881px, 59px, 0) rotate(190deg);
+  -ms-transform: translate3d(1881px, 59px, 0) rotate(190deg);
+  -o-transform: translate3d(1881px, 59px, 0) rotate(190deg);
+  transform: translate3d(1881px, 59px, 0) rotate(190deg);
+  background-image: url(../assetts/img/confetti-bg.png);
+  background-position: 45%;
+  background-size: 93px;
+  -webkit-animation: bang 3000ms ease-out forwards;
+  -moz-animation: bang 3000ms ease-out forwards;
+  animation: bang 3000ms ease-out forwards;
+  opacity: 0; }
+
+.fire i:nth-of-type(53) {
+  -webkit-transform: translate3d(1813px, 784px, 0) rotate(86deg);
+  -moz-transform: translate3d(1813px, 784px, 0) rotate(86deg);
+  -ms-transform: translate3d(1813px, 784px, 0) rotate(86deg);
+  -o-transform: translate3d(1813px, 784px, 0) rotate(86deg);
+  transform: translate3d(1813px, 784px, 0) rotate(86deg);
+  background-image: url(../assetts/img/confetti-bg.png);
+  background-position: 13%;
+  background-size: 56px;
+  -webkit-animation: bang 3000ms ease-out forwards;
+  -moz-animation: bang 3000ms ease-out forwards;
+  animation: bang 3000ms ease-out forwards;
+  opacity: 0; }
+
+.fire i:nth-of-type(54) {
+  -webkit-transform: translate3d(1516px, -195px, 0) rotate(56deg);
+  -moz-transform: translate3d(1516px, -195px, 0) rotate(56deg);
+  -ms-transform: translate3d(1516px, -195px, 0) rotate(56deg);
+  -o-transform: translate3d(1516px, -195px, 0) rotate(56deg);
+  transform: translate3d(1516px, -195px, 0) rotate(56deg);
+  background-image: url(../assetts/img/confetti-bg.png);
+  background-position: 98%;
+  background-size: 119px;
+  -webkit-animation: bang 3000ms ease-out forwards;
+  -moz-animation: bang 3000ms ease-out forwards;
+  animation: bang 3000ms ease-out forwards;
+  opacity: 0; }
+
+.fire i:nth-of-type(55) {
+  -webkit-transform: translate3d(318px, 649px, 0) rotate(13deg);
+  -moz-transform: translate3d(318px, 649px, 0) rotate(13deg);
+  -ms-transform: translate3d(318px, 649px, 0) rotate(13deg);
+  -o-transform: translate3d(318px, 649px, 0) rotate(13deg);
+  transform: translate3d(318px, 649px, 0) rotate(13deg);
+  background-image: url(../assetts/img/confetti-bg.png);
+  background-position: 78%;
+  background-size: 98px;
+  -webkit-animation: bang 3000ms ease-out forwards;
+  -moz-animation: bang 3000ms ease-out forwards;
+  animation: bang 3000ms ease-out forwards;
+  opacity: 0; }
+
+.fire i:nth-of-type(56) {
+  -webkit-transform: translate3d(388px, 883px, 0) rotate(143deg);
+  -moz-transform: translate3d(388px, 883px, 0) rotate(143deg);
+  -ms-transform: translate3d(388px, 883px, 0) rotate(143deg);
+  -o-transform: translate3d(388px, 883px, 0) rotate(143deg);
+  transform: translate3d(388px, 883px, 0) rotate(143deg);
+  background-image: url(../assetts/img/confetti-bg.png);
+  background-position: 31%;
+  background-size: 91px;
+  -webkit-animation: bang 3000ms ease-out forwards;
+  -moz-animation: bang 3000ms ease-out forwards;
+  animation: bang 3000ms ease-out forwards;
+  opacity: 0; }
+
+.fire i:nth-of-type(57) {
+  -webkit-transform: translate3d(2063px, 792px, 0) rotate(173deg);
+  -moz-transform: translate3d(2063px, 792px, 0) rotate(173deg);
+  -ms-transform: translate3d(2063px, 792px, 0) rotate(173deg);
+  -o-transform: translate3d(2063px, 792px, 0) rotate(173deg);
+  transform: translate3d(2063px, 792px, 0) rotate(173deg);
+  background-image: url(../assetts/img/confetti-bg.png);
+  background-position: 34%;
+  background-size: 131px;
+  -webkit-animation: bang 3000ms ease-out forwards;
+  -moz-animation: bang 3000ms ease-out forwards;
+  animation: bang 3000ms ease-out forwards;
+  opacity: 0; }
+
+.fire i:nth-of-type(58) {
+  -webkit-transform: translate3d(1919px, -34px, 0) rotate(173deg);
+  -moz-transform: translate3d(1919px, -34px, 0) rotate(173deg);
+  -ms-transform: translate3d(1919px, -34px, 0) rotate(173deg);
+  -o-transform: translate3d(1919px, -34px, 0) rotate(173deg);
+  transform: translate3d(1919px, -34px, 0) rotate(173deg);
+  background-image: url(../assetts/img/confetti-bg.png);
+  background-position: 97%;
+  background-size: 124px;
+  -webkit-animation: bang 3000ms ease-out forwards;
+  -moz-animation: bang 3000ms ease-out forwards;
+  animation: bang 3000ms ease-out forwards;
+  opacity: 0; }
+
+.fire i:nth-of-type(59) {
+  -webkit-transform: translate3d(1091px, -154px, 0) rotate(149deg);
+  -moz-transform: translate3d(1091px, -154px, 0) rotate(149deg);
+  -ms-transform: translate3d(1091px, -154px, 0) rotate(149deg);
+  -o-transform: translate3d(1091px, -154px, 0) rotate(149deg);
+  transform: translate3d(1091px, -154px, 0) rotate(149deg);
+  background-image: url(../assetts/img/confetti-bg.png);
+  background-position: 57%;
+  background-size: 112px;
+  -webkit-animation: bang 3000ms ease-out forwards;
+  -moz-animation: bang 3000ms ease-out forwards;
+  animation: bang 3000ms ease-out forwards;
+  opacity: 0; }
+
+.fire i:nth-of-type(60) {
+  -webkit-transform: translate3d(593px, 468px, 0) rotate(143deg);
+  -moz-transform: translate3d(593px, 468px, 0) rotate(143deg);
+  -ms-transform: translate3d(593px, 468px, 0) rotate(143deg);
+  -o-transform: translate3d(593px, 468px, 0) rotate(143deg);
+  transform: translate3d(593px, 468px, 0) rotate(143deg);
+  background-image: url(../assetts/img/confetti-bg.png);
+  background-position: 1%;
+  background-size: 129px;
+  -webkit-animation: bang 3000ms ease-out forwards;
+  -moz-animation: bang 3000ms ease-out forwards;
+  animation: bang 3000ms ease-out forwards;
+  opacity: 0; }
+
+.fire i:nth-of-type(61) {
+  -webkit-transform: translate3d(1068px, -19px, 0) rotate(85deg);
+  -moz-transform: translate3d(1068px, -19px, 0) rotate(85deg);
+  -ms-transform: translate3d(1068px, -19px, 0) rotate(85deg);
+  -o-transform: translate3d(1068px, -19px, 0) rotate(85deg);
+  transform: translate3d(1068px, -19px, 0) rotate(85deg);
+  background-image: url(../assetts/img/confetti-bg.png);
+  background-position: 4%;
+  background-size: 87px;
+  -webkit-animation: bang 3000ms ease-out forwards;
+  -moz-animation: bang 3000ms ease-out forwards;
+  animation: bang 3000ms ease-out forwards;
+  opacity: 0; }
+
+.fire i:nth-of-type(62) {
+  -webkit-transform: translate3d(1537px, 356px, 0) rotate(17deg);
+  -moz-transform: translate3d(1537px, 356px, 0) rotate(17deg);
+  -ms-transform: translate3d(1537px, 356px, 0) rotate(17deg);
+  -o-transform: translate3d(1537px, 356px, 0) rotate(17deg);
+  transform: translate3d(1537px, 356px, 0) rotate(17deg);
+  background-image: url(../assetts/img/confetti-bg.png);
+  background-position: 24%;
+  background-size: 73px;
+  -webkit-animation: bang 3000ms ease-out forwards;
+  -moz-animation: bang 3000ms ease-out forwards;
+  animation: bang 3000ms ease-out forwards;
+  opacity: 0; }
+
+.fire i:nth-of-type(63) {
+  -webkit-transform: translate3d(461px, 900px, 0) rotate(159deg);
+  -moz-transform: translate3d(461px, 900px, 0) rotate(159deg);
+  -ms-transform: translate3d(461px, 900px, 0) rotate(159deg);
+  -o-transform: translate3d(461px, 900px, 0) rotate(159deg);
+  transform: translate3d(461px, 900px, 0) rotate(159deg);
+  background-image: url(../assetts/img/confetti-bg.png);
+  background-position: 32%;
+  background-size: 106px;
+  -webkit-animation: bang 3000ms ease-out forwards;
+  -moz-animation: bang 3000ms ease-out forwards;
+  animation: bang 3000ms ease-out forwards;
+  opacity: 0; }
+
+.fire i:nth-of-type(64) {
+  -webkit-transform: translate3d(251px, -25px, 0) rotate(189deg);
+  -moz-transform: translate3d(251px, -25px, 0) rotate(189deg);
+  -ms-transform: translate3d(251px, -25px, 0) rotate(189deg);
+  -o-transform: translate3d(251px, -25px, 0) rotate(189deg);
+  transform: translate3d(251px, -25px, 0) rotate(189deg);
+  background-image: url(../assetts/img/confetti-bg.png);
+  background-position: 93%;
+  background-size: 53px;
+  -webkit-animation: bang 3000ms ease-out forwards;
+  -moz-animation: bang 3000ms ease-out forwards;
+  animation: bang 3000ms ease-out forwards;
+  opacity: 0; }
+
+.fire i:nth-of-type(65) {
+  -webkit-transform: translate3d(447px, 235px, 0) rotate(95deg);
+  -moz-transform: translate3d(447px, 235px, 0) rotate(95deg);
+  -ms-transform: translate3d(447px, 235px, 0) rotate(95deg);
+  -o-transform: translate3d(447px, 235px, 0) rotate(95deg);
+  transform: translate3d(447px, 235px, 0) rotate(95deg);
+  background-image: url(../assetts/img/confetti-bg.png);
+  background-position: 61%;
+  background-size: 81px;
+  -webkit-animation: bang 3000ms ease-out forwards;
+  -moz-animation: bang 3000ms ease-out forwards;
+  animation: bang 3000ms ease-out forwards;
+  opacity: 0; }
+
+.fire i:nth-of-type(66) {
+  -webkit-transform: translate3d(568px, -42px, 0) rotate(15deg);
+  -moz-transform: translate3d(568px, -42px, 0) rotate(15deg);
+  -ms-transform: translate3d(568px, -42px, 0) rotate(15deg);
+  -o-transform: translate3d(568px, -42px, 0) rotate(15deg);
+  transform: translate3d(568px, -42px, 0) rotate(15deg);
+  background-image: url(../assetts/img/confetti-bg.png);
+  background-position: 76%;
+  background-size: 75px;
+  -webkit-animation: bang 3000ms ease-out forwards;
+  -moz-animation: bang 3000ms ease-out forwards;
+  animation: bang 3000ms ease-out forwards;
+  opacity: 0; }
+
+.fire i:nth-of-type(67) {
+  -webkit-transform: translate3d(326px, 9px, 0) rotate(130deg);
+  -moz-transform: translate3d(326px, 9px, 0) rotate(130deg);
+  -ms-transform: translate3d(326px, 9px, 0) rotate(130deg);
+  -o-transform: translate3d(326px, 9px, 0) rotate(130deg);
+  transform: translate3d(326px, 9px, 0) rotate(130deg);
+  background-image: url(../assetts/img/confetti-bg.png);
+  background-position: 29%;
+  background-size: 147px;
+  -webkit-animation: bang 3000ms ease-out forwards;
+  -moz-animation: bang 3000ms ease-out forwards;
+  animation: bang 3000ms ease-out forwards;
+  opacity: 0; }
+
+.fire i:nth-of-type(68) {
+  -webkit-transform: translate3d(1101px, 30px, 0) rotate(46deg);
+  -moz-transform: translate3d(1101px, 30px, 0) rotate(46deg);
+  -ms-transform: translate3d(1101px, 30px, 0) rotate(46deg);
+  -o-transform: translate3d(1101px, 30px, 0) rotate(46deg);
+  transform: translate3d(1101px, 30px, 0) rotate(46deg);
+  background-image: url(../assetts/img/confetti-bg.png);
+  background-position: 97%;
+  background-size: 134px;
+  -webkit-animation: bang 3000ms ease-out forwards;
+  -moz-animation: bang 3000ms ease-out forwards;
+  animation: bang 3000ms ease-out forwards;
+  opacity: 0; }
+
+.fire i:nth-of-type(69) {
+  -webkit-transform: translate3d(1823px, 751px, 0) rotate(10deg);
+  -moz-transform: translate3d(1823px, 751px, 0) rotate(10deg);
+  -ms-transform: translate3d(1823px, 751px, 0) rotate(10deg);
+  -o-transform: translate3d(1823px, 751px, 0) rotate(10deg);
+  transform: translate3d(1823px, 751px, 0) rotate(10deg);
+  background-image: url(../assetts/img/confetti-bg.png);
+  background-position: 21%;
+  background-size: 67px;
+  -webkit-animation: bang 3000ms ease-out forwards;
+  -moz-animation: bang 3000ms ease-out forwards;
+  animation: bang 3000ms ease-out forwards;
+  opacity: 0; }
+
+.fire i:nth-of-type(70) {
+  -webkit-transform: translate3d(1449px, 147px, 0) rotate(182deg);
+  -moz-transform: translate3d(1449px, 147px, 0) rotate(182deg);
+  -ms-transform: translate3d(1449px, 147px, 0) rotate(182deg);
+  -o-transform: translate3d(1449px, 147px, 0) rotate(182deg);
+  transform: translate3d(1449px, 147px, 0) rotate(182deg);
+  background-image: url(../assetts/img/confetti-bg.png);
+  background-position: 26%;
+  background-size: 96px;
+  -webkit-animation: bang 3000ms ease-out forwards;
+  -moz-animation: bang 3000ms ease-out forwards;
+  animation: bang 3000ms ease-out forwards;
+  opacity: 0; }
+
+.fire i:nth-of-type(71) {
+  -webkit-transform: translate3d(990px, -136px, 0) rotate(55deg);
+  -moz-transform: translate3d(990px, -136px, 0) rotate(55deg);
+  -ms-transform: translate3d(990px, -136px, 0) rotate(55deg);
+  -o-transform: translate3d(990px, -136px, 0) rotate(55deg);
+  transform: translate3d(990px, -136px, 0) rotate(55deg);
+  background-image: url(../assetts/img/confetti-bg.png);
+  background-position: 41%;
+  background-size: 68px;
+  -webkit-animation: bang 3000ms ease-out forwards;
+  -moz-animation: bang 3000ms ease-out forwards;
+  animation: bang 3000ms ease-out forwards;
+  opacity: 0; }
+
+.fire i:nth-of-type(72) {
+  -webkit-transform: translate3d(1507px, 906px, 0) rotate(152deg);
+  -moz-transform: translate3d(1507px, 906px, 0) rotate(152deg);
+  -ms-transform: translate3d(1507px, 906px, 0) rotate(152deg);
+  -o-transform: translate3d(1507px, 906px, 0) rotate(152deg);
+  transform: translate3d(1507px, 906px, 0) rotate(152deg);
+  background-image: url(../assetts/img/confetti-bg.png);
+  background-position: 49%;
+  background-size: 69px;
+  -webkit-animation: bang 3000ms ease-out forwards;
+  -moz-animation: bang 3000ms ease-out forwards;
+  animation: bang 3000ms ease-out forwards;
+  opacity: 0; }
+
+.fire i:nth-of-type(73) {
+  -webkit-transform: translate3d(1667px, 930px, 0) rotate(130deg);
+  -moz-transform: translate3d(1667px, 930px, 0) rotate(130deg);
+  -ms-transform: translate3d(1667px, 930px, 0) rotate(130deg);
+  -o-transform: translate3d(1667px, 930px, 0) rotate(130deg);
+  transform: translate3d(1667px, 930px, 0) rotate(130deg);
+  background-image: url(../assetts/img/confetti-bg.png);
+  background-position: 98%;
+  background-size: 134px;
+  -webkit-animation: bang 3000ms ease-out forwards;
+  -moz-animation: bang 3000ms ease-out forwards;
+  animation: bang 3000ms ease-out forwards;
+  opacity: 0; }
+
+.fire i:nth-of-type(74) {
+  -webkit-transform: translate3d(1906px, 396px, 0) rotate(37deg);
+  -moz-transform: translate3d(1906px, 396px, 0) rotate(37deg);
+  -ms-transform: translate3d(1906px, 396px, 0) rotate(37deg);
+  -o-transform: translate3d(1906px, 396px, 0) rotate(37deg);
+  transform: translate3d(1906px, 396px, 0) rotate(37deg);
+  background-image: url(../assetts/img/confetti-bg.png);
+  background-position: 60%;
+  background-size: 104px;
+  -webkit-animation: bang 3000ms ease-out forwards;
+  -moz-animation: bang 3000ms ease-out forwards;
+  animation: bang 3000ms ease-out forwards;
+  opacity: 0; }
+
+.fire i:nth-of-type(75) {
+  -webkit-transform: translate3d(1149px, 661px, 0) rotate(146deg);
+  -moz-transform: translate3d(1149px, 661px, 0) rotate(146deg);
+  -ms-transform: translate3d(1149px, 661px, 0) rotate(146deg);
+  -o-transform: translate3d(1149px, 661px, 0) rotate(146deg);
+  transform: translate3d(1149px, 661px, 0) rotate(146deg);
+  background-image: url(../assetts/img/confetti-bg.png);
+  background-position: 56%;
+  background-size: 54px;
+  -webkit-animation: bang 3000ms ease-out forwards;
+  -moz-animation: bang 3000ms ease-out forwards;
+  animation: bang 3000ms ease-out forwards;
+  opacity: 0; }
+
+.fire i:nth-of-type(76) {
+  -webkit-transform: translate3d(810px, 11px, 0) rotate(45deg);
+  -moz-transform: translate3d(810px, 11px, 0) rotate(45deg);
+  -ms-transform: translate3d(810px, 11px, 0) rotate(45deg);
+  -o-transform: translate3d(810px, 11px, 0) rotate(45deg);
+  transform: translate3d(810px, 11px, 0) rotate(45deg);
+  background-image: url(../assetts/img/confetti-bg.png);
+  background-position: 14%;
+  background-size: 75px;
+  -webkit-animation: bang 3000ms ease-out forwards;
+  -moz-animation: bang 3000ms ease-out forwards;
+  animation: bang 3000ms ease-out forwards;
+  opacity: 0; }
+
+.fire i:nth-of-type(77) {
+  -webkit-transform: translate3d(744px, 298px, 0) rotate(105deg);
+  -moz-transform: translate3d(744px, 298px, 0) rotate(105deg);
+  -ms-transform: translate3d(744px, 298px, 0) rotate(105deg);
+  -o-transform: translate3d(744px, 298px, 0) rotate(105deg);
+  transform: translate3d(744px, 298px, 0) rotate(105deg);
+  background-image: url(../assetts/img/confetti-bg.png);
+  background-position: 17%;
+  background-size: 108px;
+  -webkit-animation: bang 3000ms ease-out forwards;
+  -moz-animation: bang 3000ms ease-out forwards;
+  animation: bang 3000ms ease-out forwards;
+  opacity: 0; }
+
+.fire i:nth-of-type(78) {
+  -webkit-transform: translate3d(593px, 681px, 0) rotate(34deg);
+  -moz-transform: translate3d(593px, 681px, 0) rotate(34deg);
+  -ms-transform: translate3d(593px, 681px, 0) rotate(34deg);
+  -o-transform: translate3d(593px, 681px, 0) rotate(34deg);
+  transform: translate3d(593px, 681px, 0) rotate(34deg);
+  background-image: url(../assetts/img/confetti-bg.png);
+  background-position: 60%;
+  background-size: 102px;
+  -webkit-animation: bang 3000ms ease-out forwards;
+  -moz-animation: bang 3000ms ease-out forwards;
+  animation: bang 3000ms ease-out forwards;
+  opacity: 0; }
+
+.fire i:nth-of-type(79) {
+  -webkit-transform: translate3d(1346px, -65px, 0) rotate(179deg);
+  -moz-transform: translate3d(1346px, -65px, 0) rotate(179deg);
+  -ms-transform: translate3d(1346px, -65px, 0) rotate(179deg);
+  -o-transform: translate3d(1346px, -65px, 0) rotate(179deg);
+  transform: translate3d(1346px, -65px, 0) rotate(179deg);
+  background-image: url(../assetts/img/confetti-bg.png);
+  background-position: 89%;
+  background-size: 145px;
+  -webkit-animation: bang 3000ms ease-out forwards;
+  -moz-animation: bang 3000ms ease-out forwards;
+  animation: bang 3000ms ease-out forwards;
+  opacity: 0; }
+
+.fire i:nth-of-type(80) {
+  -webkit-transform: translate3d(2220px, -173px, 0) rotate(107deg);
+  -moz-transform: translate3d(2220px, -173px, 0) rotate(107deg);
+  -ms-transform: translate3d(2220px, -173px, 0) rotate(107deg);
+  -o-transform: translate3d(2220px, -173px, 0) rotate(107deg);
+  transform: translate3d(2220px, -173px, 0) rotate(107deg);
+  background-image: url(../assetts/img/confetti-bg.png);
+  background-position: 47%;
+  background-size: 95px;
+  -webkit-animation: bang 3000ms ease-out forwards;
+  -moz-animation: bang 3000ms ease-out forwards;
+  animation: bang 3000ms ease-out forwards;
+  opacity: 0; }
+
+.fire i:nth-of-type(81) {
+  -webkit-transform: translate3d(1496px, 496px, 0) rotate(148deg);
+  -moz-transform: translate3d(1496px, 496px, 0) rotate(148deg);
+  -ms-transform: translate3d(1496px, 496px, 0) rotate(148deg);
+  -o-transform: translate3d(1496px, 496px, 0) rotate(148deg);
+  transform: translate3d(1496px, 496px, 0) rotate(148deg);
+  background-image: url(../assetts/img/confetti-bg.png);
+  background-position: 91%;
+  background-size: 104px;
+  -webkit-animation: bang 3000ms ease-out forwards;
+  -moz-animation: bang 3000ms ease-out forwards;
+  animation: bang 3000ms ease-out forwards;
+  opacity: 0; }
+
+.fire i:nth-of-type(82) {
+  -webkit-transform: translate3d(1621px, 394px, 0) rotate(104deg);
+  -moz-transform: translate3d(1621px, 394px, 0) rotate(104deg);
+  -ms-transform: translate3d(1621px, 394px, 0) rotate(104deg);
+  -o-transform: translate3d(1621px, 394px, 0) rotate(104deg);
+  transform: translate3d(1621px, 394px, 0) rotate(104deg);
+  background-image: url(../assetts/img/confetti-bg.png);
+  background-position: 32%;
+  background-size: 104px;
+  -webkit-animation: bang 3000ms ease-out forwards;
+  -moz-animation: bang 3000ms ease-out forwards;
+  animation: bang 3000ms ease-out forwards;
+  opacity: 0; }
+
+.fire i:nth-of-type(83) {
+  -webkit-transform: translate3d(958px, 922px, 0) rotate(137deg);
+  -moz-transform: translate3d(958px, 922px, 0) rotate(137deg);
+  -ms-transform: translate3d(958px, 922px, 0) rotate(137deg);
+  -o-transform: translate3d(958px, 922px, 0) rotate(137deg);
+  transform: translate3d(958px, 922px, 0) rotate(137deg);
+  background-image: url(../assetts/img/confetti-bg.png);
+  background-position: 32%;
+  background-size: 51px;
+  -webkit-animation: bang 3000ms ease-out forwards;
+  -moz-animation: bang 3000ms ease-out forwards;
+  animation: bang 3000ms ease-out forwards;
+  opacity: 0; }
+
+.fire i:nth-of-type(84) {
+  -webkit-transform: translate3d(1217px, 721px, 0) rotate(140deg);
+  -moz-transform: translate3d(1217px, 721px, 0) rotate(140deg);
+  -ms-transform: translate3d(1217px, 721px, 0) rotate(140deg);
+  -o-transform: translate3d(1217px, 721px, 0) rotate(140deg);
+  transform: translate3d(1217px, 721px, 0) rotate(140deg);
+  background-image: url(../assetts/img/confetti-bg.png);
+  background-position: 12%;
+  background-size: 98px;
+  -webkit-animation: bang 3000ms ease-out forwards;
+  -moz-animation: bang 3000ms ease-out forwards;
+  animation: bang 3000ms ease-out forwards;
+  opacity: 0; }
+
+.fire i:nth-of-type(85) {
+  -webkit-transform: translate3d(1790px, 780px, 0) rotate(69deg);
+  -moz-transform: translate3d(1790px, 780px, 0) rotate(69deg);
+  -ms-transform: translate3d(1790px, 780px, 0) rotate(69deg);
+  -o-transform: translate3d(1790px, 780px, 0) rotate(69deg);
+  transform: translate3d(1790px, 780px, 0) rotate(69deg);
+  background-image: url(../assetts/img/confetti-bg.png);
+  background-position: 79%;
+  background-size: 65px;
+  -webkit-animation: bang 3000ms ease-out forwards;
+  -moz-animation: bang 3000ms ease-out forwards;
+  animation: bang 3000ms ease-out forwards;
+  opacity: 0; }
+
+.fire i:nth-of-type(86) {
+  -webkit-transform: translate3d(537px, -97px, 0) rotate(46deg);
+  -moz-transform: translate3d(537px, -97px, 0) rotate(46deg);
+  -ms-transform: translate3d(537px, -97px, 0) rotate(46deg);
+  -o-transform: translate3d(537px, -97px, 0) rotate(46deg);
+  transform: translate3d(537px, -97px, 0) rotate(46deg);
+  background-image: url(../assetts/img/confetti-bg.png);
+  background-position: 23%;
+  background-size: 114px;
+  -webkit-animation: bang 3000ms ease-out forwards;
+  -moz-animation: bang 3000ms ease-out forwards;
+  animation: bang 3000ms ease-out forwards;
+  opacity: 0; }
+
+.fire i:nth-of-type(87) {
+  -webkit-transform: translate3d(1275px, 884px, 0) rotate(144deg);
+  -moz-transform: translate3d(1275px, 884px, 0) rotate(144deg);
+  -ms-transform: translate3d(1275px, 884px, 0) rotate(144deg);
+  -o-transform: translate3d(1275px, 884px, 0) rotate(144deg);
+  transform: translate3d(1275px, 884px, 0) rotate(144deg);
+  background-image: url(../assetts/img/confetti-bg.png);
+  background-position: 39%;
+  background-size: 149px;
+  -webkit-animation: bang 3000ms ease-out forwards;
+  -moz-animation: bang 3000ms ease-out forwards;
+  animation: bang 3000ms ease-out forwards;
+  opacity: 0; }
+
+.fire i:nth-of-type(88) {
+  -webkit-transform: translate3d(341px, 143px, 0) rotate(180deg);
+  -moz-transform: translate3d(341px, 143px, 0) rotate(180deg);
+  -ms-transform: translate3d(341px, 143px, 0) rotate(180deg);
+  -o-transform: translate3d(341px, 143px, 0) rotate(180deg);
+  transform: translate3d(341px, 143px, 0) rotate(180deg);
+  background-image: url(../assetts/img/confetti-bg.png);
+  background-position: 15%;
+  background-size: 100px;
+  -webkit-animation: bang 3000ms ease-out forwards;
+  -moz-animation: bang 3000ms ease-out forwards;
+  animation: bang 3000ms ease-out forwards;
+  opacity: 0; }
+
+.fire i:nth-of-type(89) {
+  -webkit-transform: translate3d(546px, 759px, 0) rotate(54deg);
+  -moz-transform: translate3d(546px, 759px, 0) rotate(54deg);
+  -ms-transform: translate3d(546px, 759px, 0) rotate(54deg);
+  -o-transform: translate3d(546px, 759px, 0) rotate(54deg);
+  transform: translate3d(546px, 759px, 0) rotate(54deg);
+  background-image: url(../assetts/img/confetti-bg.png);
+  background-position: 27%;
+  background-size: 139px;
+  -webkit-animation: bang 3000ms ease-out forwards;
+  -moz-animation: bang 3000ms ease-out forwards;
+  animation: bang 3000ms ease-out forwards;
+  opacity: 0; }
+
+.fire i:nth-of-type(90) {
+  -webkit-transform: translate3d(922px, 425px, 0) rotate(74deg);
+  -moz-transform: translate3d(922px, 425px, 0) rotate(74deg);
+  -ms-transform: translate3d(922px, 425px, 0) rotate(74deg);
+  -o-transform: translate3d(922px, 425px, 0) rotate(74deg);
+  transform: translate3d(922px, 425px, 0) rotate(74deg);
+  background-image: url(../assetts/img/confetti-bg.png);
+  background-position: 89%;
+  background-size: 78px;
+  -webkit-animation: bang 3000ms ease-out forwards;
+  -moz-animation: bang 3000ms ease-out forwards;
+  animation: bang 3000ms ease-out forwards;
+  opacity: 0; }
+
+.fire i:nth-of-type(91) {
+  -webkit-transform: translate3d(1375px, 985px, 0) rotate(160deg);
+  -moz-transform: translate3d(1375px, 985px, 0) rotate(160deg);
+  -ms-transform: translate3d(1375px, 985px, 0) rotate(160deg);
+  -o-transform: translate3d(1375px, 985px, 0) rotate(160deg);
+  transform: translate3d(1375px, 985px, 0) rotate(160deg);
+  background-image: url(../assetts/img/confetti-bg.png);
+  background-position: 62%;
+  background-size: 84px;
+  -webkit-animation: bang 3000ms ease-out forwards;
+  -moz-animation: bang 3000ms ease-out forwards;
+  animation: bang 3000ms ease-out forwards;
+  opacity: 0; }
+
+.fire i:nth-of-type(92) {
+  -webkit-transform: translate3d(2004px, 264px, 0) rotate(76deg);
+  -moz-transform: translate3d(2004px, 264px, 0) rotate(76deg);
+  -ms-transform: translate3d(2004px, 264px, 0) rotate(76deg);
+  -o-transform: translate3d(2004px, 264px, 0) rotate(76deg);
+  transform: translate3d(2004px, 264px, 0) rotate(76deg);
+  background-image: url(../assetts/img/confetti-bg.png);
+  background-position: 100%;
+  background-size: 63px;
+  -webkit-animation: bang 3000ms ease-out forwards;
+  -moz-animation: bang 3000ms ease-out forwards;
+  animation: bang 3000ms ease-out forwards;
+  opacity: 0; }
+
+.fire i:nth-of-type(93) {
+  -webkit-transform: translate3d(923px, 707px, 0) rotate(52deg);
+  -moz-transform: translate3d(923px, 707px, 0) rotate(52deg);
+  -ms-transform: translate3d(923px, 707px, 0) rotate(52deg);
+  -o-transform: translate3d(923px, 707px, 0) rotate(52deg);
+  transform: translate3d(923px, 707px, 0) rotate(52deg);
+  background-image: url(../assetts/img/confetti-bg.png);
+  background-position: 54%;
+  background-size: 51px;
+  -webkit-animation: bang 3000ms ease-out forwards;
+  -moz-animation: bang 3000ms ease-out forwards;
+  animation: bang 3000ms ease-out forwards;
+  opacity: 0; }
+
+.fire i:nth-of-type(94) {
+  -webkit-transform: translate3d(974px, 5px, 0) rotate(44deg);
+  -moz-transform: translate3d(974px, 5px, 0) rotate(44deg);
+  -ms-transform: translate3d(974px, 5px, 0) rotate(44deg);
+  -o-transform: translate3d(974px, 5px, 0) rotate(44deg);
+  transform: translate3d(974px, 5px, 0) rotate(44deg);
+  background-image: url(../assetts/img/confetti-bg.png);
+  background-position: 9%;
+  background-size: 120px;
+  -webkit-animation: bang 3000ms ease-out forwards;
+  -moz-animation: bang 3000ms ease-out forwards;
+  animation: bang 3000ms ease-out forwards;
+  opacity: 0; }
+
+.fire i:nth-of-type(95) {
+  -webkit-transform: translate3d(759px, -51px, 0) rotate(95deg);
+  -moz-transform: translate3d(759px, -51px, 0) rotate(95deg);
+  -ms-transform: translate3d(759px, -51px, 0) rotate(95deg);
+  -o-transform: translate3d(759px, -51px, 0) rotate(95deg);
+  transform: translate3d(759px, -51px, 0) rotate(95deg);
+  background-image: url(../assetts/img/confetti-bg.png);
+  background-position: 13%;
+  background-size: 82px;
+  -webkit-animation: bang 3000ms ease-out forwards;
+  -moz-animation: bang 3000ms ease-out forwards;
+  animation: bang 3000ms ease-out forwards;
+  opacity: 0; }
+
+.fire i:nth-of-type(96) {
+  -webkit-transform: translate3d(702px, 798px, 0) rotate(24deg);
+  -moz-transform: translate3d(702px, 798px, 0) rotate(24deg);
+  -ms-transform: translate3d(702px, 798px, 0) rotate(24deg);
+  -o-transform: translate3d(702px, 798px, 0) rotate(24deg);
+  transform: translate3d(702px, 798px, 0) rotate(24deg);
+  background-image: url(../assetts/img/confetti-bg.png);
+  background-position: 32%;
+  background-size: 134px;
+  -webkit-animation: bang 3000ms ease-out forwards;
+  -moz-animation: bang 3000ms ease-out forwards;
+  animation: bang 3000ms ease-out forwards;
+  opacity: 0; }
+
+.fire i:nth-of-type(97) {
+  -webkit-transform: translate3d(757px, 974px, 0) rotate(96deg);
+  -moz-transform: translate3d(757px, 974px, 0) rotate(96deg);
+  -ms-transform: translate3d(757px, 974px, 0) rotate(96deg);
+  -o-transform: translate3d(757px, 974px, 0) rotate(96deg);
+  transform: translate3d(757px, 974px, 0) rotate(96deg);
+  background-image: url(../assetts/img/confetti-bg.png);
+  background-position: 62%;
+  background-size: 90px;
+  -webkit-animation: bang 3000ms ease-out forwards;
+  -moz-animation: bang 3000ms ease-out forwards;
+  animation: bang 3000ms ease-out forwards;
+  opacity: 0; }
+
+.fire i:nth-of-type(98) {
+  -webkit-transform: translate3d(1654px, 520px, 0) rotate(6deg);
+  -moz-transform: translate3d(1654px, 520px, 0) rotate(6deg);
+  -ms-transform: translate3d(1654px, 520px, 0) rotate(6deg);
+  -o-transform: translate3d(1654px, 520px, 0) rotate(6deg);
+  transform: translate3d(1654px, 520px, 0) rotate(6deg);
+  background-image: url(../assetts/img/confetti-bg.png);
+  background-position: 11%;
+  background-size: 51px;
+  -webkit-animation: bang 3000ms ease-out forwards;
+  -moz-animation: bang 3000ms ease-out forwards;
+  animation: bang 3000ms ease-out forwards;
+  opacity: 0; }
+
+.fire i:nth-of-type(99) {
+  -webkit-transform: translate3d(1657px, 76px, 0) rotate(67deg);
+  -moz-transform: translate3d(1657px, 76px, 0) rotate(67deg);
+  -ms-transform: translate3d(1657px, 76px, 0) rotate(67deg);
+  -o-transform: translate3d(1657px, 76px, 0) rotate(67deg);
+  transform: translate3d(1657px, 76px, 0) rotate(67deg);
+  background-image: url(../assetts/img/confetti-bg.png);
+  background-position: 82%;
+  background-size: 104px;
+  -webkit-animation: bang 3000ms ease-out forwards;
+  -moz-animation: bang 3000ms ease-out forwards;
+  animation: bang 3000ms ease-out forwards;
+  opacity: 0; }
+
+.fire i:nth-of-type(100) {
+  -webkit-transform: translate3d(2201px, 148px, 0) rotate(97deg);
+  -moz-transform: translate3d(2201px, 148px, 0) rotate(97deg);
+  -ms-transform: translate3d(2201px, 148px, 0) rotate(97deg);
+  -o-transform: translate3d(2201px, 148px, 0) rotate(97deg);
+  transform: translate3d(2201px, 148px, 0) rotate(97deg);
+  background-image: url(../assetts/img/confetti-bg.png);
+  background-position: 29%;
+  background-size: 108px;
   -webkit-animation: bang 3000ms ease-out forwards;
   -moz-animation: bang 3000ms ease-out forwards;
   animation: bang 3000ms ease-out forwards;
@@ -11293,7 +11293,11 @@ footer {
         color: #fff; }
 
 .melon-bg {
-  top: 100px; }
+  top: 100px;
+  max-width: 800px; }
+  @media (max-width: 768px) {
+    .melon-bg {
+      max-width: 500px; } }
   .melon-bg .modal-content {
     background-image: url(../assetts/img/melon-bg.jpg);
     background-color: transparent;
@@ -11303,10 +11307,6 @@ footer {
     max-width: 800px;
     border: 10px solid #E5616C;
     border-radius: 20px; }
-    .melon-bg .modal-content img {
-      height: 70vh;
-      display: block;
-      margin: 0 auto; }
   .melon-bg h2 {
     text-decoration: underline;
     margin-top: 40px;
@@ -11339,6 +11339,11 @@ footer {
     position: absolute;
     top: -120px;
     left: -24px; }
+    @media (max-width: 768px) {
+      .melon-bg .pop-carton {
+        height: 70vh;
+        display: block;
+        margin: 0 auto; } }
 
 .popform-cont {
   width: 80%; }

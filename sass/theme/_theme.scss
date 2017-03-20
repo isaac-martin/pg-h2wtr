@@ -768,6 +768,13 @@ footer {
 
 .melon-bg {
   top: 100px;
+  max-width: 800px;
+
+  @include media-breakpoint-down(sm) {
+    max-width: 500px;
+    }
+
+
   .modal-content {
   background-image: url(../assetts/img/melon-bg.jpg);
   background-color: transparent;
@@ -778,11 +785,8 @@ footer {
   border: 10px solid $brand-drk-pink;
   border-radius: 20px;
 
-  img {
-    height: 70vh;
-    display: block;
-    margin: 0 auto;
-  }
+
+
 }
 
 
@@ -831,6 +835,12 @@ p {
   position: absolute;
   top: -120px;
   left: -24px;
+
+  @include media-breakpoint-down(sm) {
+    height: 70vh;
+    display: block;
+    margin: 0 auto;
+  }
 }
 }
 
