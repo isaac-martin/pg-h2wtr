@@ -19,7 +19,7 @@ get_header();?>
 
           <p class="contact-wrap">
             <span class="contact-label">PHONE</span>
-            <span class="contact-info">1800 422 626</span>
+            <span class="contact-info"><a href="tel:1800 422 626">1800 422 626</a></span>
             <span class="contact-label">EMAIL</span>
             <span class="contact-info"><a href=mailto:yo@h2melon.com>YO@H2MELON.COM</a></span>
             <span class="contact-label">ADDRESS</span>

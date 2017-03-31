@@ -33,19 +33,7 @@ get_header();?>
         </p>
         <p class="available-in">
           Available in 500ml or 1L re-sealable bottles, so no matter the size of your thirst weʼve got you covered.</p>
-          <!-- <a href="#" class="pink-btn buy-btn uppercase">Buy Now</a> -->
-          <p class="thats-why">Online store coming, sign up to our newsletter to find out when!</p>
-          <div id="mc_embed_signup" class="footer-form">
-					<form action="//h2melon.us12.list-manage.com/subscribe/post?u=15a1ba46f2ef3436777ccec17&amp;id=36e7be12c9" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate news-form" target="_blank" novalidate>
-							<div id="mc_embed_signup_scroll">
-						<label class="form-response" for="mce-email"></label>
-						<!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
-						<div style="position: absolute; left: -5000px;" aria-hidden="true"><input type="text" name="b_15a1ba46f2ef3436777ccec17_36e7be12c9" tabindex="-1" value=""></div>
-						<input type="email" value="" name="email" class="email" id="mce-email" placeholder="email address" required>
-						<input type="submit" value="Sign Up" name="subscribe" id="mc-embedded-subscribe" class="button">
-							</div>
-					</form>
-					</div><!--End mc_embed_signup-->
+          <a href="#" class="pink-btn buy-btn uppercase">Buy Now</a>
       </div>
     </div>
 

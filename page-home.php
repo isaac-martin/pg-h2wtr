@@ -74,7 +74,7 @@ Spent a night cutting shapes and need to bounce back? H2melon has the electrolyt
           <p>
             We heart watermelon, and you should too because natural watermelon juice contains Potassium and Lycopene. Lyco-who?! Lycopene is a carotenoid phytonutrient, which is an awesome antioxidant*. So the benefits of watermelon packed inside H2melon’s watermelon drink are good for you, and for your taste buds. What a superfood!
 
-          <!-- <button type="button" class="btn btn-primary"><a href="/product">Product</a></button> -->
+          <button type="button" class="btn btn-primary"><a href="/product">View Products</a></button>
 
         </div>
         <div class="col-md-7">
@@ -100,8 +100,8 @@ Spent a night cutting shapes and need to bounce back? H2melon has the electrolyt
           <p class="large-p">
 Craving that tropical holiday vibe, but the grind is getting you down? Kick back with H2melon and soak up the summer straight out the bottle.          </p>
         </div>
-        <!-- <span class="buy-icon"><a href="/product/watermelon-water/"></a></span> -->
-        <button type="button" class="btn btn-primary" style="margin-top: 30px;"><a href="/product">Read More!</a></button>
+        <span class="buy-icon"><a href="/product/watermelon-water/"></a></span>
+        <!-- <button type="button" class="btn btn-primary" style="margin-top: 30px;"><a href="/product">Read More!</a></button> -->
 
       </div>
     </div>

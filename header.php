@@ -143,7 +143,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 						</p>
 					</div>
 
-					<!-- <div class="col-md-2">
+					<div class="col-md-2">
 						<?php wp_nav_menu(
 							array(
 								'theme_location'  => 'shopping-header',
@@ -152,7 +152,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 								// 'walker'          => new WP_Bootstrap_Navwalker(),
 							)
 						); ?>
-					</div> -->
+					</div>
 
 
 				 </div><!-- .row -->
