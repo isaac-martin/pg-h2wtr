@@ -89,7 +89,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 		<div class="container">
 			<div class="row">
 				<div class="col-md-8">
-					<!-- <a class="account-link" href="/my-account">My Account</a> -->
+					<a class="account-link" href="/my-account">My Account</a>
 				</div>
 				<div class="col-md-8">
 					<div class="info-bar-inner right">

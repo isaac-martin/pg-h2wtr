@@ -1,14 +1,16 @@
-.woocommerce .col2-set .col-1, .woocommerce-page .col2-set .col-1 {
+.woocommerce .col2-set .col-1, .woocommerce-page .col2-set .col-1, .woocommerce .col2-set .col-2, .woocommerce-page .col2-set .col-2{
     max-width: 48%;
     flex: 0;
     width: 48%;
+
+    @include media-breakpoint-down(md) {
+      width: 100%;
+      max-width: 100%;
+    }
 }
 
-.woocommerce .col2-set .col-2, .woocommerce-page .col2-set .col-2 {
-  flex: 0;
-  max-width: 48%;
-  width: 48%;
-}
+
+
 .wc-tabs, .woocommerce-breadcrumb{
   display: none;
   visibility: hidden!important;
@@ -42,4 +44,15 @@ transition: all .5s;
 
 .woocommerce div.product {
   padding: 20px;
+}
+
+
+.woocommerce #respond input#submit, .woocommerce a.button, .woocommerce button.button, .woocommerce input.button {
+  background: $brand-green;
+      font-size: 1.4rem;
+      color: white;
+
+      &:hover {
+        background-color: $brand-drk-green
+      }
 }

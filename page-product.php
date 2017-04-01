@@ -33,7 +33,7 @@ get_header();?>
         </p>
         <p class="available-in">
           Available in 500ml or 1L re-sealable bottles, so no matter the size of your thirst weʼve got you covered.</p>
-          <a href="#" class="pink-btn buy-btn uppercase">Buy Now</a>
+          <a href="/product/watermelon-water/" class="pink-btn buy-btn uppercase">Buy Now</a>
       </div>
     </div>
 
