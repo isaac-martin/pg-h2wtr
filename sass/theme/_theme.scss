@@ -898,6 +898,7 @@ border-bottom-right-radius: 5px;
 .page-form {
   width: 80%;
   margin: 0 10%;
+  display: inline-block;
     .email {
       width: 100%;
       border-radius: 5px;
@@ -906,8 +907,11 @@ border-bottom-right-radius: 5px;
 
     .button {
       width: 40%;
-      display: block;
-      margin: 0 auto;
+      margin: 0 30%;
+      border-top-left-radius: 5px;
+      border-bottom-left-radius: 5px;
+      border-top-right-radius: 5px;
+      border-bottom-right-radius: 5px;
     }
 }
 
