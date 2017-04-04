@@ -425,6 +425,8 @@ line-height: 1.8rem;
 
 }
 
+
+
 .negative-top {
   top: -120px;
 }
@@ -765,10 +767,14 @@ footer {
 
 //Pop Up
 
-
+.nip{
+  display: block;
+  margin: 0 auto;
+}
 .melon-bg {
   top: 100px;
   max-width: 800px;
+  margin: 0 auto;
 
   @include media-breakpoint-down(sm) {
     max-width: 500px;
