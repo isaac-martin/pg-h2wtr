@@ -15,6 +15,27 @@
 
     $( document ).ready(function() {
 
+        //Cookie for Modal
+
+          //  If no cookie with our chosen name (e.g. no_thanks)...
+           if(!Cookies.get('modal-no')) {
+
+             // Show the modal, with delay func.
+             $('#newsletter-modal').appendTo("body");
+             function show_modal(){
+               $('#newsletter-modal').modal();
+             }
+
+             // Set delay func. time in milliseconds
+             window.setTimeout(show_modal, 2000);
+             }
+
+           // On click of specified class (e.g. 'nothanks'), trigger cookie, which expires in 30 days
+           $(".news-close").click(function() {
+            Cookies.set('modal-no', true, { expires: 30 });
+           });
+
+
 
       //Icons for menu
 
@@ -39,25 +60,7 @@
       });
 
 
-      //Cookie for Modal
 
-         // If no cookie with our chosen name (e.g. no_thanks)...
-         if ($.cookie("modal-no") == null) {
-
-           // Show the modal, with delay func.
-           $('#newsletter-modal').appendTo("body");
-           function show_modal(){
-             $('#newsletter-modal').modal();
-           }
-
-           // Set delay func. time in milliseconds
-           window.setTimeout(show_modal, 2000);
-           }
-
-         // On click of specified class (e.g. 'nothanks'), trigger cookie, which expires in 100 years
-         $(".news-close").click(function() {
-           $.cookie('modal-no', 'true', { expires: 14, path: '/' });
-         });
 
 
       $('.filter-trigger').click(function(e) {
